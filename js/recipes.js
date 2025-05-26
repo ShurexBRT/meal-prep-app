@@ -2,8 +2,9 @@ const recipeList = document.getElementById('recipeList');
 const categoryFilter = document.getElementById('categoryFilter');
 const filterByInventory = document.getElementById('filterByInventory');
 const selectedCategory = categoryFilter.value.toLowerCase();
-const matchKategorija =
-  !selectedCategory || normalizeName(recipe.kategorija) === normalizeName(selectedCategory);
+function normalizeName(name) {
+  return name.trim().toLowerCase();
+}
 
 
 if (filtered.length === 0) {
@@ -71,11 +72,13 @@ function renderRecipes() {
           <p class="card-text"><strong>Sastojci:</strong></p>
           <ul>
             ${recipe.sastojci
-                .filter((s) => s.kolicina && s.jedinica)
                 .map((s) =>
-                    `<li>${s.naziv} – ${s.kolicina} ${s.jedinica}</li>`
-            ).join('')}
+                    s.kolicina && s.jedinica
+                        ? `<li>${s.naziv} – ${s.kolicina} ${s.jedinica}</li>`
+                        : `<li>${s.naziv}</li>`
+                 ).join('')}
             </ul>
+
 
           ${
             hasAll
