@@ -5,7 +5,9 @@ const allIngredients = [
   "Tikvica", "Teletina", "Jaje", "Integralni hleb", "Posni sir", "Paradajz",
   "Spanać", "Palenta", "Pavlaka", "Tuna", "Proso", "Pečurke", "Jogurt",
   "Kiseli krastavci", "Losos", "Kinoa", "Rukola", "Ovsene pahuljice", "Avokado",
-  "Banana", "Lan", "Heljdina galeta", "Hleb", "Bademov puter"
+  "Banana", "Lan", "Heljdina galeta", "Hleb", "Bademov puter","Tuna u sopstvenom soku",
+"Maslinovo ulje","Mleko 1.5%","Pavlaka 12%","Borovnice","Chia semenke","Krastavac"
+
 ];
 
 function renderInventory() {

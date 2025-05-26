@@ -1,6 +1,13 @@
 const recipeList = document.getElementById('recipeList');
 const categoryFilter = document.getElementById('categoryFilter');
 const filterByInventory = document.getElementById('filterByInventory');
+const selectedCategory = categoryFilter.value.toLowerCase();
+const matchKategorija = !selectedCategory || recipe.kategorija.toLowerCase() === selectedCategory;
+
+if (filtered.length === 0) {
+  recipeList.innerHTML = '<p class="text-muted">Nema recepata za ovaj filter. 🧹</p>';
+  return;
+}
 
 let allRecipes = [];
 
