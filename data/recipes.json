@@ -1,0 +1,144 @@
+[
+  {
+    "id": "r1",
+    "naziv": "Pileći file sa bulgurom i brokolijem",
+    "kategorija": "ručak",
+    "sastojci": [
+      {
+        "naziv": "Pileći file",
+        "kolicina": 150,
+        "jedinica": "g"
+      },
+      {
+        "naziv": "Bulgur",
+        "kolicina": 100,
+        "jedinica": "g"
+      },
+      {
+        "naziv": "Brokoli",
+        "kolicina": 200,
+        "jedinica": "g"
+      }
+    ]
+  },
+  {
+    "id": "r2",
+    "naziv": "Pasulj prebranac (light)",
+    "kategorija": "ručak",
+    "sastojci": [
+      {
+        "naziv": "Pasulj",
+        "kolicina": 150,
+        "jedinica": "g"
+      },
+      {
+        "naziv": "Crni luk",
+        "kolicina": 50,
+        "jedinica": "g"
+      },
+      {
+        "naziv": "Beli luk",
+        "kolicina": 5,
+        "jedinica": "g"
+      }
+    ]
+  },
+  {
+    "id": "r3",
+    "naziv": "Ovsena kaša sa borovnicama",
+    "kategorija": "doručak",
+    "sastojci": [
+      {
+        "naziv": "Ovsene pahuljice",
+        "kolicina": 60,
+        "jedinica": "g"
+      },
+      {
+        "naziv": "Mleko 1.5%",
+        "kolicina": 150,
+        "jedinica": "ml"
+      },
+      {
+        "naziv": "Borovnice",
+        "kolicina": 50,
+        "jedinica": "g"
+      },
+      {
+        "naziv": "Chia semenke",
+        "kolicina": 10,
+        "jedinica": "g"
+      }
+    ]
+  },
+  {
+    "id": "r4",
+    "naziv": "Tuna salata sa povrćem",
+    "kategorija": "večera",
+    "sastojci": [
+      {
+        "naziv": "Tuna u sopstvenom soku",
+        "kolicina": 120,
+        "jedinica": "g"
+      },
+      {
+        "naziv": "Paradajz",
+        "kolicina": 100,
+        "jedinica": "g"
+      },
+      {
+        "naziv": "Krastavac",
+        "kolicina": 100,
+        "jedinica": "g"
+      },
+      {
+        "naziv": "Maslinovo ulje",
+        "kolicina": 1,
+        "jedinica": "kašika"
+      }
+    ]
+  },
+  {
+    "id": "r5",
+    "naziv": "Palenta sa sirom i pavlakom",
+    "kategorija": "doručak",
+    "sastojci": [
+      {
+        "naziv": "Palenta",
+        "kolicina": 80,
+        "jedinica": "g"
+      },
+      {
+        "naziv": "Pavlaka 12%",
+        "kolicina": 30,
+        "jedinica": "g"
+      },
+      {
+        "naziv": "Posni sir",
+        "kolicina": 80,
+        "jedinica": "g"
+      }
+    ]
+  },
+  {
+    "id": "r6",
+    "naziv": "Losos sa kinoom i rukolom",
+    "kategorija": "ručak",
+    "sastojci": [
+      {
+        "naziv": "Losos",
+        "kolicina": 150,
+        "jedinica": "g"
+      },
+      {
+        "naziv": "Kinoa",
+        "kolicina": 100,
+        "jedinica": "g"
+      },
+      {
+        "naziv": "Rukola",
+        "kolicina": 50,
+        "jedinica": "g"
+      }
+    ]
+  }
+]
