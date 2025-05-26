@@ -1,16 +1,6 @@
 const recipeList = document.getElementById('recipeList');
 const categoryFilter = document.getElementById('categoryFilter');
 const filterByInventory = document.getElementById('filterByInventory');
-const selectedCategory = categoryFilter.value.toLowerCase();
-function normalizeName(name) {
-  return name.trim().toLowerCase();
-}
-
-
-if (filtered.length === 0) {
-  recipeList.innerHTML = '<p class="text-muted">Nema recepata za ovaj filter. 🧹</p>';
-  return;
-}
 
 let allRecipes = [];
 
@@ -38,10 +28,6 @@ function renderRecipes() {
         (s) => !inventory.includes(normalizeName(s.naziv))
       );
       return matchKategorija && missing.length === 0;
-
-    console.log('Svi recepti:', allRecipes);
-    console.log('Odabrana kategorija:', selectedCategory);
-    console.log('Inventar:', inventory);
     }
 
     return matchKategorija;
@@ -72,14 +58,9 @@ function renderRecipes() {
           <p class="card-text"><strong>Sastojci:</strong></p>
           <ul>
             ${recipe.sastojci
-                .map((s) =>
-                    s.kolicina && s.jedinica
-                        ? `<li>${s.naziv} – ${s.kolicina} ${s.jedinica}</li>`
-                        : `<li>${s.naziv}</li>`
-                 ).join('')}
-            </ul>
-
-
+              .map((s) => `<li>${s.naziv} – ${s.kolicina} ${s.jedinica}</li>`)
+              .join('')}
+          </ul>
           ${
             hasAll
               ? `<span class="badge text-bg-success">✅ Imaš sve sastojke</span>`
