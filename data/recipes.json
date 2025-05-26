@@ -8,10 +8,14 @@
         "naziv": "Ovsena kaša (60g ovsene, 150ml mleko 1.5%)"
       },
       {
-        "naziv": "chia (10g)"
+        "naziv": "chia",
+        "kolicina": 10.0,
+        "jedinica": "g"
       },
       {
-        "naziv": "borovnice (50g)"
+        "naziv": "borovnice",
+        "kolicina": 50.0,
+        "jedinica": "g"
       },
       {
         "naziv": "cimet"
@@ -24,10 +28,14 @@
     "kategorija": "užina",
     "sastojci": [
       {
-        "naziv": "Bademi (15g)"
+        "naziv": "Bademi",
+        "kolicina": 15.0,
+        "jedinica": "g"
       },
       {
-        "naziv": "Jabuka (150g)"
+        "naziv": "Jabuka",
+        "kolicina": 150.0,
+        "jedinica": "g"
       }
     ]
   },
@@ -37,13 +45,17 @@
     "kategorija": "ručak",
     "sastojci": [
       {
-        "naziv": "Pileći file (150g)"
+        "naziv": "Pileći file",
+        "kolicina": 150.0,
+        "jedinica": "g"
       },
       {
         "naziv": "bulgur (100g kuvano)"
       },
       {
-        "naziv": "brokoli (200g)"
+        "naziv": "brokoli",
+        "kolicina": 200.0,
+        "jedinica": "g"
       }
     ]
   },
@@ -53,13 +65,19 @@
     "kategorija": "užina",
     "sastojci": [
       {
-        "naziv": "Posni sir (100g)"
+        "naziv": "Posni sir",
+        "kolicina": 100.0,
+        "jedinica": "g"
       },
       {
-        "naziv": "krastavac (100g)"
+        "naziv": "krastavac",
+        "kolicina": 100.0,
+        "jedinica": "g"
       },
       {
-        "naziv": "maslinovo ulje (5ml)"
+        "naziv": "maslinovo ulje",
+        "kolicina": 5.0,
+        "jedinica": "ml"
       }
     ]
   },
@@ -69,16 +87,24 @@
     "kategorija": "večera",
     "sastojci": [
       {
-        "naziv": "Bareni brokoli i šargarepa (200g)"
+        "naziv": "Bareni brokoli i šargarepa",
+        "kolicina": 200.0,
+        "jedinica": "g"
       },
       {
-        "naziv": "kuvano jaje (1)"
+        "naziv": "kuvano jaje",
+        "kolicina": 1.0,
+        "jedinica": "kom"
       },
       {
-        "naziv": "integralni tost (1)"
+        "naziv": "integralni tost",
+        "kolicina": 1.0,
+        "jedinica": "kom"
       },
       {
-        "naziv": "jogurt 1% (150ml)"
+        "naziv": "jogurt 1%",
+        "kolicina": 150.0,
+        "jedinica": "ml"
       }
     ]
   },
@@ -88,10 +114,14 @@
     "kategorija": "doručak",
     "sastojci": [
       {
-        "naziv": "Integralni tost (2)"
+        "naziv": "Integralni tost",
+        "kolicina": 2.0,
+        "jedinica": "kom"
       },
       {
-        "naziv": "avokado (50g)"
+        "naziv": "avokado",
+        "kolicina": 50.0,
+        "jedinica": "g"
       },
       {
         "naziv": "3 belanca"
@@ -107,10 +137,14 @@
     "kategorija": "užina",
     "sastojci": [
       {
-        "naziv": "Lešnici (15g)"
+        "naziv": "Lešnici",
+        "kolicina": 15.0,
+        "jedinica": "g"
       },
       {
-        "naziv": "Kivi (150g)"
+        "naziv": "Kivi",
+        "kolicina": 150.0,
+        "jedinica": "g"
       }
     ]
   },
@@ -120,7 +154,9 @@
     "kategorija": "ručak",
     "sastojci": [
       {
-        "naziv": "Pasulj prebranac light (150g)"
+        "naziv": "Pasulj prebranac light",
+        "kolicina": 150.0,
+        "jedinica": "g"
       },
       {
         "naziv": "sveža salata (krastavac, paprika)"
@@ -133,10 +169,14 @@
     "kategorija": "užina",
     "sastojci": [
       {
-        "naziv": "Tunjevina u vodi (100g)"
+        "naziv": "Tunjevina u vodi",
+        "kolicina": 100.0,
+        "jedinica": "g"
       },
       {
-        "naziv": "integralni keks (1 kom)"
+        "naziv": "integralni keks",
+        "kolicina": 1.0,
+        "jedinica": "kom"
       }
     ]
   },
@@ -146,7 +186,9 @@
     "kategorija": "večera",
     "sastojci": [
       {
-        "naziv": "Supa od povrća (250ml)"
+        "naziv": "Supa od povrća",
+        "kolicina": 250.0,
+        "jedinica": "ml"
       },
       {
         "naziv": "griz-lepinjica (30g brašna)"
@@ -169,10 +211,14 @@
     "kategorija": "užina",
     "sastojci": [
       {
-        "naziv": "Orasi (15g)"
+        "naziv": "Orasi",
+        "kolicina": 15.0,
+        "jedinica": "g"
       },
       {
-        "naziv": "Kruška (150g)"
+        "naziv": "Kruška",
+        "kolicina": 150.0,
+        "jedinica": "g"
       }
     ]
   },
@@ -182,10 +228,14 @@
     "kategorija": "ručak",
     "sastojci": [
       {
-        "naziv": "Teletina (150g)"
+        "naziv": "Teletina",
+        "kolicina": 150.0,
+        "jedinica": "g"
       },
       {
-        "naziv": "bareni krompir (150g)"
+        "naziv": "bareni krompir",
+        "kolicina": 150.0,
+        "jedinica": "g"
       },
       {
         "naziv": "zelena salata sa limunom"
@@ -198,13 +248,19 @@
     "kategorija": "užina",
     "sastojci": [
       {
-        "naziv": "Posni sir (100g)"
+        "naziv": "Posni sir",
+        "kolicina": 100.0,
+        "jedinica": "g"
       },
       {
-        "naziv": "paradajz (100g)"
+        "naziv": "paradajz",
+        "kolicina": 100.0,
+        "jedinica": "g"
       },
       {
-        "naziv": "maslinovo ulje (5ml)"
+        "naziv": "maslinovo ulje",
+        "kolicina": 5.0,
+        "jedinica": "ml"
       }
     ]
   },
@@ -220,13 +276,19 @@
         "naziv": "paradajz"
       },
       {
-        "naziv": "maslinovo (5ml)"
+        "naziv": "maslinovo",
+        "kolicina": 5.0,
+        "jedinica": "ml"
       },
       {
-        "naziv": "integralni tost (1)"
+        "naziv": "integralni tost",
+        "kolicina": 1.0,
+        "jedinica": "kom"
       },
       {
-        "naziv": "jogurt 1% (150ml)"
+        "naziv": "jogurt 1%",
+        "kolicina": 150.0,
+        "jedinica": "ml"
       }
     ]
   },
@@ -239,7 +301,9 @@
         "naziv": "Proja od heljdinog brašna (~70g)"
       },
       {
-        "naziv": "posni sir (50g)"
+        "naziv": "posni sir",
+        "kolicina": 50.0,
+        "jedinica": "g"
       },
       {
         "naziv": "paradajz"
@@ -252,10 +316,14 @@
     "kategorija": "užina",
     "sastojci": [
       {
-        "naziv": "Bademi (15g)"
+        "naziv": "Bademi",
+        "kolicina": 15.0,
+        "jedinica": "g"
       },
       {
-        "naziv": "Banana (150g)"
+        "naziv": "Banana",
+        "kolicina": 150.0,
+        "jedinica": "g"
       }
     ]
   },
@@ -265,10 +333,14 @@
     "kategorija": "ručak",
     "sastojci": [
       {
-        "naziv": "Falafel (4 kugle)"
+        "naziv": "Falafel",
+        "kolicina": 4.0,
+        "jedinica": "kugle"
       },
       {
-        "naziv": "integralna pita (50g)"
+        "naziv": "integralna pita",
+        "kolicina": 50.0,
+        "jedinica": "g"
       },
       {
         "naziv": "paradajz salata"
@@ -281,7 +353,9 @@
     "kategorija": "užina",
     "sastojci": [
       {
-        "naziv": "Tunjevina (100g)"
+        "naziv": "Tunjevina",
+        "kolicina": 100.0,
+        "jedinica": "g"
       },
       {
         "naziv": "integralni keks"
@@ -294,7 +368,9 @@
     "kategorija": "večera",
     "sastojci": [
       {
-        "naziv": "Supa od povrća (250ml)"
+        "naziv": "Supa od povrća",
+        "kolicina": 250.0,
+        "jedinica": "ml"
       },
       {
         "naziv": "griz-lepinjica (30g brašna)"
@@ -307,13 +383,19 @@
     "kategorija": "doručak",
     "sastojci": [
       {
-        "naziv": "Grčki jogurt (150g)"
+        "naziv": "Grčki jogurt",
+        "kolicina": 150.0,
+        "jedinica": "g"
       },
       {
-        "naziv": "ovseni musli (40g)"
+        "naziv": "ovseni musli",
+        "kolicina": 40.0,
+        "jedinica": "g"
       },
       {
-        "naziv": "orasi (5g)"
+        "naziv": "orasi",
+        "kolicina": 5.0,
+        "jedinica": "g"
       }
     ]
   },
@@ -323,10 +405,14 @@
     "kategorija": "užina",
     "sastojci": [
       {
-        "naziv": "Lešnici (15g)"
+        "naziv": "Lešnici",
+        "kolicina": 15.0,
+        "jedinica": "g"
       },
       {
-        "naziv": "Jabuka (150g)"
+        "naziv": "Jabuka",
+        "kolicina": 150.0,
+        "jedinica": "g"
       }
     ]
   },
@@ -336,13 +422,19 @@
     "kategorija": "ručak",
     "sastojci": [
       {
-        "naziv": "Pileće grudi (150g)"
+        "naziv": "Pileće grudi",
+        "kolicina": 150.0,
+        "jedinica": "g"
       },
       {
-        "naziv": "integralna testenina (100g)"
+        "naziv": "integralna testenina",
+        "kolicina": 100.0,
+        "jedinica": "g"
       },
       {
-        "naziv": "grilovana tikvica (150g)"
+        "naziv": "grilovana tikvica",
+        "kolicina": 150.0,
+        "jedinica": "g"
       }
     ]
   },
@@ -352,13 +444,19 @@
     "kategorija": "užina",
     "sastojci": [
       {
-        "naziv": "Posni sir (100g)"
+        "naziv": "Posni sir",
+        "kolicina": 100.0,
+        "jedinica": "g"
       },
       {
-        "naziv": "krastavac (100g)"
+        "naziv": "krastavac",
+        "kolicina": 100.0,
+        "jedinica": "g"
       },
       {
-        "naziv": "maslinovo ulje (5ml)"
+        "naziv": "maslinovo ulje",
+        "kolicina": 5.0,
+        "jedinica": "ml"
       }
     ]
   },
@@ -368,16 +466,24 @@
     "kategorija": "večera",
     "sastojci": [
       {
-        "naziv": "Bareni brokoli i šargarepa (200g)"
+        "naziv": "Bareni brokoli i šargarepa",
+        "kolicina": 200.0,
+        "jedinica": "g"
       },
       {
-        "naziv": "kuvano jaje (1)"
+        "naziv": "kuvano jaje",
+        "kolicina": 1.0,
+        "jedinica": "kom"
       },
       {
-        "naziv": "tost (1)"
+        "naziv": "tost",
+        "kolicina": 1.0,
+        "jedinica": "kom"
       },
       {
-        "naziv": "jogurt (150ml)"
+        "naziv": "jogurt",
+        "kolicina": 150.0,
+        "jedinica": "ml"
       }
     ]
   },
@@ -403,10 +509,14 @@
     "kategorija": "užina",
     "sastojci": [
       {
-        "naziv": "Orasi (15g)"
+        "naziv": "Orasi",
+        "kolicina": 15.0,
+        "jedinica": "g"
       },
       {
-        "naziv": "Kivi (150g)"
+        "naziv": "Kivi",
+        "kolicina": 150.0,
+        "jedinica": "g"
       }
     ]
   },
@@ -416,7 +526,9 @@
     "kategorija": "ručak",
     "sastojci": [
       {
-        "naziv": "Sočivo na kašiku (150g)"
+        "naziv": "Sočivo na kašiku",
+        "kolicina": 150.0,
+        "jedinica": "g"
       },
       {
         "naziv": "tost (1 kriška)"
@@ -432,7 +544,9 @@
     "kategorija": "užina",
     "sastojci": [
       {
-        "naziv": "Tunjevina (100g)"
+        "naziv": "Tunjevina",
+        "kolicina": 100.0,
+        "jedinica": "g"
       },
       {
         "naziv": "paradajz"
@@ -448,7 +562,9 @@
         "naziv": "Supa od povrća"
       },
       {
-        "naziv": "griz-lepinjica (30g)"
+        "naziv": "griz-lepinjica",
+        "kolicina": 30.0,
+        "jedinica": "g"
       }
     ]
   },
@@ -468,10 +584,14 @@
     "kategorija": "užina",
     "sastojci": [
       {
-        "naziv": "Bademi (15g)"
+        "naziv": "Bademi",
+        "kolicina": 15.0,
+        "jedinica": "g"
       },
       {
-        "naziv": "Kruška (150g)"
+        "naziv": "Kruška",
+        "kolicina": 150.0,
+        "jedinica": "g"
       }
     ]
   },
@@ -481,13 +601,19 @@
     "kategorija": "ručak",
     "sastojci": [
       {
-        "naziv": "Losos na žaru (150g)"
+        "naziv": "Losos na žaru",
+        "kolicina": 150.0,
+        "jedinica": "g"
       },
       {
-        "naziv": "kinoa (100g)"
+        "naziv": "kinoa",
+        "kolicina": 100.0,
+        "jedinica": "g"
       },
       {
-        "naziv": "rukola (100g)"
+        "naziv": "rukola",
+        "kolicina": 100.0,
+        "jedinica": "g"
       }
     ]
   },
@@ -497,10 +623,14 @@
     "kategorija": "užina",
     "sastojci": [
       {
-        "naziv": "Jogurt 1% (150ml)"
+        "naziv": "Jogurt 1%",
+        "kolicina": 150.0,
+        "jedinica": "ml"
       },
       {
-        "naziv": "orasi (5g)"
+        "naziv": "orasi",
+        "kolicina": 5.0,
+        "jedinica": "g"
       }
     ]
   },
@@ -516,10 +646,14 @@
         "naziv": "paradajz"
       },
       {
-        "naziv": "maslinovo (5ml)"
+        "naziv": "maslinovo",
+        "kolicina": 5.0,
+        "jedinica": "ml"
       },
       {
-        "naziv": "tost (1)"
+        "naziv": "tost",
+        "kolicina": 1.0,
+        "jedinica": "kom"
       }
     ]
   },
@@ -532,13 +666,17 @@
         "naziv": "Ovsena kaša"
       },
       {
-        "naziv": "rendana jabuka (1 manja)"
+        "naziv": "rendana jabuka",
+        "kolicina": 1.0,
+        "jedinica": "manja"
       },
       {
         "naziv": "cimet"
       },
       {
-        "naziv": "orah (5g)"
+        "naziv": "orah",
+        "kolicina": 5.0,
+        "jedinica": "g"
       }
     ]
   },
@@ -548,10 +686,14 @@
     "kategorija": "užina",
     "sastojci": [
       {
-        "naziv": "Lešnici (15g)"
+        "naziv": "Lešnici",
+        "kolicina": 15.0,
+        "jedinica": "g"
       },
       {
-        "naziv": "Banana (150g)"
+        "naziv": "Banana",
+        "kolicina": 150.0,
+        "jedinica": "g"
       }
     ]
   },
@@ -561,7 +703,9 @@
     "kategorija": "ručak",
     "sastojci": [
       {
-        "naziv": "Punjene paprike (2 kom) sa prosom (50g) i mlevenom junetinom (120g)"
+        "naziv": "Punjene paprike (2 kom) sa prosom (50g) i mlevenom junetinom",
+        "kolicina": 120.0,
+        "jedinica": "g"
       }
     ]
   },
@@ -571,7 +715,9 @@
     "kategorija": "užina",
     "sastojci": [
       {
-        "naziv": "Jogurt 1% (150ml)"
+        "naziv": "Jogurt 1%",
+        "kolicina": 150.0,
+        "jedinica": "ml"
       },
       {
         "naziv": "integralni keks"
@@ -600,7 +746,9 @@
         "naziv": "Tofuni kajgana (tofu 100g, crni luk)"
       },
       {
-        "naziv": "integralni tost (1)"
+        "naziv": "integralni tost",
+        "kolicina": 1.0,
+        "jedinica": "kom"
       }
     ]
   },
@@ -610,10 +758,14 @@
     "kategorija": "užina",
     "sastojci": [
       {
-        "naziv": "Bademi (15g)"
+        "naziv": "Bademi",
+        "kolicina": 15.0,
+        "jedinica": "g"
       },
       {
-        "naziv": "Kivi (150g)"
+        "naziv": "Kivi",
+        "kolicina": 150.0,
+        "jedinica": "g"
       }
     ]
   },
@@ -623,10 +775,14 @@
     "kategorija": "ručak",
     "sastojci": [
       {
-        "naziv": "Ćureće ćufte u paradajz sosu (150g)"
+        "naziv": "Ćureće ćufte u paradajz sosu",
+        "kolicina": 150.0,
+        "jedinica": "g"
       },
       {
-        "naziv": "integralna testenina (100g)"
+        "naziv": "integralna testenina",
+        "kolicina": 100.0,
+        "jedinica": "g"
       }
     ]
   },
@@ -639,7 +795,9 @@
         "naziv": "Paradajz"
       },
       {
-        "naziv": "posni sir (100g)"
+        "naziv": "posni sir",
+        "kolicina": 100.0,
+        "jedinica": "g"
       }
     ]
   },
@@ -652,10 +810,14 @@
         "naziv": "Salata sa rukolom"
       },
       {
-        "naziv": "jaje (1)"
+        "naziv": "jaje",
+        "kolicina": 1.0,
+        "jedinica": "kom"
       },
       {
-        "naziv": "tost (1)"
+        "naziv": "tost",
+        "kolicina": 1.0,
+        "jedinica": "kom"
       }
     ]
   },
@@ -665,13 +827,19 @@
     "kategorija": "doručak",
     "sastojci": [
       {
-        "naziv": "Kuvana jaja (2)"
+        "naziv": "Kuvana jaja",
+        "kolicina": 2.0,
+        "jedinica": "kom"
       },
       {
-        "naziv": "heljdine galete (2 kom)"
+        "naziv": "heljdine galete",
+        "kolicina": 2.0,
+        "jedinica": "kom"
       },
       {
-        "naziv": "avokado (50g)"
+        "naziv": "avokado",
+        "kolicina": 50.0,
+        "jedinica": "g"
       }
     ]
   },
@@ -681,10 +849,14 @@
     "kategorija": "užina",
     "sastojci": [
       {
-        "naziv": "Orasi (15g)"
+        "naziv": "Orasi",
+        "kolicina": 15.0,
+        "jedinica": "g"
       },
       {
-        "naziv": "Jabuka (150g)"
+        "naziv": "Jabuka",
+        "kolicina": 150.0,
+        "jedinica": "g"
       }
     ]
   },
@@ -694,10 +866,14 @@
     "kategorija": "ručak",
     "sastojci": [
       {
-        "naziv": "Pasulj na kašiku light (150g)"
+        "naziv": "Pasulj na kašiku light",
+        "kolicina": 150.0,
+        "jedinica": "g"
       },
       {
-        "naziv": "zelje u maslinovom ulju (100g)"
+        "naziv": "zelje u maslinovom ulju",
+        "kolicina": 100.0,
+        "jedinica": "g"
       }
     ]
   },
@@ -736,16 +912,24 @@
     "kategorija": "doručak",
     "sastojci": [
       {
-        "naziv": "Jogurt (200ml)"
+        "naziv": "Jogurt",
+        "kolicina": 200.0,
+        "jedinica": "ml"
       },
       {
-        "naziv": "musli (40g)"
+        "naziv": "musli",
+        "kolicina": 40.0,
+        "jedinica": "g"
       },
       {
-        "naziv": "lanene semenke (5g)"
+        "naziv": "lanene semenke",
+        "kolicina": 5.0,
+        "jedinica": "g"
       },
       {
-        "naziv": "kivi (1 kom)"
+        "naziv": "kivi",
+        "kolicina": 1.0,
+        "jedinica": "kom"
       }
     ]
   },
@@ -755,7 +939,9 @@
     "kategorija": "užina",
     "sastojci": [
       {
-        "naziv": "Bademi (15g)"
+        "naziv": "Bademi",
+        "kolicina": 15.0,
+        "jedinica": "g"
       },
       {
         "naziv": "Banana"
@@ -768,10 +954,14 @@
     "kategorija": "ručak",
     "sastojci": [
       {
-        "naziv": "Pileći ražnjići (150g)"
+        "naziv": "Pileći ražnjići",
+        "kolicina": 150.0,
+        "jedinica": "g"
       },
       {
-        "naziv": "kuskus (100g)"
+        "naziv": "kuskus",
+        "kolicina": 100.0,
+        "jedinica": "g"
       },
       {
         "naziv": "paradajz salata"
@@ -784,7 +974,9 @@
     "kategorija": "užina",
     "sastojci": [
       {
-        "naziv": "Tunjevina (100g)"
+        "naziv": "Tunjevina",
+        "kolicina": 100.0,
+        "jedinica": "g"
       },
       {
         "naziv": "krastavac"
@@ -816,7 +1008,9 @@
         "naziv": "Integralne palačinke"
       },
       {
-        "naziv": "100% kikiriki puter (10g)"
+        "naziv": "100% kikiriki puter",
+        "kolicina": 10.0,
+        "jedinica": "g"
       },
       {
         "naziv": "banana (1/2)"
@@ -829,10 +1023,14 @@
     "kategorija": "užina",
     "sastojci": [
       {
-        "naziv": "Jogurt 1% (150ml)"
+        "naziv": "Jogurt 1%",
+        "kolicina": 150.0,
+        "jedinica": "ml"
       },
       {
-        "naziv": "orasi (5g)"
+        "naziv": "orasi",
+        "kolicina": 5.0,
+        "jedinica": "g"
       }
     ]
   },
@@ -842,10 +1040,14 @@
     "kategorija": "ručak",
     "sastojci": [
       {
-        "naziv": "Teletina sa povrćem (150g)"
+        "naziv": "Teletina sa povrćem",
+        "kolicina": 150.0,
+        "jedinica": "g"
       },
       {
-        "naziv": "batat pečeni (100g)"
+        "naziv": "batat pečeni",
+        "kolicina": 100.0,
+        "jedinica": "g"
       }
     ]
   },
@@ -855,7 +1057,9 @@
     "kategorija": "užina",
     "sastojci": [
       {
-        "naziv": "Posni sir (100g)"
+        "naziv": "Posni sir",
+        "kolicina": 100.0,
+        "jedinica": "g"
       },
       {
         "naziv": "paradajz"
@@ -884,10 +1088,14 @@
     "kategorija": "doručak",
     "sastojci": [
       {
-        "naziv": "Hleb od celog zrna (2 kriške)"
+        "naziv": "Hleb od celog zrna",
+        "kolicina": 2.0,
+        "jedinica": "kriške"
       },
       {
-        "naziv": "posni sir (50g)"
+        "naziv": "posni sir",
+        "kolicina": 50.0,
+        "jedinica": "g"
       },
       {
         "naziv": "crvena paprika"
@@ -900,10 +1108,14 @@
     "kategorija": "užina",
     "sastojci": [
       {
-        "naziv": "Orasi (15g)"
+        "naziv": "Orasi",
+        "kolicina": 15.0,
+        "jedinica": "g"
       },
       {
-        "naziv": "Kruška (150g)"
+        "naziv": "Kruška",
+        "kolicina": 150.0,
+        "jedinica": "g"
       }
     ]
   },
@@ -923,7 +1135,7 @@
     "kategorija": "užina",
     "sastojci": [
       {
-        "naziv": "Jogurt 1%"
+        "naziv": "Jogurt"
       },
       {
         "naziv": "keks integralni"
@@ -962,7 +1174,9 @@
     "kategorija": "užina",
     "sastojci": [
       {
-        "naziv": "Lešnici (15g)"
+        "naziv": "Lešnici",
+        "kolicina": 15.0,
+        "jedinica": "g"
       },
       {
         "naziv": "Jabuka"
@@ -975,13 +1189,19 @@
     "kategorija": "ručak",
     "sastojci": [
       {
-        "naziv": "Pastrmka iz rerne (150g)"
+        "naziv": "Pastrmka iz rerne",
+        "kolicina": 150.0,
+        "jedinica": "g"
       },
       {
-        "naziv": "kinoa (100g)"
+        "naziv": "kinoa",
+        "kolicina": 100.0,
+        "jedinica": "g"
       },
       {
-        "naziv": "blanširani spanać (100g)"
+        "naziv": "blanširani spanać",
+        "kolicina": 100.0,
+        "jedinica": "g"
       }
     ]
   },
@@ -991,7 +1211,9 @@
     "kategorija": "užina",
     "sastojci": [
       {
-        "naziv": "Posni sir (100g)"
+        "naziv": "Posni sir",
+        "kolicina": 100.0,
+        "jedinica": "g"
       },
       {
         "naziv": "krastavac"
@@ -1011,61 +1233,6 @@
       },
       {
         "naziv": "kuvano jaje"
-      }
-    ]
-  },
-  {
-    "id": "r71",
-    "naziv": "avokado",
-    "kategorija": "kukuruz (100g), piletina (150g), salata",
-    "sastojci": [
-      {
-        "naziv": "avokado (50g), paradajz, crveni luk"
-      }
-    ]
-  },
-  {
-    "id": "r72",
-    "naziv": "tunjevina/sardina + jaje + ovsene + začini + senf",
-    "kategorija": "pljeskavice pečene u rerni",
-    "sastojci": [
-      {
-        "naziv": "tunjevina/sardina"
-      },
-      {
-        "naziv": "jaje"
-      },
-      {
-        "naziv": "ovsene"
-      },
-      {
-        "naziv": "začini"
-      },
-      {
-        "naziv": "senf"
-      }
-    ]
-  },
-  {
-    "id": "r73",
-    "naziv": "banana, bademovo mleko, lan, ovsene",
-    "kategorija": "smoothie",
-    "sastojci": [
-      {
-        "naziv": "banana, bademovo mleko, lan, ovsene"
-      }
-    ]
-  },
-  {
-    "id": "r74",
-    "naziv": "tikvica, šargarepa, crni luk + 1 mala heljdina palačinka",
-    "kategorija": "čorba",
-    "sastojci": [
-      {
-        "naziv": "tikvica, šargarepa, crni luk"
-      },
-      {
-        "naziv": "1 mala heljdina palačinka"
       }
     ]
   }
