@@ -65,9 +65,12 @@ function renderRecipes() {
           <p class="card-text"><strong>Sastojci:</strong></p>
           <ul>
             ${recipe.sastojci
-              .map((s) => `<li>${s.naziv} – ${s.kolicina} ${s.jedinica}</li>`)
-              .join('')}
-          </ul>
+                .filter((s) => s.kolicina && s.jedinica)
+                .map((s) =>
+                    `<li>${s.naziv} – ${s.kolicina} ${s.jedinica}</li>`
+            ).join('')}
+            </ul>
+
           ${
             hasAll
               ? `<span class="badge text-bg-success">✅ Imaš sve sastojke</span>`
