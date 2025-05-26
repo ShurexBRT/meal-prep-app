@@ -1,15 +1,13 @@
 const inventoryList = document.getElementById('inventoryList');
 
 const allIngredients = [
-  [
+  
   "Jaja",  "kikiriki puter",  "Bademi",  "Banana",  "Grčki jogurt",  "Hleb od celog zrna",  "Integralni tost",  "Jabuka",  "Jogurt",
   "Kivi",  "Kruška",  "Lešnici",  "Losos",  "Orasi",  "Ovsena kaša",  "Ovsena kaša",  "Palenta",  "Paradajz",
     "Pastrmka",  "Pasulj",  "Pileći file",  "Posni sir",  "Povrćna čorba",  "Salata",  "Rukola",  "Sočivo",  "Teletina",  "Tofu",
       "Tunjevina",  "Avokado",  "Krompir",  "Batat",  "Humus",  "Spanać",  "Borovnice",  "Brokoli",  "Proso",  "Chia",  "Cimet",  "Crvena paprika",
         "Tikvica",  "integralna testenina",  "Kinoa",  "Kiseli krastavci",  "Krastavac",  "Lanene semenke",  "Musli",      "Orah",
   "Sir",  "Jabuka",
-]
-
 
 ];
 
