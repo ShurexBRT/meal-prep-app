@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="sr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Recepti • Smart Meal Planner</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <style>
+      body {
+        font-family: 'Poppins', sans-serif;
+        background-color: #f8fdf6;
+      }
+      .card {
+        margin-bottom: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container py-4">
+      <h1 class="text-success mb-4">🍽️ Pregled recepata</h1>
+
+      <div class="d-flex flex-wrap gap-3 mb-4">
+        <select id="categoryFilter" class="form-select w-auto">
+          <option value="">Sve kategorije</option>
+          <option value="doručak">Doručak</option>
+          <option value="ručak">Ručak</option>
+          <option value="večera">Večera</option>
+          <option value="užina">Užina</option>
+        </select>
+
+        <div class="form-check">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            value=""
+            id="filterByInventory"
+          />
+          <label class="form-check-label" for="filterByInventory">
+            Prikaži samo recepte za koje imam sve
+          </label>
+        </div>
+      </div>
+
+      <div id="recipeList" class="row"></div>
+
+      <a href="index.html" class="btn btn-outline-secondary mt-4">← Nazad na početnu</a>
+    </div>
+
+    <script src="js/recipes.js"></script>
+  </body>
+</html>
