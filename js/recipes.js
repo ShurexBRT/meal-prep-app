@@ -37,6 +37,10 @@ function renderRecipes() {
         (s) => !inventory.includes(normalizeName(s.naziv))
       );
       return matchKategorija && missing.length === 0;
+
+    console.log('Svi recepti:', allRecipes);
+    console.log('Odabrana kategorija:', selectedCategory);
+    console.log('Inventar:', inventory);
     }
 
     return matchKategorija;
