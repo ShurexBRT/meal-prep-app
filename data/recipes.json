@@ -5,7 +5,15 @@
     "kategorija": "doručak",
     "sastojci": [
       {
-        "naziv": "Ovsena kaša (60g ovsene, 150ml mleko 1.5%)"
+        "naziv": "Ovsene pahuljice",
+        "kolicina": 60,
+        "jedinica": "g"
+      },
+      {
+        "naziv": "Mleko",
+        "kolicina": 150,
+        "jedinica": "ml"
+
       },
       {
         "naziv": "chia",
@@ -18,7 +26,9 @@
         "jedinica": "g"
       },
       {
-        "naziv": "cimet"
+        "naziv": "cimet",
+        "kolicina": 1,
+        "jedinica": "kašičica"
       }
     ]
   },
@@ -29,19 +39,19 @@
     "sastojci": [
       {
         "naziv": "Bademi",
-        "kolicina": 15.0,
-        "jedinica": "g"
+        "kolicina": 10,
+        "jedinica": "kom"
       },
       {
         "naziv": "Jabuka",
-        "kolicina": 150.0,
-        "jedinica": "g"
+        "kolicina": 1,
+        "jedinica": "kom"
       }
     ]
   },
   {
     "id": "r3",
-    "naziv": "Pileći file",
+    "naziv": "Pileći file sa prosom i brokolijem",
     "kategorija": "ručak",
     "sastojci": [
       {
@@ -50,10 +60,12 @@
         "jedinica": "g"
       },
       {
-        "naziv": "bulgur (100g kuvano)"
+        "naziv": "Proso",
+        "kolicina": 100,
+        "jedinica": "g"
       },
       {
-        "naziv": "brokoli",
+        "naziv": "Brokoli",
         "kolicina": 200.0,
         "jedinica": "g"
       }
@@ -61,11 +73,11 @@
   },
   {
     "id": "r4",
-    "naziv": "Posni sir",
+    "naziv": "Salata sa mladim sirom",
     "kategorija": "užina",
     "sastojci": [
       {
-        "naziv": "Posni sir",
+        "naziv": "Mladi sir",
         "kolicina": 100.0,
         "jedinica": "g"
       },
@@ -87,7 +99,12 @@
     "kategorija": "večera",
     "sastojci": [
       {
-        "naziv": "Bareni brokoli i šargarepa",
+        "naziv": "Brokoli",
+        "kolicina": 200.0,
+        "jedinica": "g"
+      },
+      {
+        "naziv": "Šargarepa",
         "kolicina": 200.0,
         "jedinica": "g"
       },
@@ -102,7 +119,7 @@
         "jedinica": "kom"
       },
       {
-        "naziv": "jogurt 1%",
+        "naziv": "jogurt",
         "kolicina": 150.0,
         "jedinica": "ml"
       }
@@ -110,12 +127,12 @@
   },
   {
     "id": "r6",
-    "naziv": "Integralni tost",
+    "naziv": "omlet sa integralnim tostom",
     "kategorija": "doručak",
     "sastojci": [
       {
         "naziv": "Integralni tost",
-        "kolicina": 2.0,
+        "kolicina": 2,
         "jedinica": "kom"
       },
       {
@@ -124,16 +141,20 @@
         "jedinica": "g"
       },
       {
-        "naziv": "3 belanca"
+        "naziv": "Belance",
+        "kolicina": 3,
+        "jedinica": "kom"
       },
       {
-        "naziv": "1 celo jaje"
+        "naziv": "Jaje",
+        "kolicina": 1,
+        "jedinica": "kom"
       }
     ]
   },
   {
     "id": "r7",
-    "naziv": "Lešnici",
+    "naziv": "Lešnici i kivi",
     "kategorija": "užina",
     "sastojci": [
       {
@@ -150,7 +171,7 @@
   },
   {
     "id": "r8",
-    "naziv": "Pasulj prebranac light",
+    "naziv": "Pasulj prebranac ",
     "kategorija": "ručak",
     "sastojci": [
       {
