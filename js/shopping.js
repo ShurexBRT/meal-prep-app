@@ -1,6 +1,6 @@
 const container = document.getElementById('shoppingListContainer');
 
-fetchfetch('/meal-prep-app/data/recipes.json')
+fetch('/meal-prep-app/data/recipes.json')
   .then((res) => res.json())
   .then((recipes) => {
     const inventory = getInventory();
