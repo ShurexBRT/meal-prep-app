@@ -43,7 +43,7 @@
               <th>Doručak</th>
               <th>Užina</th>
               <th>Ručak</th>
-              <th>Večera</th>
+              <th>VeĎra</th>
             </tr>
           </thead>
           <tbody id="mealPlanTable"></tbody>
@@ -74,6 +74,10 @@
           renderTable();
         });
 
+      function normalizeKategorija(str) {
+        return str.trim().toLowerCase();
+      }
+
       function renderTable() {
         const savedPlan = getSavedPlan();
 
@@ -97,7 +101,9 @@
             emptyOption.textContent = '---';
             select.appendChild(emptyOption);
 
-            allRecipes.forEach((r) => {
+            const filteredRecipes = allRecipes.filter((r) => normalizeKategorija(r.kategorija) === meal);
+
+            filteredRecipes.forEach((r) => {
               const option = document.createElement('option');
               option.value = r.id;
               option.textContent = r.naziv_jela;
