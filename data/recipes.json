@@ -235,7 +235,7 @@
         "naziv": "Bademovo Mleko",
         "kolicina": 150.0,
         "jedinica": "ml"
-      },
+      }
       
     ]
   },
@@ -1333,7 +1333,7 @@
       },
       {
         "naziv": "Jaje",
-        "nacin pripreme": "Kuvano",
+        "nacin pripreme": "Kuvano"
       }
     ]
   }
