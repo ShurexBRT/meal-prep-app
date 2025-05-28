@@ -15,17 +15,17 @@
         "jedinica": "ml"
       },
       {
-        "naziv": "chia",
+        "naziv": "Chia semenke",
         "kolicina": 10.0,
         "jedinica": "g"
       },
       {
-        "naziv": "borovnice",
+        "naziv": "Borovnice",
         "kolicina": 50.0,
         "jedinica": "g"
       },
       {
-        "naziv": "cimet",
+        "naziv": "Cimet",
         "kolicina": 1,
         "jedinica": "kašičica"
       }
@@ -81,12 +81,12 @@
         "jedinica": "g"
       },
       {
-        "naziv": "krastavac",
+        "naziv": "Krastavac",
         "kolicina": 100.0,
         "jedinica": "g"
       },
       {
-        "naziv": "maslinovo ulje",
+        "naziv": "Maslinovo ulje",
         "kolicina": 5.0,
         "jedinica": "ml"
       }
@@ -108,17 +108,18 @@
         "jedinica": "g"
       },
       {
-        "naziv": "kuvano jaje",
+        "naziv": "Jaja",
+        "nacin pripreme":"Kuvana",
         "kolicina": 1.0,
         "jedinica": "kom"
       },
       {
-        "naziv": "integralni tost",
+        "naziv": "Integralni Tost",
         "kolicina": 1.0,
         "jedinica": "kom"
       },
       {
-        "naziv": "jogurt",
+        "naziv": "Jogurt",
         "kolicina": 150.0,
         "jedinica": "ml"
       }
@@ -130,12 +131,12 @@
     "kategorija": "doručak",
     "sastojci": [
       {
-        "naziv": "Integralni tost",
+        "naziv": "Integralni Tost",
         "kolicina": 2,
         "jedinica": "kom"
       },
       {
-        "naziv": "avokado",
+        "naziv": "Avokado",
         "kolicina": 50.0,
         "jedinica": "g"
       },
@@ -145,7 +146,7 @@
         "jedinica": "kom"
       },
       {
-        "naziv": "Jaje",
+        "naziv": "Jaja",
         "kolicina": 1,
         "jedinica": "kom"
       }
@@ -197,7 +198,7 @@
         "jedinica": "g"
       },
       {
-        "naziv": "Integralni tost",
+        "naziv": "Integralni Tost",
         "kolicina": 1.0,
         "jedinica": "kom"
       }
@@ -289,12 +290,12 @@
         "jedinica": "g"
       },
       {
-        "naziv": "paradajz",
+        "naziv": "Paradajz",
         "kolicina": 100.0,
         "jedinica": "g"
       },
       {
-        "naziv": "maslinovo ulje",
+        "naziv": "Maslinovo Ulje",
         "kolicina": 5.0,
         "jedinica": "ml"
       }
@@ -302,7 +303,7 @@
   },
   {
     "id": "r15",
-    "naziv_jela": "Salata rukola + paradajz + maslinovo",
+    "naziv_jela": "Salata rukola + paradajz + maslinovo ulje",
     "kategorija": "večera",
     "sastojci": [
       {
@@ -312,12 +313,12 @@
         "naziv": "Paradajz"
       },
       {
-        "naziv": "maslinovo",
+        "naziv": "Maslinovo Ulje",
         "kolicina": 5.0,
         "jedinica": "ml"
       },
       {
-        "naziv": "Integralni tost",
+        "naziv": "Integralni Tost",
         "kolicina": 1.0,
         "jedinica": "kom"
       },
@@ -406,9 +407,9 @@
     "kategorija": "večera",
     "sastojci": [
       {
-        "naziv": "Povrće za supu",
+        "naziv": "Supa od povrća",
         "kolicina": 250.0,
-        "jedinica": "gr"
+        "jedinica": "g"
       },
       {
         "naziv": "Integralni Tost"
@@ -426,7 +427,7 @@
         "jedinica": "g"
       },
       {
-        "naziv": "Ovseni Musli",
+        "naziv": "Ovsene pahuljice",
         "kolicina": 40.0,
         "jedinica": "g"
       },
@@ -729,7 +730,7 @@
     "kategorija": "doručak",
     "sastojci": [
       {
-        "naziv": "Ovsena kaša"
+        "naziv": "Ovsene pahuljice"
       },
       {
         "naziv": "Jabuka",
@@ -921,7 +922,7 @@
         "jedinica": "kom"
       },
       {
-        "naziv": "Integralni tost",
+        "naziv": "Integralni Tost",
         "kolicina": 2.0,
         "jedinica": "kom"
       },
@@ -970,14 +971,14 @@
   },
   {
     "id": "r49",
-    "naziv_jela": "Jogurt + integralni tost",
+    "naziv_jela": "Jogurt + integralni Tost",
     "kategorija": "užina",
     "sastojci": [
       {
         "naziv": "Jogurt"
       },
       {
-        "naziv": "Integralni tost",
+        "naziv": "Integralni Tost",
         "kolicina": 1,
         "jedinica": "kom"
       }
@@ -992,7 +993,7 @@
         "naziv": "Supa"
       },
       {
-        "naziv": "Integralni tost",
+        "naziv": "Integralni Tost",
         "kolicina": 2,
         "jedinica": "kom"
       },
@@ -1239,7 +1240,7 @@
   },
   {
     "id": "r64",
-    "naziv_jela": "Jogurt 1% + keks integralni",
+    "naziv_jela": "Jogurt 1% + Integralni Tost",
     "kategorija": "užina",
     "sastojci": [
       {
