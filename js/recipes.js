@@ -51,7 +51,7 @@ function renderRecipes() {
     card.innerHTML = `
       <div class="card shadow-sm">
         <div class="card-body">
-          <h5 class="card-title">${recipe.naziv}</h5>
+          <h5 class="card-title">${recipe.naziv_jela}</h5>
           <p class="card-text mb-2">
             <strong>Kategorija:</strong> ${capitalize(recipe.kategorija)}
           </p>
