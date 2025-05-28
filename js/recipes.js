@@ -58,7 +58,7 @@ function renderRecipes() {
           <p class="card-text"><strong>Sastojci:</strong></p>
           <ul>
             ${recipe.sastojci
-              .map((s) => `<li>${s.naziv} – ${s.kolicina} ${s.jedinica}</li>`)
+              .map((s) => `<li>${s.naziv}${s.kolicina ? ` – ${s.kolicina} ${s.jedinica}` : ''}</li>`)
               .join('')}
           </ul>
           ${
