@@ -1,24 +1,27 @@
 const container = document.getElementById('shoppingListContainer');
 
+// Prilagodi putanju ako treba (npr. ako deployuješ na root, koristi samo 'data/recipes.json')
 fetch('/meal-prep-app/data/recipes.json')
   .then((res) => res.json())
   .then((recipes) => {
     const inventory = getInventory();
     const neededItems = new Set();
 
+    // NOVI FORMAT: svi sastojci su sada u 'ingredients' kao niz stringova
     recipes.forEach((recipe) => {
-      recipe.sastojci.forEach((s) => {
-        const normName = normalizeName(s.naziv);
+      (Array.isArray(recipe.ingredients) ? recipe.ingredients : Object.values(recipe.ingredients)).forEach((s) => {
+        const normName = normalizeName(s);
         if (!inventory.includes(normName)) {
-          neededItems.add(s.naziv);
+          neededItems.add(s);
         }
       });
     });
 
-    renderList(Array.from(neededItems).sort((a, b) => a.localeCompare(b)));
+    renderList(Array.from(neededItems).sort((a, b) => a.localeCompare(b, "sr")));
   });
 
 function renderList(items) {
+  container.innerHTML = "";
   if (items.length === 0) {
     container.innerHTML = '<p class="text-muted">Imaš sve što ti treba. ✅</p>';
     return;

@@ -1,1341 +1,787 @@
 [
   {
-    "id": "r1",
-    "naziv_jela": "Ovsena kaša",
-    "kategorija": "doručak",
-    "sastojci": [
-      {
-        "naziv": "Ovsene pahuljice",
-        "kolicina": 60,
-        "jedinica": "g"
-      },
-      {
-        "naziv": "Mleko",
-        "kolicina": 150,
-        "jedinica": "ml"
-      },
-      {
-        "naziv": "Chia semenke",
-        "kolicina": 10.0,
-        "jedinica": "g"
-      },
-      {
-        "naziv": "Borovnice",
-        "kolicina": 50.0,
-        "jedinica": "g"
-      },
-      {
-        "naziv": "Cimet",
-        "kolicina": 1,
-        "jedinica": "kašičica"
-      }
-    ]
-  },
-  {
-    "id": "r2",
-    "naziv_jela": "Bademi",
-    "kategorija": "užina",
-    "sastojci": [
-      {
-        "naziv": "Bademi",
-        "kolicina": 10,
-        "jedinica": "kom"
-      },
-      {
-        "naziv": "Jabuka",
-        "kolicina": 1,
-        "jedinica": "kom"
-      }
-    ]
-  },
-  {
-    "id": "r3",
-    "naziv_jela": "Pileći file sa prosom i brokolijem",
-    "kategorija": "ručak",
-    "sastojci": [
-      {
-        "naziv": "Pileći file",
-        "kolicina": 150.0,
-        "jedinica": "g"
-      },
-      {
-        "naziv": "Proso",
-        "kolicina": 100,
-        "jedinica": "g"
-      },
-      {
-        "naziv": "Brokoli",
-        "kolicina": 200.0,
-        "jedinica": "g"
-      }
-    ]
-  },
-  {
-    "id": "r4",
-    "naziv_jela": "Salata sa mladim sirom",
-    "kategorija": "užina",
-    "sastojci": [
-      {
-        "naziv": "Mladi sir",
-        "kolicina": 100.0,
-        "jedinica": "g"
-      },
-      {
-        "naziv": "Krastavac",
-        "kolicina": 100.0,
-        "jedinica": "g"
-      },
-      {
-        "naziv": "Maslinovo ulje",
-        "kolicina": 5.0,
-        "jedinica": "ml"
-      }
-    ]
-  },
-  {
-    "id": "r5",
-    "naziv_jela": "Bareni brokoli i šargarepa",
-    "kategorija": "večera",
-    "sastojci": [
-      {
-        "naziv": "Brokoli",
-        "kolicina": 200.0,
-        "jedinica": "g"
-      },
-      {
-        "naziv": "Šargarepa",
-        "kolicina": 200.0,
-        "jedinica": "g"
-      },
-      {
-        "naziv": "Jaja",
-        "nacin pripreme":"Kuvana",
-        "kolicina": 1.0,
-        "jedinica": "kom"
-      },
-      {
-        "naziv": "Integralni Tost",
-        "kolicina": 1.0,
-        "jedinica": "kom"
-      },
-      {
-        "naziv": "Jogurt",
-        "kolicina": 150.0,
-        "jedinica": "ml"
-      }
-    ]
-  },
-  {
-    "id": "r6",
-    "naziv_jela": "Omlet sa integralnim tostom",
-    "kategorija": "doručak",
-    "sastojci": [
-      {
-        "naziv": "Integralni Tost",
-        "kolicina": 2,
-        "jedinica": "kom"
-      },
-      {
-        "naziv": "Avokado",
-        "kolicina": 50.0,
-        "jedinica": "g"
-      },
-      {
-        "naziv": "Belance",
-        "kolicina": 3,
-        "jedinica": "kom"
-      },
-      {
-        "naziv": "Jaja",
-        "kolicina": 1,
-        "jedinica": "kom"
-      }
-    ]
-  },
-  {
-    "id": "r7",
-    "naziv_jela": "Lešnici i kivi",
-    "kategorija": "užina",
-    "sastojci": [
-      {
-        "naziv": "Lešnici",
-        "kolicina": 15.0,
-        "jedinica": "g"
-      },
-      {
-        "naziv": "Kivi",
-        "kolicina": 150.0,
-        "jedinica": "g"
-      }
-    ]
-  },
-  {
-    "id": "r8",
-    "naziv_jela": "Pasulj prebranac ",
-    "kategorija": "ručak",
-    "sastojci": [
-      {
-        "naziv": "Pasulj prebranac",
-        "kolicina": 150.0,
-        "jedinica": "g"
-      },
-      {
-        "naziv": "Krastavac"
-      },
-      {
-        "naziv": "Paprika"
-      }
-    ]
-  },
-  {
-    "id": "r9",
-    "naziv_jela": "Tunjevina",
-    "kategorija": "užina",
-    "sastojci": [
-      {
-        "naziv": "Tunjevina",
-        "kolicina": 100.0,
-        "jedinica": "g"
-      },
-      {
-        "naziv": "Integralni Tost",
-        "kolicina": 1.0,
-        "jedinica": "kom"
-      }
-    ]
-  },
-  {
-    "id": "r10",
-    "naziv_jela": "Supa od povrća",
-    "kategorija": "večera",
-    "sastojci": [
-      {
-        "naziv": "Supa od povrća",
-        "kolicina": 250.0,
-        "jedinica": "ml"
-      },
-      {
-        "naziv": "Integralni Tost"
-      }
-    ]
-  },
-  {
-    "id": "r11",
-    "naziv_jela": "Smoothie",
-    "kategorija": "doručak",
-    "sastojci": [
-      {
-        "naziv": "Spanać"
-      },
-      {
-        "naziv": "Banana",
-        "kolicina": 1.0,
-        "jedinica": "kom"
-      },
-      {
-        "naziv": "Bademovo Mleko",
-        "kolicina": 150.0,
-        "jedinica": "ml"
-      }
-      
-    ]
-  },
-  {
-    "id": "r12",
-    "naziv_jela": "Orasi",
-    "kategorija": "užina",
-    "sastojci": [
-      {
-        "naziv": "Orasi",
-        "kolicina": 15.0,
-        "jedinica": "g"
-      },
-      {
-        "naziv": "Kruška",
-        "kolicina": 150.0,
-        "jedinica": "g"
-      }
-    ]
-  },
-  {
-    "id": "r13",
-    "naziv_jela": "Teletina",
-    "kategorija": "ručak",
-    "sastojci": [
-      {
-        "naziv": "Teletina",
-        "kolicina": 150.0,
-        "jedinica": "g"
-      },
-      {
-        "naziv": "Krompir",
-        "nacin pripreme": "Bareni",
-        "kolicina": 150.0,
-        "jedinica": "g"
-      },
-      {
-        "naziv": "Zelena Salata",
-        "nacin pripreme": "Sa limunom"
-      }
-    ]
-  },
-  {
-    "id": "r14",
-    "naziv_jela": "Mladi sir",
-    "kategorija": "užina",
-    "sastojci": [
-      {
-        "naziv": "Mladi sir",
-        "kolicina": 100.0,
-        "jedinica": "g"
-      },
-      {
-        "naziv": "Paradajz",
-        "kolicina": 100.0,
-        "jedinica": "g"
-      },
-      {
-        "naziv": "Maslinovo Ulje",
-        "kolicina": 5.0,
-        "jedinica": "ml"
-      }
-    ]
-  },
-  {
-    "id": "r15",
-    "naziv_jela": "Salata rukola + paradajz + maslinovo ulje",
-    "kategorija": "večera",
-    "sastojci": [
-      {
-        "naziv": "Rukola"
-      },
-      {
-        "naziv": "Paradajz"
-      },
-      {
-        "naziv": "Maslinovo Ulje",
-        "kolicina": 5.0,
-        "jedinica": "ml"
-      },
-      {
-        "naziv": "Integralni Tost",
-        "kolicina": 1.0,
-        "jedinica": "kom"
-      },
-      {
-        "naziv": "Jogurt",
-        "kolicina": 150.0,
-        "jedinica": "ml"
-      }
-    ]
-  },
-  {
-    "id": "r16",
-    "naziv_jela": "Proja od heljdinog brašna",
-    "kategorija": "doručak",
-    "sastojci": [
-      {
-        "naziv": "Heljdino brašno ",
-        "kolicina": 70.0,
-        "jedinica": "g"
-      },
-      {
-        "naziv": "Mladi sir",
-        "kolicina": 50.0,
-        "jedinica": "g"
-      },
-      {
-        "naziv": "Paradajz"
-      }
-    ]
-  },
-  {
-    "id": "r17",
-    "naziv_jela": "Bademi",
-    "kategorija": "užina",
-    "sastojci": [
-      {
-        "naziv": "Bademi",
-        "kolicina": 15.0,
-        "jedinica": "g"
-      },
-      {
-        "naziv": "Banana",
-        "kolicina": 150.0,
-        "jedinica": "g"
-      }
-    ]
-  },
-  {
-    "id": "r18",
-    "naziv_jela": "Falafel",
-    "kategorija": "ručak",
-    "sastojci": [
-      {
-        "naziv": "Falafel",
-        "kolicina": 4.0,
-        "jedinica": "kugle"
-      },
-      {
-        "naziv": "Integralna Tortilja",
-        "kolicina": 50.0,
-        "jedinica": "g"
-      },
-      {
-        "naziv": "Paradajz"
-      }
-    ]
-  },
-  {
-    "id": "r19",
-    "naziv_jela": "Tunjevina",
-    "kategorija": "užina",
-    "sastojci": [
-      {
-        "naziv": "Tunjevina",
-        "kolicina": 100.0,
-        "jedinica": "g"
-      },
-      {
-        "naziv": "Integralni Tost"
-      }
-    ]
-  },
-  {
-    "id": "r20",
-    "naziv_jela": "Supa od povrća",
-    "kategorija": "večera",
-    "sastojci": [
-      {
-        "naziv": "Supa od povrća",
-        "kolicina": 250.0,
-        "jedinica": "g"
-      },
-      {
-        "naziv": "Integralni Tost"
-      }
-    ]
-  },
-  {
-    "id": "r21",
-    "naziv_jela": "Grčki jogurt",
-    "kategorija": "doručak",
-    "sastojci": [
-      {
-        "naziv": "Grčki jogurt",
-        "kolicina": 150.0,
-        "jedinica": "g"
-      },
-      {
-        "naziv": "Ovsene pahuljice",
-        "kolicina": 40.0,
-        "jedinica": "g"
-      },
-      {
-        "naziv": "Orasi",
-        "kolicina": 5.0,
-        "jedinica": "g"
-      }
-    ]
-  },
-  {
-    "id": "r22",
-    "naziv_jela": "Lešnici",
-    "kategorija": "užina",
-    "sastojci": [
-      {
-        "naziv": "Lešnici",
-        "kolicina": 15.0,
-        "jedinica": "g"
-      },
-      {
-        "naziv": "Jabuka",
-        "kolicina": 150.0,
-        "jedinica": "g"
-      }
-    ]
-  },
-  {
-    "id": "r23",
-    "naziv_jela": "Pileće grudi",
-    "kategorija": "ručak",
-    "sastojci": [
-      {
-        "naziv": "Pileće grudi",
-        "kolicina": 150.0,
-        "jedinica": "g"
-      },
-      {
-        "naziv": "Integralna Testenina",
-        "kolicina": 100.0,
-        "jedinica": "g"
-      },
-      {
-        "naziv": "Tikvica",
-        "nacin priprene": "Grilovana",
-        "kolicina": 150.0,
-        "jedinica": "g"
-      }
-    ]
-  },
-  {
-    "id": "r24",
-    "naziv_jela": "Mladi sir",
-    "kategorija": "užina",
-    "sastojci": [
-      {
-        "naziv": "Mladi sir",
-        "kolicina": 100.0,
-        "jedinica": "g"
-      },
-      {
-        "naziv": "Krastavac",
-        "kolicina": 100.0,
-        "jedinica": "g"
-      },
-      {
-        "naziv": "Maslinovo Ulje",
-        "kolicina": 5.0,
-        "jedinica": "ml"
-      }
-    ]
-  },
-  {
-    "id": "r25",
-    "naziv_jela": "Bareni brokoli i šargarepa",
-    "kategorija": "večera",
-    "sastojci": [
-      {
-        "naziv": "Brokoli",
-        "nacin pripreme": "Bareni",
-        "kolicina": 200.0,
-        "jedinica": "g"
-      },
-      {
-        "naziv": "Šargarepa",
-        "nacin pripreme": "Barena",
-        "kolicina": 200.0,
-        "jedinica": "g"
-      },
-      {
-        "naziv": "Jaje",
-        "nacin pripreme": "Kuvano",
-        "kolicina": 1.0,
-        "jedinica": "kom"
-      },
-      {
-        "naziv": "Integralni Tost",
-        "kolicina": 1.0,
-        "jedinica": "kom"
-      },
-      {
-        "naziv": "Jogurt",
-        "kolicina": 150.0,
-        "jedinica": "ml"
-      }
-    ]
-  },
-  {
-    "id": "r26",
-    "naziv_jela": "Palenta",
-    "kategorija": "doručak",
-    "sastojci": [
-      {
-        "naziv": "Palenta (100g kuvana"
-      },
-      {
-        "naziv": "Mladi sir"
-      },
-      {
-        "naziv": "Kiseli Krastavci"
-      }
-    ]
-  },
-  {
-    "id": "r27",
-    "naziv_jela": "Orasi",
-    "kategorija": "užina",
-    "sastojci": [
-      {
-        "naziv": "Orasi",
-        "kolicina": 15.0,
-        "jedinica": "g"
-      },
-      {
-        "naziv": "Kivi",
-        "kolicina": 150.0,
-        "jedinica": "g"
-      }
-    ]
-  },
-  {
-    "id": "r28",
-    "naziv_jela": "Sočivo na kašiku",
-    "kategorija": "ručak",
-    "sastojci": [
-      {
-        "naziv": "Sočivo",
-        "nacin pripreme": "Kuvano",
-        "kolicina": 150.0,
-        "jedinica": "g"
-      },
-      {
-        "naziv": "Integralni Tost",
-        "kolicina": 1,
-        "jedinica": "kom"
-      },
-      {
-        "naziv": "Kiseli Krastavci"
-      }
-    ]
-  },
-  {
-    "id": "r29",
-    "naziv_jela": "Tunjevina",
-    "kategorija": "užina",
-    "sastojci": [
-      {
-        "naziv": "Tunjevina",
-        "kolicina": 100.0,
-        "jedinica": "g"
-      },
-      {
-        "naziv": "paradajz",
-        "kolicina": 2,
-        "jedinica": "kom"
-      }
-    ]
-  },
-  {
-    "id": "r30",
-    "naziv_jela": "Supa od povrća + griz-lepinjica",
-    "kategorija": "večera",
-    "sastojci": [
-      {
-        "naziv": "Povrće za supu",
-        "kolicina": 250.0,
-        "jedinica": "g"
-      },
-      {
-        "naziv": "Integralni Tost",
-        "kolicina": 1,
-        "jedinica": "kom"
-      }
-    ]
-  },
-  {
-    "id": "r31",
-    "naziv_jela": "Proteinski sendvič",
-    "kategorija": "doručak",
-    "sastojci": [
-      {
-        "naziv": "Integralni Tost",
-        "kolicina": 3,
-        "jedinica": "kom"
-      },
-      {
-        "naziv": "Ćureća Prsa",
-        "kolicina": 100,
-        "jedinica": "g"
-      },
-      {
-        "naziv": "Humus",
-        "kolicina": 2,
-        "jedinica": "kašičice"
-      }
-    ]
-  },
-  {
-    "id": "r32",
-    "naziv_jela": "Bademi",
-    "kategorija": "užina",
-    "sastojci": [
-      {
-        "naziv": "Bademi",
-        "kolicina": 15.0,
-        "jedinica": "g"
-      },
-      {
-        "naziv": "Kruška",
-        "kolicina": 150.0,
-        "jedinica": "g"
-      }
-    ]
-  },
-  {
-    "id": "r33",
-    "naziv_jela": "Losos na žaru",
-    "kategorija": "ručak",
-    "sastojci": [
-      {
-        "naziv": "Losos",
-        "kolicina": 150.0,
-        "jedinica": "g"
-      },
-      {
-        "naziv": "Kinoa",
-        "kolicina": 100.0,
-        "jedinica": "g"
-      },
-      {
-        "naziv": "Rukola",
-        "kolicina": 100.0,
-        "jedinica": "g"
-      }
-    ]
-  },
-  {
-    "id": "r34",
-    "naziv_jela": "Jogurt 1%",
-    "kategorija": "užina",
-    "sastojci": [
-      {
-        "naziv": "Jogurt",
-        "kolicina": 150.0,
-        "jedinica": "ml"
-      },
-      {
-        "naziv": "Orasi",
-        "kolicina": 5.0,
-        "jedinica": "g"
-      }
-    ]
-  },
-  {
-    "id": "r35",
-    "naziv_jela": "Salata rukola + paradajz + maslinovo",
-    "kategorija": "večera",
-    "sastojci": [
-      {
-        "naziv": "Rukola"
-      },
-      {
-        "naziv": "Paradajz"
-      },
-      {
-        "naziv": "Maslinovo Ulje",
-        "kolicina": 5.0,
-        "jedinica": "ml"
-      },
-      {
-        "naziv": "Integralni Tost",
-        "kolicina": 1.0,
-        "jedinica": "kom"
-      }
-    ]
-  },
-  {
-    "id": "r36",
-    "naziv_jela": "Ovsena kaša + rendana jabuka",
-    "kategorija": "doručak",
-    "sastojci": [
-      {
-        "naziv": "Ovsene pahuljice"
-      },
-      {
-        "naziv": "Jabuka",
-        "nacin pripreme": "Rendana",
-        "kolicina": 1.0,
-        "jedinica": "kom"
-      },
-      {
-        "naziv": "Cimet"
-      },
-      {
-        "naziv": "Orah",
-        "kolicina": 5.0,
-        "jedinica": "g"
-      }
-    ]
-  },
-  {
-    "id": "r37",
-    "naziv_jela": "Lešnici",
-    "kategorija": "užina",
-    "sastojci": [
-      {
-        "naziv": "Lešnici",
-        "kolicina": 15.0,
-        "jedinica": "g"
-      },
-      {
-        "naziv": "Banana",
-        "kolicina": 150.0,
-        "jedinica": "g"
-      }
-    ]
-  },
-  {
-    "id": "r38",
-    "naziv_jela": "Punjene paprike",
-    "kategorija": "ručak",
-    "sastojci": [
-      {
-        "naziv": "Paprike",
-        "kolicina": 2,
-        "jedinica": "kom"
-      },
-      {
-        "naziv": "Proso",
-        "kolicina": 50.0,
-        "jedinica": "g"
-      },
-      {
-        "naziv": "Mlevena Junetina",
-        "kolicina": 200.0,
-        "jedinica": "g"
-      }
-    ]
-  },
-  {
-    "id": "r39",
-    "naziv_jela": "Jogurt 1%",
-    "kategorija": "užina",
-    "sastojci": [
-      {
-        "naziv": "Jogurt",
-        "kolicina": 150.0,
-        "jedinica": "ml"
-      },
-      {
-        "naziv": "Integralni Tost"
-      }
-    ]
-  },
-  {
-    "id": "r40",
-    "naziv_jela": "Supa od povrća",
-    "kategorija": "večera",
-    "sastojci": [
-      {
-        "naziv": "Povrće za supu",
-        "kolicina": 250.0,
-        "jedinica": "gr"
-      },
-      {
-        "naziv": "Integralni Tost",
-        "kolicina": 1,
-        "jedinica": "kom"
-      }
-    ]
-  },
-  {
-    "id": "r41",
-    "naziv_jela": "Tofuni kajgana",
-    "kategorija": "doručak",
-    "sastojci": [
-      {
-        "naziv": "Jaja",
-        "nacin pripreme": "Pržena",
-        "kolicina": 2,
-        "jedinica": "kom"
-      },
-      {
-        "naziv": "Tofu",
-        "kolicina": 150.0,
-        "jedinica": "gr"
-      }
-    ]
-  },
-  {
-    "id": "r42",
-    "naziv_jela": "Bademi",
-    "kategorija": "užina",
-    "sastojci": [
-      {
-        "naziv": "Bademi",
-        "kolicina": 15.0,
-        "jedinica": "g"
-      },
-      {
-        "naziv": "Kivi",
-        "kolicina": 150.0,
-        "jedinica": "g"
-      }
-    ]
-  },
-  {
-    "id": "r43",
-    "naziv_jela": "Ćureće ćufte u paradajz sosu",
-    "kategorija": "ručak",
-    "sastojci": [
-      {
-        "naziv": "Ćureće mleveno meso",
-        "kolicina": 150.0,
-        "jedinica": "g"
-      },
-      {
-        "naziv": "Paradajz sok",
-        "kolicina": 100.0,
-        "jedinica": "ml"
-      },
-      {
-        "naziv": "Integralna Testenina",
-        "kolicina": 100.0,
-        "jedinica": "g"
-      }
-    ]
-  },
-  {
-    "id": "r44",
-    "naziv_jela": "Paradajz + Mladi sir",
-    "kategorija": "užina",
-    "sastojci": [
-      {
-        "naziv": "Paradajz"
-      },
-      {
-        "naziv": "Mladi sir",
-        "kolicina": 100.0,
-        "jedinica": "g"
-      }
-    ]
-  },
-  {
-    "id": "r45",
-    "naziv_jela": "Salata sa rukolom + jaje",
-    "kategorija": "večera",
-    "sastojci": [
-      {
-        "naziv": "Rukola"
-      },
-      {
-        "naziv": "Jaje",
-        "kolicina": 1.0,
-        "jedinica": "kom"
-      },
-      {
-        "naziv": "Integralni Tost",
-        "kolicina": 1.0,
-        "jedinica": "kom"
-      }
-    ]
-  },
-  {
-    "id": "r46",
-    "naziv_jela": "Kuvana jaja",
-    "kategorija": "doručak",
-    "sastojci": [
-      {
-        "naziv": "Jaja",
-        "kolicina": 2.0,
-        "jedinica": "kom"
-      },
-      {
-        "naziv": "Integralni Tost",
-        "kolicina": 2.0,
-        "jedinica": "kom"
-      },
-      {
-        "naziv": "Avokado",
-        "kolicina": 50.0,
-        "jedinica": "g"
-      }
-    ]
-  },
-  {
-    "id": "r47",
-    "naziv_jela": "Orasi",
-    "kategorija": "užina",
-    "sastojci": [
-      {
-        "naziv": "Orasi",
-        "kolicina": 15.0,
-        "jedinica": "g"
-      },
-      {
-        "naziv": "Jabuka",
-        "kolicina": 150.0,
-        "jedinica": "g"
-      }
-    ]
-  },
-  {
-    "id": "r48",
-    "naziv_jela": "Pasulj na kašiku light",
-    "kategorija": "ručak",
-    "sastojci": [
-      {
-        "naziv": "Pasulj",
-        "nacin pripreme": "Kuvani",
-        "kolicina": 150.0,
-        "jedinica": "g"
-      },
-      {
-        "naziv": "Kupus",
-        "nacin pripreme": "Salata",
-        "kolicina": 100.0,
-        "jedinica": "g"
-      }
-    ]
-  },
-  {
-    "id": "r49",
-    "naziv_jela": "Jogurt + integralni Tost",
-    "kategorija": "užina",
-    "sastojci": [
-      {
-        "naziv": "Jogurt"
-      },
-      {
-        "naziv": "Integralni Tost",
-        "kolicina": 1,
-        "jedinica": "kom"
-      }
-    ]
-  },
-  {
-    "id": "r50",
-    "naziv_jela": "Supa + tost + paprika pečena",
-    "kategorija": "večera",
-    "sastojci": [
-      {
-        "naziv": "Supa"
-      },
-      {
-        "naziv": "Integralni Tost",
-        "kolicina": 2,
-        "jedinica": "kom"
-      },
-      {
-        "naziv": "Paprika",
-        "nacin pripreme": "Pečena",
-        "kolicina": 1,
-        "jedinica": "kom"
-      }
-    ]
-  },
-  {
-    "id": "r51",
-    "naziv_jela": "Jogurt",
-    "kategorija": "doručak",
-    "sastojci": [
-      {
-        "naziv": "Jogurt",
-        "kolicina": 200.0,
-        "jedinica": "ml"
-      },
-      {
-        "naziv": "Ovsene pahuljice",
-        "kolicina": 40.0,
-        "jedinica": "g"
-      },
-      {
-        "naziv": "Lanene Semenke",
-        "kolicina": 5.0,
-        "jedinica": "g"
-      },
-      {
-        "naziv": "Kivi",
-        "kolicina": 1.0,
-        "jedinica": "kom"
-      }
-    ]
-  },
-  {
-    "id": "r52",
-    "naziv_jela": "Bademi",
-    "kategorija": "užina",
-    "sastojci": [
-      {
-        "naziv": "Bademi",
-        "kolicina": 15.0,
-        "jedinica": "g"
-      },
-      {
-        "naziv": "Banana",
-        "kolicina": 1.0,
-        "jedinica": "kom"
-      }
-    ]
-  },
-  {
-    "id": "r53",
-    "naziv_jela": "Pileći ražnjići",
-    "kategorija": "ručak",
-    "sastojci": [
-      {
-        "naziv": "Pileći file",
-        "kolicina": 150.0,
-        "jedinica": "g"
-      },
-      {
-        "naziv": "Kuskus",
-        "kolicina": 100.0,
-        "jedinica": "g"
-      },
-      {
-        "naziv": "Paradajz"
-      }
-    ]
-  },
-  {
-    "id": "r54",
-    "naziv_jela": "Tunjevina",
-    "kategorija": "užina",
-    "sastojci": [
-      {
-        "naziv": "Tunjevina",
-        "kolicina": 100.0,
-        "jedinica": "g"
-      },
-      {
-        "naziv": "Krastavac"
-      }
-    ]
-  },
-  {
-    "id": "r55",
-    "naziv_jela": "Salata + tost + jaje kuvano",
-    "kategorija": "večera",
-    "sastojci": [
-      {
-        "naziv": "Zelena Salata"
-      },
-      {
-        "naziv": "Integralni Tost",
-        "kolicina": 2,
-        "jedinica": "kom"
-      },
-      {
-        "naziv": "Jaje",
-        "nacin pripreme": "Kuvano",
-        "kolicina": 1,
-        "jedinica": "kom"
-      }
-    ]
-  },
-  {
-    "id": "r56",
-    "naziv_jela": "Integralne palačinke + 100% kikiriki puter",
-    "kategorija": "doručak",
-    "sastojci": [
-      {
-        "naziv": "Integralno Brašno",
-        "kolicina": 150.0,
-        "jedinica": "g"
-      },
-      {
-        "naziv": "Kikiriki Puter",
-        "kolicina": 10.0,
-        "jedinica": "g"
-      },
-      {
-        "naziv": "Banana"
-      }
-    ]
-  },
-  {
-    "id": "r57",
-    "naziv_jela": "Jogurt 1%",
-    "kategorija": "užina",
-    "sastojci": [
-      {
-        "naziv": "Jogurt",
-        "kolicina": 150.0,
-        "jedinica": "ml"
-      },
-      {
-        "naziv": "Orah",
-        "kolicina": 5.0,
-        "jedinica": "g"
-      }
-    ]
-  },
-  {
-    "id": "r58",
-    "naziv_jela": "Teletina sa povrćem",
-    "kategorija": "ručak",
-    "sastojci": [
-      {
-        "naziv": "Teletina",
-        "kolicina": 150.0,
-        "jedinica": "g"
-      },
-      {
-        "naziv": "Batat",
-        "nacin pripreme": "Pečeni",
-        "kolicina": 100.0,
-        "jedinica": "g"
-      }
-    ]
-  },
-  {
-    "id": "r59",
-    "naziv_jela": "Mladi sir",
-    "kategorija": "užina",
-    "sastojci": [
-      {
-        "naziv": "Mladi sir",
-        "kolicina": 100.0,
-        "jedinica": "g"
-      },
-      {
-        "naziv": "Paradajz"
-      }
-    ]
-  },
-  {
-    "id": "r60",
-    "naziv_jela": "Supa + Integralni tost + rukola",
-    "kategorija": "večera",
-    "sastojci": [
-      {
-        "naziv": "Supa"
-      },
-      {
-        "naziv": "Integralni Tost"
-      },
-      {
-        "naziv": "Rukola"
-      }
-    ]
-  },
-  {
-    "id": "r61",
-    "naziv_jela": "Hleb od celog zrna",
-    "kategorija": "doručak",
-    "sastojci": [
-      {
-        "naziv": "Hleb od celog zrna",
-        "kolicina": 2.0,
-        "jedinica": "kriške"
-      },
-      {
-        "naziv": "Mladi sir",
-        "kolicina": 50.0,
-        "jedinica": "g"
-      },
-      {
-        "naziv": "Crvena Paprika"
-      }
-    ]
-  },
-  {
-    "id": "r62",
-    "naziv_jela": "Orasi",
-    "kategorija": "užina",
-    "sastojci": [
-      {
-        "naziv": "Orasi",
-        "kolicina": 15.0,
-        "jedinica": "g"
-      },
-      {
-        "naziv": "Kruška",
-        "kolicina": 150.0,
-        "jedinica": "g"
-      }
-    ]
-  },
-  {
-    "id": "r63",
-    "naziv_jela": "Falafel salata",
-    "kategorija": "ručak",
-    "sastojci": [
-      {
-        "naziv": "Falafel salata"
-      }
-    ]
-  },
-  {
-    "id": "r64",
-    "naziv_jela": "Jogurt 1% + Integralni Tost",
-    "kategorija": "užina",
-    "sastojci": [
-      {
-        "naziv": "Jogurt"
-      },
-      {
-        "naziv": "Integralni Tost"
-      }
-    ]
-  },
-  {
-    "id": "r65",
-    "naziv_jela": "Povrćna čorba + tost + jogurt",
-    "kategorija": "večera",
-    "sastojci": [
-      {
-        "naziv": "Povrćna čorba"
-      },
-      {
-        "naziv": "Integralni Tost"
-      },
-      {
-        "naziv": "Jogurt"
-      }
-    ]
-  },
-  
-  {
-    "id": "r67",
-    "naziv_jela": "Lešnici",
-    "kategorija": "užina",
-    "sastojci": [
-      {
-        "naziv": "Lešnici",
-        "kolicina": 15.0,
-        "jedinica": "g"
-      },
-      {
-        "naziv": "Jabuka"
-      }
-    ]
-  },
-  {
-    "id": "r68",
-    "naziv_jela": "Pastrmka iz rerne",
-    "kategorija": "ručak",
-    "sastojci": [
-      {
-        "naziv": "Pastrmka",
-        "kolicina": 150.0,
-        "jedinica": "g"
-      },
-      {
-        "naziv": "Kinoa",
-        "kolicina": 100.0,
-        "jedinica": "g"
-      },
-      {
-        "naziv": "Spanać",
-        "nacin pripreme": "Blanširani",
-        "kolicina": 100.0,
-        "jedinica": "g"
-      }
-    ]
-  },
-  {
-    "id": "r69",
-    "naziv_jela": "Mladi sir",
-    "kategorija": "užina",
-    "sastojci": [
-      {
-        "naziv": "Mladi sir",
-        "kolicina": 100.0,
-        "jedinica": "g"
-      },
-      {
-        "naziv": "Krastavac"
-      }
-    ]
-  },
-  {
-    "id": "r70",
-    "naziv_jela": "Salata rukola + tost + kuvano jaje",
-    "kategorija": "večera",
-    "sastojci": [
-      {
-        "naziv": "Rukola"
-      },
-      {
-        "naziv": "Integralni Tost"
-      },
-      {
-        "naziv": "Jaje",
-        "nacin pripreme": "Kuvano"
-      }
-    ]
+    "name": "Ovsena kaša sa borovnicama",
+    "category": "doručak",
+    "goal": "gubitak",
+    "description": "Zdrav doručak bogat vlaknima i antioksidansima.",
+    "ingredients": ["ovsene pahuljice", "biljno mleko", "chia semenke", "borovnice"],
+    "nutrition": {
+      "calories": 280,
+      "protein": 8,
+      "carbs": 35,
+      "fat": 10
+    }
+  },
+  {
+    "name": "Proteinski smoothie sa spanaćem",
+    "category": "doručak",
+    "goal": "gubitak",
+    "description": "Niskokalorični smoothie za snažan start dana.",
+    "ingredients": ["spanać", "banana", "grčki jogurt", "chia semenke", "voda"],
+    "nutrition": {
+      "calories": 250,
+      "protein": 12,
+      "carbs": 30,
+      "fat": 6
+    }
+  },
+  {
+    "name": "Chia puding sa jagodama",
+    "category": "doručak",
+    "goal": "gubitak",
+    "description": "Lagani doručak pun omega-3 masti i vlakana.",
+    "ingredients": ["chia semenke", "biljno mleko", "jagode", "med"],
+    "nutrition": {
+      "calories": 220,
+      "protein": 6,
+      "carbs": 20,
+      "fat": 10
+    }
+  },
+  {
+    "name": "Kuvana jaja sa avokadom",
+    "category": "doručak",
+    "goal": "gubitak",
+    "description": "Bogato proteinima i zdravim mastima, drži sitost do ručka.",
+    "ingredients": ["jaja", "avokado", "so", "biber"],
+    "nutrition": {
+      "calories": 300,
+      "protein": 14,
+      "carbs": 6,
+      "fat": 24
+    }
+  },
+  {
+    "name": "Zeleni smoothie sa krastavcem i jabukom",
+    "category": "doručak",
+    "goal": "gubitak",
+    "description": "Detox smoothie idealan za mršavljenje.",
+    "ingredients": ["krastavac", "zelena jabuka", "limunov sok", "celer", "voda"],
+    "nutrition": {
+      "calories": 180,
+      "protein": 2,
+      "carbs": 25,
+      "fat": 2
+    }
+  },
+  {
+    "name": "Omlet od belanaca sa povrćem",
+    "category": "doručak",
+    "goal": "gubitak",
+    "description": "Niskokaloričan omlet prepun proteina i vlakana.",
+    "ingredients": ["belanca", "paprika", "luk", "šampinjoni", "maslinovo ulje"],
+    "nutrition": {
+      "calories": 210,
+      "protein": 18,
+      "carbs": 5,
+      "fat": 10
+    }
+  },
+  {
+    "name": "Jogurt sa lanenim semenkama i borovnicama",
+    "category": "doručak",
+    "goal": "gubitak",
+    "description": "Brz doručak sa probioticima i vlaknima.",
+    "ingredients": ["grčki jogurt", "lanene semenke", "borovnice"],
+    "nutrition": {
+      "calories": 230,
+      "protein": 14,
+      "carbs": 12,
+      "fat": 9
+    }
+  },
+  {
+    "name": "Cottage cheese sa krastavcem",
+    "category": "doručak",
+    "goal": "gubitak",
+    "description": "Lagan proteinski obrok, brzo gotov i hranljiv.",
+    "ingredients": ["cottage cheese", "krastavac", "maslinovo ulje", "so"],
+    "nutrition": {
+      "calories": 190,
+      "protein": 16,
+      "carbs": 4,
+      "fat": 11
+    }
+  },
+  {
+    "name": "Zapečena bundeva sa cimetom",
+    "category": "doručak",
+    "goal": "gubitak",
+    "description": "Slatkasti fit doručak bogat vlaknima.",
+    "ingredients": ["bundeva", "cimet", "med", "kokosovo ulje"],
+    "nutrition": {
+      "calories": 210,
+      "protein": 2,
+      "carbs": 22,
+      "fat": 11
+    }
+  },
+  {
+    "name": "Integralni tost sa avokadom i limunom",
+    "category": "doručak",
+    "goal": "gubitak",
+    "description": "Savršena kombinacija složenih ugljenih hidrata i zdravih masti.",
+    "ingredients": ["integralni tost", "avokado", "limunov sok", "so"],
+    "nutrition": {
+      "calories": 280,
+      "protein": 6,
+      "carbs": 24,
+      "fat": 16
+    }
+  },
+  {
+    "name": "Omlet sa šunkom i sirom",
+    "category": "doručak",
+    "goal": "odrzavanje",
+    "description": "Klasičan obrok bogat proteinima za dug osećaj sitosti.",
+    "ingredients": ["jaja", "šunka", "kačkavalj", "maslinovo ulje"],
+    "nutrition": {
+      "calories": 410,
+      "protein": 22,
+      "carbs": 3,
+      "fat": 32
+    }
+  },
+  {
+    "name": "Proteinske palačinke sa medom",
+    "category": "doručak",
+    "goal": "odrzavanje",
+    "description": "Savršen balans proteina i složenih UH za dobar početak dana.",
+    "ingredients": ["ovsene pahuljice", "jaja", "banana", "med"],
+    "nutrition": {
+      "calories": 370,
+      "protein": 18,
+      "carbs": 38,
+      "fat": 14
+    }
+  },
+  {
+    "name": "Grčki jogurt sa orasima i suvim grožđem",
+    "category": "doručak",
+    "goal": "odrzavanje",
+    "description": "Doručak bogat proteinima, zdravim mastima i kalcijumom.",
+    "ingredients": ["grčki jogurt", "orasi", "suvo grožđe", "med"],
+    "nutrition": {
+      "calories": 390,
+      "protein": 16,
+      "carbs": 25,
+      "fat": 22
+    }
+  },
+  {
+    "name": "Zdrav tost sa avokadom i jajetom",
+    "category": "doručak",
+    "goal": "odrzavanje",
+    "description": "Bogat obrok za energiju i koncentraciju tokom jutra.",
+    "ingredients": ["integralni tost", "avokado", "jaje", "limunov sok"],
+    "nutrition": {
+      "calories": 420,
+      "protein": 14,
+      "carbs": 28,
+      "fat": 26
+    }
+  },
+  {
+    "name": "Smoothie od jagoda i kikiriki putera",
+    "category": "doručak",
+    "goal": "odrzavanje",
+    "description": "Ukusan i hranljiv, odličan za posle treninga.",
+    "ingredients": ["jagode", "kikiriki puter", "grčki jogurt", "bademovo mleko"],
+    "nutrition": {
+      "calories": 440,
+      "protein": 19,
+      "carbs": 30,
+      "fat": 27
+    }
+  },
+  {
+    "name": "Cottage cheese sa orašastim plodovima",
+    "category": "doručak",
+    "goal": "odrzavanje",
+    "description": "Brz obrok bogat proteinima i zdravim mastima.",
+    "ingredients": ["cottage cheese", "orah", "badem", "med"],
+    "nutrition": {
+      "calories": 370,
+      "protein": 20,
+      "carbs": 15,
+      "fat": 24
+    }
+  },
+  {
+    "name": "Kuvana jaja sa integralnim hlebom",
+    "category": "doručak",
+    "goal": "odrzavanje",
+    "description": "Jednostavan i bogat izvor proteina i složenih UH.",
+    "ingredients": ["jaja", "integralni hleb", "puter", "so"],
+    "nutrition": {
+      "calories": 390,
+      "protein": 17,
+      "carbs": 20,
+      "fat": 28
+    }
+  },
+  {
+    "name": "Zeleni smoothie sa bademima",
+    "category": "doručak",
+    "goal": "odrzavanje",
+    "description": "Nutritivna bomba sa proteinima, vlaknima i mikronutrijentima.",
+    "ingredients": ["spanać", "banana", "bademi", "grčki jogurt"],
+    "nutrition": {
+      "calories": 400,
+      "protein": 15,
+      "carbs": 30,
+      "fat": 22
+    }
+  },
+  {
+    "name": "Palačinke od heljdinog brašna",
+    "category": "doručak",
+    "goal": "odrzavanje",
+    "description": "Bezglutenski doručak za zdrav početak dana.",
+    "ingredients": ["heljdino brašno", "jaja", "mleko", "maslinovo ulje"],
+    "nutrition": {
+      "calories": 360,
+      "protein": 14,
+      "carbs": 28,
+      "fat": 20
+    }
+  },
+  {
+    "name": "Voćna salata sa semenkama",
+    "category": "doručak",
+    "goal": "odrzavanje",
+    "description": "Sveže i osvežavajuće, idealno za aktivan dan.",
+    "ingredients": ["banana", "kivi", "jabuka", "semenke suncokreta", "med"],
+    "nutrition": {
+      "calories": 340,
+      "protein": 5,
+      "carbs": 42,
+      "fat": 16
+    }
+  },
+  {
+    "name": "Pileća salata sa rukolom",
+    "category": "ručak",
+    "goal": "gubitak",
+    "description": "Lagana salata sa belim mesom i zelenilom za mršavljenje.",
+    "ingredients": ["pileći file", "rukola", "paradajz", "maslinovo ulje", "limun"],
+    "nutrition": {
+      "calories": 310,
+      "protein": 30,
+      "carbs": 8,
+      "fat": 16
+    }
+  },
+  {
+    "name": "Grilovana ćuretina sa brokolijem",
+    "category": "ručak",
+    "goal": "gubitak",
+    "description": "Visokoproteinski ručak bez viška kalorija.",
+    "ingredients": ["ćureći file", "brokoli", "maslinovo ulje", "beli luk"],
+    "nutrition": {
+      "calories": 320,
+      "protein": 32,
+      "carbs": 6,
+      "fat": 18
+    }
+  },
+  {
+    "name": "Losos na žaru sa tikvicama",
+    "category": "ručak",
+    "goal": "gubitak",
+    "description": "Omega-3 bomba sa niskim unosom ugljenih hidrata.",
+    "ingredients": ["file lososa", "tikvice", "maslinovo ulje", "limun"],
+    "nutrition": {
+      "calories": 340,
+      "protein": 28,
+      "carbs": 4,
+      "fat": 22
+    }
+  },
+  {
+    "name": "Zapečeni patlidžan sa piletinom",
+    "category": "ručak",
+    "goal": "gubitak",
+    "description": "Niskokalorično, ukusno i dugo drži sitost.",
+    "ingredients": ["patlidžan", "pileći file", "parmezan", "maslinovo ulje"],
+    "nutrition": {
+      "calories": 330,
+      "protein": 29,
+      "carbs": 7,
+      "fat": 19
+    }
+  },
+  {
+    "name": "Supa od tikvica i praziluka",
+    "category": "ručak",
+    "goal": "gubitak",
+    "description": "Topla i kremasta, a bez mnogo kalorija.",
+    "ingredients": ["tikvice", "praziluk", "bujon", "maslinovo ulje"],
+    "nutrition": {
+      "calories": 180,
+      "protein": 4,
+      "carbs": 12,
+      "fat": 10
+    }
+  },
+  {
+    "name": "Salata sa tunjevinom i pasuljem",
+    "category": "ručak",
+    "goal": "gubitak",
+    "description": "Pun proteinima i vlaknima, bez praznih kalorija.",
+    "ingredients": ["tunjevina", "crveni pasulj", "crni luk", "maslinovo ulje"],
+    "nutrition": {
+      "calories": 310,
+      "protein": 26,
+      "carbs": 10,
+      "fat": 18
+    }
+  },
+  {
+    "name": "Ćufte od ćuretine u paradajz sosu",
+    "category": "ručak",
+    "goal": "gubitak",
+    "description": "Lagana verzija klasičnih ćufti bez prženja.",
+    "ingredients": ["mlevena ćuretina", "paradajz", "crni luk", "belance"],
+    "nutrition": {
+      "calories": 290,
+      "protein": 30,
+      "carbs": 9,
+      "fat": 14
+    }
+  },
+  {
+    "name": "Tofu sa paprikom i šargarepom",
+    "category": "ručak",
+    "goal": "gubitak",
+    "description": "Vege varijanta sa malo kalorija i dosta proteina.",
+    "ingredients": ["tofu", "paprika", "šargarepa", "soja sos"],
+    "nutrition": {
+      "calories": 270,
+      "protein": 20,
+      "carbs": 12,
+      "fat": 16
+    }
+  },
+  {
+    "name": "Pečeni oslić sa blitvom",
+    "category": "ručak",
+    "goal": "gubitak",
+    "description": "Jednostavan obrok za lakšu probavu i ravan stomak.",
+    "ingredients": ["oslić", "blitva", "beli luk", "maslinovo ulje"],
+    "nutrition": {
+      "calories": 280,
+      "protein": 25,
+      "carbs": 4,
+      "fat": 16
+    }
+  },
+  {
+    "name": "Piletina sa kinoom i povrćem",
+    "category": "ručak",
+    "goal": "gubitak",
+    "description": "Kompletan i balansiran obrok za fit liniju.",
+    "ingredients": ["pileći file", "kinoa", "brokoli", "paprika", "limun"],
+    "nutrition": {
+      "calories": 340,
+      "protein": 30,
+      "carbs": 18,
+      "fat": 14
+    }
+  },
+  {
+    "name": "Ćuretina u senfu sa integralnim pirinčem",
+    "category": "ručak",
+    "goal": "odrzavanje",
+    "description": "Ukusan obrok za održavanje forme bez žrtvovanja ukusa.",
+    "ingredients": ["ćureći file", "senf", "integralni pirinač", "maslinovo ulje"],
+    "nutrition": {
+      "calories": 470,
+      "protein": 35,
+      "carbs": 28,
+      "fat": 20
+    }
+  },
+  {
+    "name": "Grilovana piletina sa batatom",
+    "category": "ručak",
+    "goal": "odrzavanje",
+    "description": "Zdrav ručak koji balansira proteine i složene UH.",
+    "ingredients": ["pileći file", "batat", "maslinovo ulje", "ruzmarin"],
+    "nutrition": {
+      "calories": 460,
+      "protein": 32,
+      "carbs": 30,
+      "fat": 22
+    }
+  },
+  {
+    "name": "Zapečena testenina sa povrćem i sirom",
+    "category": "ručak",
+    "goal": "odrzavanje",
+    "description": "Vegetarijanski obrok za one koji vole konkretno, a zdravo.",
+    "ingredients": ["integralna testenina", "tikvice", "paradajz", "kačkavalj"],
+    "nutrition": {
+      "calories": 510,
+      "protein": 22,
+      "carbs": 42,
+      "fat": 24
+    }
+  },
+  {
+    "name": "Goveđi gulaš sa graškom",
+    "category": "ručak",
+    "goal": "odrzavanje",
+    "description": "Klasik za ručak koji nahrani i telo i dušu.",
+    "ingredients": ["goveđe meso", "grašak", "crni luk", "šargarepa"],
+    "nutrition": {
+      "calories": 520,
+      "protein": 36,
+      "carbs": 22,
+      "fat": 28
+    }
+  },
+  {
+    "name": "Losos sa kinoom i brokolijem",
+    "category": "ručak",
+    "goal": "odrzavanje",
+    "description": "Savršena kombinacija omega-3 i složenih UH.",
+    "ingredients": ["losos", "kinoa", "brokoli", "limun"],
+    "nutrition": {
+      "calories": 530,
+      "protein": 34,
+      "carbs": 26,
+      "fat": 30
+    }
+  },
+  {
+    "name": "Piletina u kari sosu sa basmati pirinčem",
+    "category": "ručak",
+    "goal": "odrzavanje",
+    "description": "Mirisan i zasitan obrok sa azijskim šmekom.",
+    "ingredients": ["pileći file", "kari začin", "kokosovo mleko", "basmati pirinač"],
+    "nutrition": {
+      "calories": 540,
+      "protein": 31,
+      "carbs": 36,
+      "fat": 26
+    }
+  },
+  {
+    "name": "Sarma sa ćurećim mesom",
+    "category": "ručak",
+    "goal": "odrzavanje",
+    "description": "Tradicionalna srpska sarma u zdravijem ruhu.",
+    "ingredients": ["kiseli kupus", "ćureće meso", "pirinač", "luk"],
+    "nutrition": {
+      "calories": 500,
+      "protein": 28,
+      "carbs": 18,
+      "fat": 30
+    }
+  },
+  {
+    "name": "Pečena pastrmka sa krompirom i blitvom",
+    "category": "ručak",
+    "goal": "odrzavanje",
+    "description": "Mediteranski ručak za zdravo srce i energiju.",
+    "ingredients": ["pastrmka", "krompir", "blitva", "beli luk"],
+    "nutrition": {
+      "calories": 480,
+      "protein": 33,
+      "carbs": 20,
+      "fat": 25
+    }
+  },
+  {
+    "name": "Rižoto sa piletinom i pečurkama",
+    "category": "ručak",
+    "goal": "odrzavanje",
+    "description": "Kremasto i zasitno jelo koje puni rezervoare.",
+    "ingredients": ["pirinač", "pileći file", "šampinjoni", "parmezan"],
+    "nutrition": {
+      "calories": 510,
+      "protein": 28,
+      "carbs": 35,
+      "fat": 24
+    }
+  },
+  {
+    "name": "Meksička salata sa crnim pasuljem i kukuruzom",
+    "category": "ručak",
+    "goal": "odrzavanje",
+    "description": "Vesela i hranljiva salata puna ukusa i vlakana.",
+    "ingredients": ["crni pasulj", "kukuruz", "avokado", "paradajz", "limeta"],
+    "nutrition": {
+      "calories": 470,
+      "protein": 18,
+      "carbs": 38,
+      "fat": 22
+    }
+  },
+  {
+    "name": "Tuna salata sa avokadom",
+    "category": "večera",
+    "goal": "gubitak",
+    "description": "Bogata proteinima i zdravim mastima, laka za varenje.",
+    "ingredients": ["tunjevina", "avokado", "rukola", "limun", "maslinovo ulje"],
+    "nutrition": {
+      "calories": 320,
+      "protein": 26,
+      "carbs": 6,
+      "fat": 20
+    }
+  },
+  {
+    "name": "Jaja sa spanaćem",
+    "category": "večera",
+    "goal": "gubitak",
+    "description": "Klasika lagana večera koja čuva liniju.",
+    "ingredients": ["jaja", "spanać", "maslinovo ulje", "crni luk"],
+    "nutrition": {
+      "calories": 290,
+      "protein": 20,
+      "carbs": 5,
+      "fat": 20
+    }
+  },
+  {
+    "name": "Pečeni tofu sa tikvicama",
+    "category": "večera",
+    "goal": "gubitak",
+    "description": "Lagana i veganska večera za detoks tela.",
+    "ingredients": ["tofu", "tikvice", "soja sos", "susam"],
+    "nutrition": {
+      "calories": 280,
+      "protein": 18,
+      "carbs": 8,
+      "fat": 18
+    }
+  },
+  {
+    "name": "Pileći file sa salatom od paradajza",
+    "category": "večera",
+    "goal": "gubitak",
+    "description": "Minimalistička večera koja hrani i telo i cilj.",
+    "ingredients": ["pileći file", "paradajz", "maslinovo ulje", "bosiljak"],
+    "nutrition": {
+      "calories": 310,
+      "protein": 28,
+      "carbs": 4,
+      "fat": 16
+    }
+  },
+  {
+    "name": "Supa od bundeve",
+    "category": "večera",
+    "goal": "gubitak",
+    "description": "Kremasta, ali niskokalorična večera.",
+    "ingredients": ["bundeva", "crni luk", "bujon", "maslinovo ulje"],
+    "nutrition": {
+      "calories": 180,
+      "protein": 3,
+      "carbs": 16,
+      "fat": 9
+    }
+  },
+  {
+    "name": "Grilovani losos sa rukolom",
+    "category": "večera",
+    "goal": "gubitak",
+    "description": "Lagan, ali nutritivno bogat večernji obrok.",
+    "ingredients": ["losos", "rukola", "limun", "maslinovo ulje"],
+    "nutrition": {
+      "calories": 330,
+      "protein": 25,
+      "carbs": 3,
+      "fat": 22
+    }
+  },
+  {
+    "name": "Omelet sa paprikom i šampinjonima",
+    "category": "večera",
+    "goal": "gubitak",
+    "description": "Večera gotova za 10 minuta, a puni proteina.",
+    "ingredients": ["jaja", "paprika", "šampinjoni", "maslinovo ulje"],
+    "nutrition": {
+      "calories": 300,
+      "protein": 22,
+      "carbs": 6,
+      "fat": 18
+    }
+  },
+  {
+    "name": "Ćureće ćufte bez hleba",
+    "category": "večera",
+    "goal": "gubitak",
+    "description": "Proteinska večera bez ugljenih hidrata.",
+    "ingredients": ["mlevena ćuretina", "jaje", "peršun", "beli luk"],
+    "nutrition": {
+      "calories": 310,
+      "protein": 27,
+      "carbs": 4,
+      "fat": 18
+    }
+  },
+  {
+    "name": "Cezar salata bez krutona",
+    "category": "večera",
+    "goal": "gubitak",
+    "description": "Lagana verzija poznate salate – bez viška UH.",
+    "ingredients": ["piletina", "zelena salata", "parmezan", "dresing", "limun"],
+    "nutrition": {
+      "calories": 320,
+      "protein": 26,
+      "carbs": 5,
+      "fat": 19
+    }
+  },
+  {
+    "name": "Zapečeni brokoli sa sirom",
+    "category": "večera",
+    "goal": "gubitak",
+    "description": "Zdrav comfort food za večernju sitost.",
+    "ingredients": ["brokoli", "jaje", "kačkavalj", "beli luk"],
+    "nutrition": {
+      "calories": 290,
+      "protein": 20,
+      "carbs": 6,
+      "fat": 18
+    }
+  },
+  {
+    "name": "Integralni tost sa avokadom i jajima",
+    "category": "večera",
+    "goal": "odrzavanje",
+    "description": "Zdrava večera koja kombinuje proteine i dobre masti.",
+    "ingredients": ["integralni tost", "avokado", "jaje", "limun", "biber"],
+    "nutrition": {
+      "calories": 430,
+      "protein": 20,
+      "carbs": 28,
+      "fat": 24
+    }
+  },
+  {
+    "name": "Pileći file sa integralnom palentom",
+    "category": "večera",
+    "goal": "odrzavanje",
+    "description": "Kombinacija brzih i sporih proteina sa složenim UH.",
+    "ingredients": ["pileći file", "integralna palenta", "maslinovo ulje"],
+    "nutrition": {
+      "calories": 440,
+      "protein": 32,
+      "carbs": 22,
+      "fat": 22
+    }
+  },
+  {
+    "name": "Supa od sočiva sa povrćem",
+    "category": "večera",
+    "goal": "odrzavanje",
+    "description": "Zasitna i zdrava, idealna za održavanje kilaže.",
+    "ingredients": ["sočivo", "šargarepa", "celer", "crni luk"],
+    "nutrition": {
+      "calories": 400,
+      "protein": 20,
+      "carbs": 34,
+      "fat": 14
+    }
+  },
+  {
+    "name": "Rižoto od kinoe i piletine",
+    "category": "večera",
+    "goal": "odrzavanje",
+    "description": "Večernji obrok koji puni baterije bez preopterećenja.",
+    "ingredients": ["kinoa", "pileći file", "parmezan", "brokoli"],
+    "nutrition": {
+      "calories": 470,
+      "protein": 30,
+      "carbs": 30,
+      "fat": 22
+    }
+  },
+  {
+    "name": "Povrtna frittata",
+    "category": "večera",
+    "goal": "odrzavanje",
+    "description": "Obrok koji je gotov za 20 minuta i pun hranljivih sastojaka.",
+    "ingredients": ["jaja", "tikvice", "paradajz", "crni luk", "feta sir"],
+    "nutrition": {
+      "calories": 410,
+      "protein": 22,
+      "carbs": 12,
+      "fat": 28
+    }
+  },
+  {
+    "name": "Tortilja sa ćuretinom i grčkim jogurtom",
+    "category": "večera",
+    "goal": "odrzavanje",
+    "description": "Proteinska bomba uvijena u zdravu tortilju.",
+    "ingredients": ["integralna tortilja", "ćureće meso", "grčki jogurt", "zelena salata"],
+    "nutrition": {
+      "calories": 450,
+      "protein": 32,
+      "carbs": 28,
+      "fat": 20
+    }
+  },
+  {
+    "name": "Grilovani tofu sa povrćem iz woka",
+    "category": "večera",
+    "goal": "odrzavanje",
+    "description": "Vege varijanta večere koja zasiti bez osećaja težine.",
+    "ingredients": ["tofu", "šargarepa", "brokoli", "soja sos"],
+    "nutrition": {
+      "calories": 420,
+      "protein": 25,
+      "carbs": 20,
+      "fat": 24
+    }
+  },
+  {
+    "name": "Salata sa tunjevinom, jajima i kukuruzom",
+    "category": "večera",
+    "goal": "odrzavanje",
+    "description": "Proteinska salata za laku noć i stabilan metabolizam.",
+    "ingredients": ["tunjevina", "jaja", "kukuruz", "rukola", "maslinovo ulje"],
+    "nutrition": {
+      "calories": 430,
+      "protein": 30,
+      "carbs": 14,
+      "fat": 26
+    }
+  },
+  {
+    "name": "Zapečeni oslić sa povrćem iz rerne",
+    "category": "večera",
+    "goal": "odrzavanje",
+    "description": "Lagan i ukusan obrok bez mnogo pripreme.",
+    "ingredients": ["oslić", "tikvice", "paradajz", "maslinovo ulje"],
+    "nutrition": {
+      "calories": 440,
+      "protein": 34,
+      "carbs": 10,
+      "fat": 26
+    }
+  },
+  {
+    "name": "Pohovane tikvice u rerni sa belim sosom",
+    "category": "večera",
+    "goal": "odrzavanje",
+    "description": "Laganija verzija klasika – bez ulja, sa proteinima.",
+    "ingredients": ["tikvice", "jaje", "grčki jogurt", "beli luk", "ovsene pahuljice"],
+    "nutrition": {
+      "calories": 400,
+      "protein": 18,
+      "carbs": 22,
+      "fat": 22
+    }
   }
 ]
+
+
+
+
+
