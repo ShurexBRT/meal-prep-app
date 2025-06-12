@@ -1,7 +1,7 @@
 [
   {
     "name": "Ovsena kaša sa borovnicama",
-    "category": "doručak",
+    "meal": "doručak",
     "goal": "gubitak",
     "description": "Zdrav doručak bogat vlaknima i antioksidansima.",
     "ingredients": ["ovsene pahuljice", "biljno mleko", "chia semenke", "borovnice"],
@@ -14,7 +14,7 @@
   },
   {
     "name": "Proteinski smoothie sa spanaćem",
-    "category": "doručak",
+    "meal": "doručak",
     "goal": "gubitak",
     "description": "Niskokalorični smoothie za snažan start dana.",
     "ingredients": ["spanać", "banana", "grčki jogurt", "chia semenke", "voda"],
@@ -27,7 +27,7 @@
   },
   {
     "name": "Chia puding sa jagodama",
-    "category": "doručak",
+    "meal": "doručak",
     "goal": "gubitak",
     "description": "Lagani doručak pun omega-3 masti i vlakana.",
     "ingredients": ["chia semenke", "biljno mleko", "jagode", "med"],
@@ -40,7 +40,7 @@
   },
   {
     "name": "Kuvana jaja sa avokadom",
-    "category": "doručak",
+    "meal": "doručak",
     "goal": "gubitak",
     "description": "Bogato proteinima i zdravim mastima, drži sitost do ručka.",
     "ingredients": ["jaja", "avokado", "so", "biber"],
@@ -53,7 +53,7 @@
   },
   {
     "name": "Zeleni smoothie sa krastavcem i jabukom",
-    "category": "doručak",
+    "meal": "doručak",
     "goal": "gubitak",
     "description": "Detox smoothie idealan za mršavljenje.",
     "ingredients": ["krastavac", "zelena jabuka", "limunov sok", "celer", "voda"],
@@ -66,7 +66,7 @@
   },
   {
     "name": "Omlet od belanaca sa povrćem",
-    "category": "doručak",
+    "meal": "doručak",
     "goal": "gubitak",
     "description": "Niskokaloričan omlet prepun proteina i vlakana.",
     "ingredients": ["belanca", "paprika", "luk", "šampinjoni", "maslinovo ulje"],
@@ -79,7 +79,7 @@
   },
   {
     "name": "Jogurt sa lanenim semenkama i borovnicama",
-    "category": "doručak",
+    "meal": "doručak",
     "goal": "gubitak",
     "description": "Brz doručak sa probioticima i vlaknima.",
     "ingredients": ["grčki jogurt", "lanene semenke", "borovnice"],
@@ -92,7 +92,7 @@
   },
   {
     "name": "Cottage cheese sa krastavcem",
-    "category": "doručak",
+    "meal": "doručak",
     "goal": "gubitak",
     "description": "Lagan proteinski obrok, brzo gotov i hranljiv.",
     "ingredients": ["cottage cheese", "krastavac", "maslinovo ulje", "so"],
@@ -105,7 +105,7 @@
   },
   {
     "name": "Zapečena bundeva sa cimetom",
-    "category": "doručak",
+    "meal": "doručak",
     "goal": "gubitak",
     "description": "Slatkasti fit doručak bogat vlaknima.",
     "ingredients": ["bundeva", "cimet", "med", "kokosovo ulje"],
@@ -118,7 +118,7 @@
   },
   {
     "name": "Integralni tost sa avokadom i limunom",
-    "category": "doručak",
+    "meal": "doručak",
     "goal": "gubitak",
     "description": "Savršena kombinacija složenih ugljenih hidrata i zdravih masti.",
     "ingredients": ["integralni tost", "avokado", "limunov sok", "so"],
@@ -131,7 +131,7 @@
   },
   {
     "name": "Omlet sa šunkom i sirom",
-    "category": "doručak",
+    "meal": "doručak",
     "goal": "odrzavanje",
     "description": "Klasičan obrok bogat proteinima za dug osećaj sitosti.",
     "ingredients": ["jaja", "šunka", "kačkavalj", "maslinovo ulje"],
@@ -144,7 +144,7 @@
   },
   {
     "name": "Proteinske palačinke sa medom",
-    "category": "doručak",
+    "meal": "doručak",
     "goal": "odrzavanje",
     "description": "Savršen balans proteina i složenih UH za dobar početak dana.",
     "ingredients": ["ovsene pahuljice", "jaja", "banana", "med"],
@@ -157,7 +157,7 @@
   },
   {
     "name": "Grčki jogurt sa orasima i suvim grožđem",
-    "category": "doručak",
+    "meal": "doručak",
     "goal": "odrzavanje",
     "description": "Doručak bogat proteinima, zdravim mastima i kalcijumom.",
     "ingredients": ["grčki jogurt", "orasi", "suvo grožđe", "med"],
@@ -170,7 +170,7 @@
   },
   {
     "name": "Zdrav tost sa avokadom i jajetom",
-    "category": "doručak",
+    "meal": "doručak",
     "goal": "odrzavanje",
     "description": "Bogat obrok za energiju i koncentraciju tokom jutra.",
     "ingredients": ["integralni tost", "avokado", "jaje", "limunov sok"],
@@ -183,7 +183,7 @@
   },
   {
     "name": "Smoothie od jagoda i kikiriki putera",
-    "category": "doručak",
+    "meal": "doručak",
     "goal": "odrzavanje",
     "description": "Ukusan i hranljiv, odličan za posle treninga.",
     "ingredients": ["jagode", "kikiriki puter", "grčki jogurt", "bademovo mleko"],
@@ -196,7 +196,7 @@
   },
   {
     "name": "Cottage cheese sa orašastim plodovima",
-    "category": "doručak",
+    "meal": "doručak",
     "goal": "odrzavanje",
     "description": "Brz obrok bogat proteinima i zdravim mastima.",
     "ingredients": ["cottage cheese", "orah", "badem", "med"],
@@ -209,7 +209,7 @@
   },
   {
     "name": "Kuvana jaja sa integralnim hlebom",
-    "category": "doručak",
+    "meal": "doručak",
     "goal": "odrzavanje",
     "description": "Jednostavan i bogat izvor proteina i složenih UH.",
     "ingredients": ["jaja", "integralni hleb", "puter", "so"],
@@ -222,7 +222,7 @@
   },
   {
     "name": "Zeleni smoothie sa bademima",
-    "category": "doručak",
+    "meal": "doručak",
     "goal": "odrzavanje",
     "description": "Nutritivna bomba sa proteinima, vlaknima i mikronutrijentima.",
     "ingredients": ["spanać", "banana", "bademi", "grčki jogurt"],
@@ -235,7 +235,7 @@
   },
   {
     "name": "Palačinke od heljdinog brašna",
-    "category": "doručak",
+    "meal": "doručak",
     "goal": "odrzavanje",
     "description": "Bezglutenski doručak za zdrav početak dana.",
     "ingredients": ["heljdino brašno", "jaja", "mleko", "maslinovo ulje"],
@@ -248,7 +248,7 @@
   },
   {
     "name": "Voćna salata sa semenkama",
-    "category": "doručak",
+    "meal": "doručak",
     "goal": "odrzavanje",
     "description": "Sveže i osvežavajuće, idealno za aktivan dan.",
     "ingredients": ["banana", "kivi", "jabuka", "semenke suncokreta", "med"],
@@ -261,7 +261,7 @@
   },
   {
     "name": "Pileća salata sa rukolom",
-    "category": "ručak",
+    "meal": "ručak",
     "goal": "gubitak",
     "description": "Lagana salata sa belim mesom i zelenilom za mršavljenje.",
     "ingredients": ["pileći file", "rukola", "paradajz", "maslinovo ulje", "limun"],
@@ -274,7 +274,7 @@
   },
   {
     "name": "Grilovana ćuretina sa brokolijem",
-    "category": "ručak",
+    "meal": "ručak",
     "goal": "gubitak",
     "description": "Visokoproteinski ručak bez viška kalorija.",
     "ingredients": ["ćureći file", "brokoli", "maslinovo ulje", "beli luk"],
@@ -287,7 +287,7 @@
   },
   {
     "name": "Losos na žaru sa tikvicama",
-    "category": "ručak",
+    "meal": "ručak",
     "goal": "gubitak",
     "description": "Omega-3 bomba sa niskim unosom ugljenih hidrata.",
     "ingredients": ["file lososa", "tikvice", "maslinovo ulje", "limun"],
@@ -300,7 +300,7 @@
   },
   {
     "name": "Zapečeni patlidžan sa piletinom",
-    "category": "ručak",
+    "meal": "ručak",
     "goal": "gubitak",
     "description": "Niskokalorično, ukusno i dugo drži sitost.",
     "ingredients": ["patlidžan", "pileći file", "parmezan", "maslinovo ulje"],
@@ -313,7 +313,7 @@
   },
   {
     "name": "Supa od tikvica i praziluka",
-    "category": "ručak",
+    "meal": "ručak",
     "goal": "gubitak",
     "description": "Topla i kremasta, a bez mnogo kalorija.",
     "ingredients": ["tikvice", "praziluk", "bujon", "maslinovo ulje"],
@@ -326,7 +326,7 @@
   },
   {
     "name": "Salata sa tunjevinom i pasuljem",
-    "category": "ručak",
+    "meal": "ručak",
     "goal": "gubitak",
     "description": "Pun proteinima i vlaknima, bez praznih kalorija.",
     "ingredients": ["tunjevina", "crveni pasulj", "crni luk", "maslinovo ulje"],
@@ -339,7 +339,7 @@
   },
   {
     "name": "Ćufte od ćuretine u paradajz sosu",
-    "category": "ručak",
+    "meal": "ručak",
     "goal": "gubitak",
     "description": "Lagana verzija klasičnih ćufti bez prženja.",
     "ingredients": ["mlevena ćuretina", "paradajz", "crni luk", "belance"],
@@ -352,7 +352,7 @@
   },
   {
     "name": "Tofu sa paprikom i šargarepom",
-    "category": "ručak",
+    "meal": "ručak",
     "goal": "gubitak",
     "description": "Vege varijanta sa malo kalorija i dosta proteina.",
     "ingredients": ["tofu", "paprika", "šargarepa", "soja sos"],
@@ -365,7 +365,7 @@
   },
   {
     "name": "Pečeni oslić sa blitvom",
-    "category": "ručak",
+    "meal": "ručak",
     "goal": "gubitak",
     "description": "Jednostavan obrok za lakšu probavu i ravan stomak.",
     "ingredients": ["oslić", "blitva", "beli luk", "maslinovo ulje"],
@@ -378,7 +378,7 @@
   },
   {
     "name": "Piletina sa kinoom i povrćem",
-    "category": "ručak",
+    "meal": "ručak",
     "goal": "gubitak",
     "description": "Kompletan i balansiran obrok za fit liniju.",
     "ingredients": ["pileći file", "kinoa", "brokoli", "paprika", "limun"],
@@ -391,7 +391,7 @@
   },
   {
     "name": "Ćuretina u senfu sa integralnim pirinčem",
-    "category": "ručak",
+    "meal": "ručak",
     "goal": "odrzavanje",
     "description": "Ukusan obrok za održavanje forme bez žrtvovanja ukusa.",
     "ingredients": ["ćureći file", "senf", "integralni pirinač", "maslinovo ulje"],
@@ -404,7 +404,7 @@
   },
   {
     "name": "Grilovana piletina sa batatom",
-    "category": "ručak",
+    "meal": "ručak",
     "goal": "odrzavanje",
     "description": "Zdrav ručak koji balansira proteine i složene UH.",
     "ingredients": ["pileći file", "batat", "maslinovo ulje", "ruzmarin"],
@@ -417,7 +417,7 @@
   },
   {
     "name": "Zapečena testenina sa povrćem i sirom",
-    "category": "ručak",
+    "meal": "ručak",
     "goal": "odrzavanje",
     "description": "Vegetarijanski obrok za one koji vole konkretno, a zdravo.",
     "ingredients": ["integralna testenina", "tikvice", "paradajz", "kačkavalj"],
@@ -430,7 +430,7 @@
   },
   {
     "name": "Goveđi gulaš sa graškom",
-    "category": "ručak",
+    "meal": "ručak",
     "goal": "odrzavanje",
     "description": "Klasik za ručak koji nahrani i telo i dušu.",
     "ingredients": ["goveđe meso", "grašak", "crni luk", "šargarepa"],
@@ -443,7 +443,7 @@
   },
   {
     "name": "Losos sa kinoom i brokolijem",
-    "category": "ručak",
+    "meal": "ručak",
     "goal": "odrzavanje",
     "description": "Savršena kombinacija omega-3 i složenih UH.",
     "ingredients": ["losos", "kinoa", "brokoli", "limun"],
@@ -456,7 +456,7 @@
   },
   {
     "name": "Piletina u kari sosu sa basmati pirinčem",
-    "category": "ručak",
+    "meal": "ručak",
     "goal": "odrzavanje",
     "description": "Mirisan i zasitan obrok sa azijskim šmekom.",
     "ingredients": ["pileći file", "kari začin", "kokosovo mleko", "basmati pirinač"],
@@ -469,7 +469,7 @@
   },
   {
     "name": "Sarma sa ćurećim mesom",
-    "category": "ručak",
+    "meal": "ručak",
     "goal": "odrzavanje",
     "description": "Tradicionalna srpska sarma u zdravijem ruhu.",
     "ingredients": ["kiseli kupus", "ćureće meso", "pirinač", "luk"],
@@ -482,7 +482,7 @@
   },
   {
     "name": "Pečena pastrmka sa krompirom i blitvom",
-    "category": "ručak",
+    "meal": "ručak",
     "goal": "odrzavanje",
     "description": "Mediteranski ručak za zdravo srce i energiju.",
     "ingredients": ["pastrmka", "krompir", "blitva", "beli luk"],
@@ -495,7 +495,7 @@
   },
   {
     "name": "Rižoto sa piletinom i pečurkama",
-    "category": "ručak",
+    "meal": "ručak",
     "goal": "odrzavanje",
     "description": "Kremasto i zasitno jelo koje puni rezervoare.",
     "ingredients": ["pirinač", "pileći file", "šampinjoni", "parmezan"],
@@ -508,7 +508,7 @@
   },
   {
     "name": "Meksička salata sa crnim pasuljem i kukuruzom",
-    "category": "ručak",
+    "meal": "ručak",
     "goal": "odrzavanje",
     "description": "Vesela i hranljiva salata puna ukusa i vlakana.",
     "ingredients": ["crni pasulj", "kukuruz", "avokado", "paradajz", "limeta"],
@@ -521,7 +521,7 @@
   },
   {
     "name": "Tuna salata sa avokadom",
-    "category": "večera",
+    "meal": "večera",
     "goal": "gubitak",
     "description": "Bogata proteinima i zdravim mastima, laka za varenje.",
     "ingredients": ["tunjevina", "avokado", "rukola", "limun", "maslinovo ulje"],
@@ -534,7 +534,7 @@
   },
   {
     "name": "Jaja sa spanaćem",
-    "category": "večera",
+    "meal": "večera",
     "goal": "gubitak",
     "description": "Klasika lagana večera koja čuva liniju.",
     "ingredients": ["jaja", "spanać", "maslinovo ulje", "crni luk"],
@@ -547,7 +547,7 @@
   },
   {
     "name": "Pečeni tofu sa tikvicama",
-    "category": "večera",
+    "meal": "večera",
     "goal": "gubitak",
     "description": "Lagana i veganska večera za detoks tela.",
     "ingredients": ["tofu", "tikvice", "soja sos", "susam"],
@@ -560,7 +560,7 @@
   },
   {
     "name": "Pileći file sa salatom od paradajza",
-    "category": "večera",
+    "meal": "večera",
     "goal": "gubitak",
     "description": "Minimalistička večera koja hrani i telo i cilj.",
     "ingredients": ["pileći file", "paradajz", "maslinovo ulje", "bosiljak"],
@@ -573,7 +573,7 @@
   },
   {
     "name": "Supa od bundeve",
-    "category": "večera",
+    "meal": "večera",
     "goal": "gubitak",
     "description": "Kremasta, ali niskokalorična večera.",
     "ingredients": ["bundeva", "crni luk", "bujon", "maslinovo ulje"],
@@ -586,7 +586,7 @@
   },
   {
     "name": "Grilovani losos sa rukolom",
-    "category": "večera",
+    "meal": "večera",
     "goal": "gubitak",
     "description": "Lagan, ali nutritivno bogat večernji obrok.",
     "ingredients": ["losos", "rukola", "limun", "maslinovo ulje"],
@@ -599,7 +599,7 @@
   },
   {
     "name": "Omelet sa paprikom i šampinjonima",
-    "category": "večera",
+    "meal": "večera",
     "goal": "gubitak",
     "description": "Večera gotova za 10 minuta, a puni proteina.",
     "ingredients": ["jaja", "paprika", "šampinjoni", "maslinovo ulje"],
@@ -612,7 +612,7 @@
   },
   {
     "name": "Ćureće ćufte bez hleba",
-    "category": "večera",
+    "meal": "večera",
     "goal": "gubitak",
     "description": "Proteinska večera bez ugljenih hidrata.",
     "ingredients": ["mlevena ćuretina", "jaje", "peršun", "beli luk"],
@@ -625,7 +625,7 @@
   },
   {
     "name": "Cezar salata bez krutona",
-    "category": "večera",
+    "meal": "večera",
     "goal": "gubitak",
     "description": "Lagana verzija poznate salate – bez viška UH.",
     "ingredients": ["piletina", "zelena salata", "parmezan", "dresing", "limun"],
@@ -638,7 +638,7 @@
   },
   {
     "name": "Zapečeni brokoli sa sirom",
-    "category": "večera",
+    "meal": "večera",
     "goal": "gubitak",
     "description": "Zdrav comfort food za večernju sitost.",
     "ingredients": ["brokoli", "jaje", "kačkavalj", "beli luk"],
@@ -651,7 +651,7 @@
   },
   {
     "name": "Integralni tost sa avokadom i jajima",
-    "category": "večera",
+    "meal": "večera",
     "goal": "odrzavanje",
     "description": "Zdrava večera koja kombinuje proteine i dobre masti.",
     "ingredients": ["integralni tost", "avokado", "jaje", "limun", "biber"],
@@ -664,7 +664,7 @@
   },
   {
     "name": "Pileći file sa integralnom palentom",
-    "category": "večera",
+    "meal": "večera",
     "goal": "odrzavanje",
     "description": "Kombinacija brzih i sporih proteina sa složenim UH.",
     "ingredients": ["pileći file", "integralna palenta", "maslinovo ulje"],
@@ -677,7 +677,7 @@
   },
   {
     "name": "Supa od sočiva sa povrćem",
-    "category": "večera",
+    "meal": "večera",
     "goal": "odrzavanje",
     "description": "Zasitna i zdrava, idealna za održavanje kilaže.",
     "ingredients": ["sočivo", "šargarepa", "celer", "crni luk"],
@@ -690,7 +690,7 @@
   },
   {
     "name": "Rižoto od kinoe i piletine",
-    "category": "večera",
+    "meal": "večera",
     "goal": "odrzavanje",
     "description": "Večernji obrok koji puni baterije bez preopterećenja.",
     "ingredients": ["kinoa", "pileći file", "parmezan", "brokoli"],
@@ -703,7 +703,7 @@
   },
   {
     "name": "Povrtna frittata",
-    "category": "večera",
+    "meal": "večera",
     "goal": "odrzavanje",
     "description": "Obrok koji je gotov za 20 minuta i pun hranljivih sastojaka.",
     "ingredients": ["jaja", "tikvice", "paradajz", "crni luk", "feta sir"],
@@ -716,7 +716,7 @@
   },
   {
     "name": "Tortilja sa ćuretinom i grčkim jogurtom",
-    "category": "večera",
+    "meal": "večera",
     "goal": "odrzavanje",
     "description": "Proteinska bomba uvijena u zdravu tortilju.",
     "ingredients": ["integralna tortilja", "ćureće meso", "grčki jogurt", "zelena salata"],
@@ -729,7 +729,7 @@
   },
   {
     "name": "Grilovani tofu sa povrćem iz woka",
-    "category": "večera",
+    "meal": "večera",
     "goal": "odrzavanje",
     "description": "Vege varijanta večere koja zasiti bez osećaja težine.",
     "ingredients": ["tofu", "šargarepa", "brokoli", "soja sos"],
@@ -742,7 +742,7 @@
   },
   {
     "name": "Salata sa tunjevinom, jajima i kukuruzom",
-    "category": "večera",
+    "meal": "večera",
     "goal": "odrzavanje",
     "description": "Proteinska salata za laku noć i stabilan metabolizam.",
     "ingredients": ["tunjevina", "jaja", "kukuruz", "rukola", "maslinovo ulje"],
@@ -755,7 +755,7 @@
   },
   {
     "name": "Zapečeni oslić sa povrćem iz rerne",
-    "category": "večera",
+    "meal": "večera",
     "goal": "odrzavanje",
     "description": "Lagan i ukusan obrok bez mnogo pripreme.",
     "ingredients": ["oslić", "tikvice", "paradajz", "maslinovo ulje"],
@@ -768,7 +768,7 @@
   },
   {
     "name": "Pohovane tikvice u rerni sa belim sosom",
-    "category": "večera",
+    "meal": "večera",
     "goal": "odrzavanje",
     "description": "Laganija verzija klasika – bez ulja, sa proteinima.",
     "ingredients": ["tikvice", "jaje", "grčki jogurt", "beli luk", "ovsene pahuljice"],
