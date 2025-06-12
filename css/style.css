@@ -1,0 +1,260 @@
+/* === OSNOVNI RESET I BODY === */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Poppins', Arial, sans-serif;
+  background-color: #f8fdf6;
+  color: #242e29;
+  min-height: 100vh;
+  position: relative;
+  padding-bottom: 90px; /* za footer */
+}
+h1, h2, h3, h4 {
+  font-family: 'Poppins', Arial, sans-serif;
+  margin-bottom: 18px;
+  color: #2b7a4b;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+h1 {
+  font-size: 2.1em;
+  margin-top: 10px;
+}
+@media (max-width: 600px) {
+  h1 {
+    font-size: 1.3em;
+  }
+  .container {
+    padding-left: 6px !important;
+    padding-right: 6px !important;
+  }
+}
+
+/* === KARTICE RECEPATA === */
+.card {
+  margin-bottom: 24px;
+  border-radius: 15px;
+  border: none;
+  box-shadow: 0 2px 9px rgba(70,180,90,0.07);
+  transition: transform 0.2s, box-shadow 0.2s;
+  background: #fff;
+}
+.card:hover {
+  transform: scale(1.01);
+  box-shadow: 0 4px 18px rgba(50,150,50,0.09);
+}
+.card-title {
+  font-weight: 600;
+  color: #1c6640;
+  letter-spacing: 0.2px;
+}
+.card-text {
+  color: #476c57;
+  font-size: 1em;
+  margin-bottom: 10px;
+}
+.recipe-macros {
+  font-size: 0.98em;
+  margin-top: 12px;
+  color: #0f3824;
+}
+.badge-goal {
+  font-size: 0.85em;
+  margin-left: 0.7em;
+  padding: 3px 10px;
+  border-radius: 8px;
+  vertical-align: middle;
+  letter-spacing: 0.3px;
+}
+.badge-goal.gubitak {
+  background: #e8f7eb;
+  color: #29995e;
+}
+.badge-goal.odrzavanje {
+  background: #fffbe8;
+  color: #e7a622;
+}
+
+/* === DUGMIĆI I FORME === */
+button, .btn, input, select, .form-select {
+  border-radius: 8px !important;
+  box-shadow: 0 2px 8px rgba(60,180,60,0.08);
+  font-family: 'Poppins', Arial, sans-serif;
+  font-size: 1em;
+}
+button, .btn {
+  transition: background 0.18s, color 0.15s, box-shadow 0.18s;
+}
+.btn-success, .btn-outline-primary {
+  background: #2b7a4b !important;
+  color: #fff !important;
+  border: none !important;
+}
+.btn-success:hover, .btn-outline-primary:hover {
+  background: #29995e !important;
+  color: #fff !important;
+  box-shadow: 0 4px 14px rgba(40,150,90,0.16);
+}
+.btn-outline-secondary:hover, .btn-outline-dark:hover {
+  background: #e8f7eb !important;
+  color: #185d38 !important;
+}
+.form-select, select {
+  min-width: 120px;
+  background: #e8f7eb;
+  border: 1.5px solid #c0ebd2;
+  font-size: 1em;
+}
+.form-select:focus, select:focus {
+  border-color: #2b7a4b;
+  box-shadow: 0 0 3px #29995e77;
+}
+
+/* === HOME DUGME STICKY === */
+.home-button {
+  position: fixed;
+  top: 15px;
+  right: 15px;
+  background-color: #e0f7e9;
+  padding: 9px 15px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: 600;
+  color: #2b7a4b;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.09);
+  z-index: 1000;
+  transition: background 0.2s;
+  font-size: 1em;
+}
+.home-button:hover {
+  background-color: #c0ebd2;
+}
+
+/* === FOOTER === */
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100vw;
+  text-align: center;
+  background: #e0f7e9;
+  color: #2b7a4b;
+  font-size: 1.08em;
+  font-family: 'Poppins', Arial, sans-serif;
+  padding: 12px 0 12px 0;
+  box-shadow: 0 -2px 12px rgba(120,180,130,0.11);
+  letter-spacing: 0.8px;
+  z-index: 500;
+}
+@media (max-width: 600px) {
+  .footer {
+    font-size: 0.97em;
+    padding: 9px 0 10px 0;
+  }
+}
+
+/* === TOAST NOTIFIKACIJE === */
+.toast-container {
+  position: fixed;
+  bottom: 34px;
+  right: 18px;
+  z-index: 2000;
+}
+.toast {
+  border-radius: 8px;
+  min-width: 220px;
+  background: #fff;
+  box-shadow: 0 2px 18px rgba(40,100,60,0.11);
+  color: #165d37;
+  border: 1.5px solid #b2eac8;
+  font-family: 'Poppins', Arial, sans-serif;
+  padding: 12px 20px;
+  font-size: 1em;
+  margin-top: 8px;
+  animation: toast-in 0.4s;
+}
+@keyframes toast-in {
+  from { opacity: 0; transform: translateY(30px); }
+  to   { opacity: 1; transform: translateY(0);}
+}
+
+/* === DARK MODE === */
+body.dark-mode {
+  background: #232b23 !important;
+  color: #e4ffe7 !important;
+}
+body.dark-mode .container, body.dark-mode .card {
+  background: #26372c !important;
+  color: #e4ffe7 !important;
+  box-shadow: 0 2px 8px rgba(20,60,20,0.09);
+}
+body.dark-mode .footer {
+  background: #233a2b !important;
+  color: #b4f6cd !important;
+}
+body.dark-mode .home-button {
+  background: #233a2b !important;
+  color: #b4f6cd !important;
+}
+body.dark-mode .btn,
+body.dark-mode .btn-outline-primary,
+body.dark-mode .btn-success {
+  background: #29995e !important;
+  color: #fff !important;
+}
+body.dark-mode .btn-outline-dark {
+  background: #364c41 !important;
+  color: #b4f6cd !important;
+}
+body.dark-mode .form-select, body.dark-mode select {
+  background: #313d34 !important;
+  color: #e4ffe7 !important;
+  border: 1.5px solid #256b45 !important;
+}
+
+/* === OSTALE SITNICE === */
+.table thead th {
+  background: #e0f7e9 !important;
+  color: #23894e !important;
+  font-weight: 600;
+}
+.table tbody td {
+  vertical-align: middle;
+}
+input[type="checkbox"], .form-check-input {
+  accent-color: #29ae6f;
+}
+::-webkit-scrollbar {
+  width: 10px;
+  background: #e0f7e9;
+}
+::-webkit-scrollbar-thumb {
+  background: #b1e9c6;
+  border-radius: 5px;
+}
+a {
+  color: #187d58;
+  text-decoration: none;
+  transition: color 0.14s;
+}
+a:hover {
+  color: #105134;
+}
+select:active, select:focus {
+  outline: none;
+  border-color: #29ae6f;
+}
+ul, li {
+  margin-left: 0;
+  padding-left: 0.6em;
+}
+
+/* === EMOJI TITLES (primer) === */
+.emoji-title {
+  font-size: 1.17em;
+  margin-right: 8px;
+  vertical-align: middle;
+}
