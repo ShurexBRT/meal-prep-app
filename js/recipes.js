@@ -5,7 +5,7 @@ const filterByInventory = document.getElementById('filterByInventory');
 let allRecipes = [];
 
 // Učitavanje recepata iz JSON fajla
-fetch('/meal-prep-app/data/recipes.json')
+fetch('meal-prep-app/data/recipes.json')
   .then((res) => res.json())
   .then((data) => {
     allRecipes = data;
