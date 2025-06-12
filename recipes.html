@@ -19,23 +19,22 @@
     <link rel="stylesheet" href="css/style.css" />
     <style>
       .home-button {
-    position: fixed;
-    top: 15px;
-    right: 15px;
-    background-color: #e0f7e9;
-    padding: 8px 12px;
-    border-radius: 8px;
-    text-decoration: none;
-    font-weight: bold;
-    color: #2b7a4b;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-    z-index: 1000;
-  }
+        position: fixed;
+        top: 15px;
+        right: 15px;
+        background-color: #e0f7e9;
+        padding: 8px 12px;
+        border-radius: 8px;
+        text-decoration: none;
+        font-weight: bold;
+        color: #2b7a4b;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        z-index: 1000;
+      }
 
-  .home-button:hover {
-    background-color: #c0ebd2;
-  }
-
+      .home-button:hover {
+        background-color: #c0ebd2;
+      }
 
       body {
         font-family: 'Poppins', sans-serif;
@@ -43,13 +42,24 @@
       }
       .card {
         margin-bottom: 20px;
+        transition: transform 0.15s;
       }
+      .card:hover {
+        transform: scale(1.02);
+        box-shadow: 0 4px 18px rgba(0,0,0,0.14);
+      }
+      .nutr-table td {
+        padding: 2px 8px;
+        font-size: 0.98em;
+      }
+      .goal-gubitak { color: #d93d04; font-weight: bold;}
+      .goal-odrzavanje { color: #23730c; font-weight: bold;}
     </style>
   </head>
   <body>
     <a href="index.html" class="home-button">🏠 Home</a>
 
-    <div class="container py-4" class="col-12 col-md-6 col-lg-4">
+    <div class="container py-4">
       <h1 class="text-success mb-4">🍽️ Pregled recepata</h1>
 
       <div class="d-flex flex-wrap gap-3 mb-4">
@@ -60,7 +70,6 @@
           <option value="večera">Večera</option>
           <option value="užina">Užina</option>
         </select>
-
         <div class="form-check">
           <input
             class="form-check-input"

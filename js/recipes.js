@@ -5,7 +5,7 @@ const filterByInventory = document.getElementById('filterByInventory');
 let allRecipes = [];
 
 // Učitavanje recepata iz JSON fajla
-fetch('/meal-prep-app/data/recipes.json')
+fetch('data/recipes.json')
   .then((res) => res.json())
   .then((data) => {
     allRecipes = data;
@@ -20,12 +20,14 @@ function renderRecipes() {
   const filterOnlyWhatIHave = filterByInventory.checked;
   const inventory = getInventory();
 
+  // Svi recepti
   const filtered = allRecipes.filter((recipe) => {
-    const matchKategorija = !selectedCategory || recipe.kategorija === selectedCategory;
+    // Kategorija sada može biti meal (doručak/ručak/večera/užina) ili prava kategorija
+    const matchKategorija = !selectedCategory || recipe.meal === selectedCategory;
 
     if (filterOnlyWhatIHave) {
-      const missing = recipe.sastojci.filter(
-        (s) => !inventory.includes(normalizeName(s.naziv))
+      const missing = recipe.ingredients.filter(
+        (s) => !inventory.includes(normalizeName(typeof s === 'string' ? s : s.name || s))
       );
       return matchKategorija && missing.length === 0;
     }
@@ -42,31 +44,45 @@ function renderRecipes() {
     const card = document.createElement('div');
     card.className = 'col-md-6';
 
-    const missingIngredients = recipe.sastojci.filter(
-      (s) => !inventory.includes(normalizeName(s.naziv))
+    // Sastojci – podrška za array stringova ili objekata sa .name
+    const sastojci = recipe.ingredients.map(s =>
+      typeof s === 'string' ? s : (s.name || s)
     );
-
+    const missingIngredients = sastojci.filter(
+      (s) => !inventory.includes(normalizeName(s))
+    );
     const hasAll = missingIngredients.length === 0;
 
     card.innerHTML = `
       <div class="card shadow-sm">
         <div class="card-body">
-          <h5 class="card-title">${recipe.naziv_jela}</h5>
-          <p class="card-text mb-2">
-            <strong>Kategorija:</strong> ${capitalize(recipe.kategorija)}
+          <h5 class="card-title mb-2">${recipe.name}</h5>
+          <p>
+            <span class="badge rounded-pill bg-primary">${capitalize(recipe.meal)}</span>
+            <span class="badge rounded-pill bg-info">${capitalize(recipe.category)}</span>
+            <span class="badge rounded-pill ${recipe.goal === "gubitak" ? "goal-gubitak bg-danger" : "goal-odrzavanje bg-success"}">
+              ${recipe.goal === "gubitak" ? "Gubitak kila" : "Održavanje"}
+            </span>
           </p>
-          <p class="card-text"><strong>Sastojci:</strong></p>
+          <table class="nutr-table mb-2">
+            <tr>
+              <td>🔥</td><td><strong>${recipe.nutrition.calories}</strong> kcal</td>
+              <td>🥚</td><td><strong>${recipe.nutrition.protein}</strong>g protein</td>
+            </tr>
+            <tr>
+              <td>🥔</td><td><strong>${recipe.nutrition.carbs}</strong>g ugljeni hidrati</td>
+              <td>🥑</td><td><strong>${recipe.nutrition.fats}</strong>g masti</td>
+            </tr>
+          </table>
+          <p class="mb-1"><strong>Sastojci:</strong></p>
           <ul>
-            ${recipe.sastojci
-              .map((s) => `<li>${s.naziv}${s.kolicina ? ` – ${s.kolicina} ${s.jedinica}` : ''}</li>`)
-              .join('')}
+            ${sastojci.map((s) => `<li>${s}</li>`).join('')}
           </ul>
+          <p><strong>Priprema:</strong> ${recipe.instructions || ''}</p>
           ${
             hasAll
               ? `<span class="badge text-bg-success">✅ Imaš sve sastojke</span>`
-              : `<button class="btn btn-outline-danger btn-sm mt-2" onclick='alert("Nedostaje: ${missingIngredients
-                  .map((m) => m.naziv)
-                  .join(', ')}")'>🔍 Šta mi fali?</button>`
+              : `<button class="btn btn-outline-danger btn-sm mt-2" onclick='alert("Nedostaje: ${missingIngredients.join(", ")}")'>🔍 Šta mi fali?</button>`
           }
         </div>
       </div>
@@ -91,6 +107,7 @@ function normalizeName(name) {
 }
 
 function capitalize(str) {
+  if (!str) return '';
   return str.charAt(0).toUpperCase() + str.slice(1);
 }
 

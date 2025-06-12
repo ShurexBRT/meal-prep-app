@@ -41,9 +41,8 @@
             <tr>
               <th>Dan</th>
               <th>Doručak</th>
-              <th>Užina</th>
               <th>Ručak</th>
-              <th>VeĎra</th>
+              <th>Večera</th>
             </tr>
           </thead>
           <tbody id="mealPlanTable"></tbody>
@@ -60,97 +59,6 @@
       <a href="index.html" class="btn btn-outline-dark mt-4">← Nazad na početnu</a>
     </div>
 
-    <script>
-      const days = ['Ponedeljak', 'Utorak', 'Sreda', 'Četvrtak', 'Petak', 'Subota', 'Nedelja'];
-      const meals = ['dorucak', 'uzina', 'rucak', 'vecera'];
-      const table = document.getElementById('mealPlanTable');
-      const saveMsg = document.getElementById('saveMessage');
-      let allRecipes = [];
-
-      fetch('/meal-prep-app/data/recipes.json')
-        .then(res => res.json())
-        .then(data => {
-          allRecipes = data;
-          renderTable();
-        });
-
-      function normalizeKategorija(str) {
-        return str.trim().toLowerCase();
-      }
-
-      function renderTable() {
-        const savedPlan = getSavedPlan();
-
-        table.innerHTML = '';
-
-        days.forEach((day) => {
-          const tr = document.createElement('tr');
-          const tdDay = document.createElement('td');
-          tdDay.textContent = day;
-          tr.appendChild(tdDay);
-
-          meals.forEach((meal) => {
-            const td = document.createElement('td');
-            const select = document.createElement('select');
-            select.className = 'form-select';
-            select.dataset.day = day;
-            select.dataset.meal = meal;
-
-            const emptyOption = document.createElement('option');
-            emptyOption.value = '';
-            emptyOption.textContent = '---';
-            select.appendChild(emptyOption);
-
-            const filteredRecipes = allRecipes.filter((r) => normalizeKategorija(r.kategorija) === meal);
-
-            filteredRecipes.forEach((r) => {
-              const option = document.createElement('option');
-              option.value = r.id;
-              option.textContent = r.naziv_jela;
-              if (savedPlan[day] && savedPlan[day][meal] === r.id) {
-                option.selected = true;
-              }
-              select.appendChild(option);
-            });
-
-            td.appendChild(select);
-            tr.appendChild(td);
-          });
-
-          table.appendChild(tr);
-        });
-      }
-
-      function saveMealPlan() {
-        const selects = document.querySelectorAll('select');
-        const plan = {};
-
-        selects.forEach((sel) => {
-          const day = sel.dataset.day;
-          const meal = sel.dataset.meal;
-          const val = sel.value;
-          if (!plan[day]) plan[day] = {};
-          plan[day][meal] = val;
-        });
-
-        localStorage.setItem('weeklyPlan', JSON.stringify(plan));
-        saveMsg.classList.remove('d-none');
-        setTimeout(() => saveMsg.classList.add('d-none'), 2000);
-      }
-
-      function getSavedPlan() {
-        const raw = localStorage.getItem('weeklyPlan');
-        if (!raw) return {};
-        try {
-          return JSON.parse(raw);
-        } catch {
-          return {};
-        }
-      }
-
-      function generateShoppingList() {
-        alert('🛠 Funkcija u izradi – u sledećem koraku pravimo sabranu listu sastojaka!');
-      }
-    </script>
+    <script src="js/meal-plan.js"></script>
   </body>
 </html>
