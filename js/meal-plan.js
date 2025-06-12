@@ -9,7 +9,7 @@ const saveMsg = document.getElementById('saveMessage');
 let allRecipes = [];
 
 // Učitavanje recepata
-fetch('data/recipes.json')
+fetch('/meal-prep-app/data/recipes.json')
   .then(res => res.json())
   .then(data => {
     allRecipes = data;
