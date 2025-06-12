@@ -13,6 +13,7 @@ fetch('/meal-prep-app/data/recipes.json')
   .then(res => res.json())
   .then(data => {
     allRecipes = data;
+    console.log("Loaded recipes in meal-plan.js:", allRecipes);
     renderTable();
   });
 
