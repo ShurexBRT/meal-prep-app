@@ -69,7 +69,7 @@
     "meal": "doručak",
     "goal": "gubitak",
     "description": "Niskokaloričan omlet prepun proteina i vlakana.",
-    "ingredients": ["belanca", "paprika", "luk", "šampinjoni", "maslinovo ulje"],
+    "ingredients": ["belance", "paprika", "luk", "šampinjoni", "maslinovo ulje"],
     "nutrition": {
       "calories": 210,
       "protein": 18,
@@ -173,7 +173,7 @@
     "meal": "doručak",
     "goal": "odrzavanje",
     "description": "Bogat obrok za energiju i koncentraciju tokom jutra.",
-    "ingredients": ["integralni tost", "avokado", "jaje", "limunov sok"],
+    "ingredients": ["integralni tost", "avokado", "jaja", "limunov sok"],
     "nutrition": {
       "calories": 420,
       "protein": 14,
@@ -186,7 +186,7 @@
     "meal": "doručak",
     "goal": "odrzavanje",
     "description": "Ukusan i hranljiv, odličan za posle treninga.",
-    "ingredients": ["jagode", "kikiriki puter", "grčki jogurt", "bademovo mleko"],
+    "ingredients": ["jagode", "kikiriki puter", "grčki jogurt", "biljno mleko"],
     "nutrition": {
       "calories": 440,
       "protein": 19,
@@ -199,7 +199,7 @@
     "meal": "doručak",
     "goal": "odrzavanje",
     "description": "Brz obrok bogat proteinima i zdravim mastima.",
-    "ingredients": ["cottage cheese", "orah", "badem", "med"],
+    "ingredients": ["sitni sir", "orasi", "badem", "med"],
     "nutrition": {
       "calories": 370,
       "protein": 20,
@@ -212,7 +212,7 @@
     "meal": "doručak",
     "goal": "odrzavanje",
     "description": "Jednostavan i bogat izvor proteina i složenih UH.",
-    "ingredients": ["jaja", "integralni hleb", "puter", "so"],
+    "ingredients": ["jaja", "integralni tost", "puter", "so"],
     "nutrition": {
       "calories": 390,
       "protein": 17,
@@ -225,7 +225,7 @@
     "meal": "doručak",
     "goal": "odrzavanje",
     "description": "Nutritivna bomba sa proteinima, vlaknima i mikronutrijentima.",
-    "ingredients": ["spanać", "banana", "bademi", "grčki jogurt"],
+    "ingredients": ["spanać", "banana", "badem", "grčki jogurt"],
     "nutrition": {
       "calories": 400,
       "protein": 15,
@@ -459,7 +459,7 @@
     "meal": "ručak",
     "goal": "odrzavanje",
     "description": "Mirisan i zasitan obrok sa azijskim šmekom.",
-    "ingredients": ["pileći file", "kari začin", "kokosovo mleko", "basmati pirinač"],
+    "ingredients": ["pileći file", "kari začin", "kokosovo mleko", "pirinač"],
     "nutrition": {
       "calories": 540,
       "protein": 31,
@@ -615,7 +615,7 @@
     "meal": "večera",
     "goal": "gubitak",
     "description": "Proteinska večera bez ugljenih hidrata.",
-    "ingredients": ["mlevena ćuretina", "jaje", "peršun", "beli luk"],
+    "ingredients": ["mlevena ćuretina", "jaja", "peršun", "beli luk"],
     "nutrition": {
       "calories": 310,
       "protein": 27,
@@ -628,7 +628,7 @@
     "meal": "večera",
     "goal": "gubitak",
     "description": "Lagana verzija poznate salate – bez viška UH.",
-    "ingredients": ["piletina", "zelena salata", "parmezan", "dresing", "limun"],
+    "ingredients": ["pileći file", "zelena salata", "parmezan", "dresing", "limun"],
     "nutrition": {
       "calories": 320,
       "protein": 26,
@@ -641,7 +641,7 @@
     "meal": "večera",
     "goal": "gubitak",
     "description": "Zdrav comfort food za večernju sitost.",
-    "ingredients": ["brokoli", "jaje", "kačkavalj", "beli luk"],
+    "ingredients": ["brokoli", "jaja", "kačkavalj", "beli luk"],
     "nutrition": {
       "calories": 290,
       "protein": 20,
@@ -654,7 +654,7 @@
     "meal": "večera",
     "goal": "odrzavanje",
     "description": "Zdrava večera koja kombinuje proteine i dobre masti.",
-    "ingredients": ["integralni tost", "avokado", "jaje", "limun", "biber"],
+    "ingredients": ["integralni tost", "avokado", "jaja", "limun", "biber"],
     "nutrition": {
       "calories": 430,
       "protein": 20,
@@ -771,7 +771,7 @@
     "meal": "večera",
     "goal": "odrzavanje",
     "description": "Laganija verzija klasika – bez ulja, sa proteinima.",
-    "ingredients": ["tikvice", "jaje", "grčki jogurt", "beli luk", "ovsene pahuljice"],
+    "ingredients": ["tikvice", "jaja", "grčki jogurt", "beli luk", "ovsene pahuljice"],
     "nutrition": {
       "calories": 400,
       "protein": 18,
