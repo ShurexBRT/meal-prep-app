@@ -17,13 +17,13 @@ fetch("https://script.google.com/macros/s/AKfycbwhR0JDjMv9lo3qxqssbOPvTDETZxTdcl
     console.log(data);
   });
 // Učitavanje recepata
-fetch('/meal-prep-app/data/recipes.json')
-  .then(res => res.json())
-  .then(data => {
-    allRecipes = data;
-    console.log("Loaded recipes in meal-plan.js:", allRecipes);
-    renderTable();
-  });
+//fetch('/meal-prep-app/data/recipes.json')
+//  .then(res => res.json())
+//  .then(data => {
+ //   allRecipes = data;
+ //   console.log("Loaded recipes in meal-plan.js:", allRecipes);
+ //   renderTable();
+ // });
 
 
 

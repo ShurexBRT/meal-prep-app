@@ -6,13 +6,13 @@ fetch("https://script.google.com/macros/s/AKfycbwhR0JDjMv9lo3qxqssbOPvTDETZxTdcl
   .then(data => {
     // data je niz objekata, svaki je jedan recept!
     console.log(data);
-  });
+
   
-fetch('/meal-prep-app/data/recipes.json')
-  .then((res) => res.json())
-  .then((recipes) => {
-    const inventory = getInventory();
-    const neededItems = new Set();
+//fetch('/meal-prep-app/data/recipes.json')
+//  .then((res) => res.json())
+//  .then((recipes) => {
+//    const inventory = getInventory();
+//    const neededItems = new Set();
 
     // NOVI FORMAT: svi sastojci su sada u 'ingredients' kao niz stringova
     recipes.forEach((recipe) => {

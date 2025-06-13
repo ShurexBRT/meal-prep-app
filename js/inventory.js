@@ -6,10 +6,10 @@ fetch("https://script.google.com/macros/s/AKfycbwhR0JDjMv9lo3qxqssbOPvTDETZxTdcl
   .then(data => {
     // data je niz objekata, svaki je jedan recept!
     console.log(data);
-  });
-fetch('/meal-prep-app/data/recipes.json')
-  .then(res => res.json())
-  .then(recipes => {
+  
+//fetch('/meal-prep-app/data/recipes.json')
+//  .then(res => res.json())
+//  .then(recipes => {
     // Skupljamo sve unikatne sastojke iz svih recepata
     let ingredientsSet = new Set();
     recipes.forEach(recipe => {

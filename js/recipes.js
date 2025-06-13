@@ -13,12 +13,12 @@ fetch("https://script.google.com/macros/s/AKfycbwhR0JDjMv9lo3qxqssbOPvTDETZxTdcl
   });
 
 // Učitavanje recepata iz JSON fajla
-fetch('/meal-prep-app/data/recipes.json')
-  .then((res) => res.json())
-  .then((data) => {
-    allRecipes = data;
-    renderRecipes();
-  });
+//fetch('/meal-prep-app/data/recipes.json')
+//  .then((res) => res.json())
+//  .then((data) => {
+//    allRecipes = data;
+//    renderRecipes();
+//  });
 
 // Crtanje recepata
 function renderRecipes() {
