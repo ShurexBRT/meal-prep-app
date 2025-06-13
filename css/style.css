@@ -325,20 +325,39 @@ body.dark .theme-toggle {
   left: 18px;
   z-index: 1010;
 }
+/* Hamburger dugme pozicija */
 .hamburger-btn {
+  position: fixed;
+  top: 20px;
+  left: 18px;
+  z-index: 2000;
+  width: 44px;
+  height: 44px;
+  background: #2196f3;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(30,50,100,0.18);
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 48px;
-  height: 48px;
-  background: #0077b6;
-  border: none;
-  border-radius: 12px;
-  cursor: pointer;
   align-items: center;
-  box-shadow: 0 2px 8px rgba(60,180,60,0.13);
-  transition: background 0.2s;
+  justify-content: center;
 }
+
+/* Sve stranice padding da se ne preklapa */
+.container, .main-content, .page-content {
+  padding-top: 72px !important; /* po potrebi podešavaš (64px-80px) */
+}
+
+@media (max-width: 600px) {
+  .container, .main-content, .page-content {
+    padding-top: 62px !important;
+  }
+  .hamburger-btn {
+    top: 14px;
+    left: 12px;
+    width: 38px;
+    height: 38px;
+  }
+}
+
 .hamburger-btn span {
   display: block;
   width: 26px;
