@@ -319,4 +319,86 @@ body.dark .theme-toggle {
 
 /* === Toast kontejner (bootstrap koristi vlastite) === */
 /* Ako želiš custom toast styling, možeš dodati ovde */
+.hamburger-nav {
+  position: fixed;
+  top: 18px;
+  left: 18px;
+  z-index: 1010;
+}
+.hamburger-btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  background: #0077b6;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  align-items: center;
+  box-shadow: 0 2px 8px rgba(60,180,60,0.13);
+  transition: background 0.2s;
+}
+.hamburger-btn span {
+  display: block;
+  width: 26px;
+  height: 3px;
+  margin: 4px 0;
+  background: #fff;
+  border-radius: 2px;
+  transition: 0.3s;
+}
+.hamburger-menu {
+  display: none;
+  position: absolute;
+  top: 54px;
+  left: 0;
+  min-width: 185px;
+  background: #fff;
+  border-radius: 13px;
+  box-shadow: 0 2px 22px rgba(40,100,60,0.17);
+  padding: 10px 0 7px 0;
+  z-index: 1020;
+  font-family: 'Poppins', Arial, sans-serif;
+}
+.hamburger-menu ul { list-style: none; margin: 0; padding: 0;}
+.hamburger-menu .menu-item {
+  width: 100%;
+  text-align: left;
+  background: none;
+  border: none;
+  color: #23894e;
+  font-weight: 500;
+  font-size: 1.08em;
+  padding: 11px 20px;
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  cursor: pointer;
+  transition: background 0.17s, color 0.17s;
+}
+.hamburger-menu .menu-item:hover,
+.hamburger-menu .menu-item:focus {
+  background: #e0f7e9;
+  color: #14553b;
+}
+.hamburger-menu.open {
+  display: block;
+}
+.hamburger-menu .material-icons {
+  font-size: 1.32em;
+  vertical-align: middle;
+}
+body.dark-mode .hamburger-menu {
+  background: #233a2b;
+  color: #b4f6cd;
+}
+body.dark-mode .hamburger-menu .menu-item {
+  color: #b4f6cd;
+}
+body.dark-mode .hamburger-menu .menu-item:hover {
+  background: #185d38;
+  color: #e8f7eb;
+}
 

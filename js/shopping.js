@@ -2,7 +2,7 @@
 
 const container = document.getElementById('shoppingListContainer');
 
-// Učitaj recepte
+// Učitaj recepte sa Google Sheets
 fetch("https://script.google.com/macros/s/AKfycbzG479FCE0jYnIZRZkXXUYTbkXtGfyWhvTtmwaT_qDI2tiQ2A-jJDmqfjBn-i9bmEw/exec")
   .then(res => res.json())
   .then(data => {
@@ -11,7 +11,7 @@ fetch("https://script.google.com/macros/s/AKfycbzG479FCE0jYnIZRZkXXUYTbkXtGfyWhv
     data.forEach(r => {
       (r.ingredients || '').split(',').forEach(i => {
         const ing = i.trim();
-        if (!inv.includes(ing.toLowerCase())) needed.add(ing);
+        if (ing && !inv.includes(ing.toLowerCase())) needed.add(ing);
       });
     });
     renderList(Array.from(needed).sort((a, b) => a.localeCompare(b, "sr")));
