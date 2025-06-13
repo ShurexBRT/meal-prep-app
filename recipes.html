@@ -1,93 +1,104 @@
 <!DOCTYPE html>
 <html lang="sr">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Recepti • Smart Meal Planner</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="css/style.css" />
-    <style>
-      .home-button {
-        position: fixed;
-        top: 15px;
-        right: 15px;
-        background-color: #e0f7e9;
-        padding: 8px 12px;
-        border-radius: 8px;
-        text-decoration: none;
-        font-weight: bold;
-        color: #2b7a4b;
-        box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-        z-index: 1000;
-      }
 
-      .home-button:hover {
-        background-color: #c0ebd2;
-      }
+<head>
+  <meta charset="UTF-8" />
+  <title>Recepti • Smart Meal Planner</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <style>
+    .home-button {
+      position: fixed;
+      top: 15px;
+      right: 15px;
+      background-color: #e0f7e9;
+      padding: 8px 12px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      color: #2b7a4b;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+      z-index: 1000;
+    }
 
-      body {
-        font-family: 'Poppins', sans-serif;
-        background-color: #f8fdf6;
-      }
-      .card {
-        margin-bottom: 20px;
-        transition: transform 0.15s;
-      }
-      .card:hover {
-        transform: scale(1.02);
-        box-shadow: 0 4px 18px rgba(0,0,0,0.14);
-      }
-      .nutr-table td {
-        padding: 2px 8px;
-        font-size: 0.98em;
-      }
-      .goal-gubitak { color: #d93d04; font-weight: bold;}
-      .goal-odrzavanje { color: #23730c; font-weight: bold;}
-    </style>
-  </head>
-  <body>
-    <a href="index.html" class="home-button">🏠 Home</a>
+    .home-button:hover {
+      background-color: #c0ebd2;
+    }
 
-    <div class="container py-4">
-      <h1 class="text-success mb-4">🍽️ Pregled recepata</h1>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #f8fdf6;
+    }
 
-      <div class="d-flex flex-wrap gap-3 mb-4">
-        <select id="categoryFilter" class="form-select w-auto">
-          <option value="">Sve kategorije</option>
-          <option value="doručak">Doručak</option>
-          <option value="ručak">Ručak</option>
-          <option value="večera">Večera</option>
-        </select>
-        <div class="form-check">
-          <input
-            class="form-check-input"
-            type="checkbox"
-            value=""
-            id="filterByInventory"
-          />
-          <label class="form-check-label" for="filterByInventory">
-            Prikaži samo recepte za koje imam sve
-          </label>
-        </div>
+    .card {
+      margin-bottom: 20px;
+      transition: transform 0.15s;
+    }
+
+    .card:hover {
+      transform: scale(1.02);
+      box-shadow: 0 4px 18px rgba(0, 0, 0, 0.14);
+    }
+
+    .nutr-table td {
+      padding: 2px 8px;
+      font-size: 0.98em;
+    }
+
+    .goal-gubitak {
+      color: #d93d04;
+      font-weight: bold;
+    }
+
+    .goal-odrzavanje {
+      color: #23730c;
+      font-weight: bold;
+    }
+  </style>
+</head>
+
+<body>
+  <a href="index.html" class="home-button">🏠 Home</a>
+
+  <div class="container py-4">
+    <h1 class="text-success mb-4">🍽️ Pregled recepata</h1>
+
+    <div class="d-flex flex-wrap gap-3 mb-4">
+      <select id="categoryFilter" class="form-select w-auto">
+        <option value="">Sve kategorije</option>
+        <option value="doručak">Doručak</option>
+        <option value="ručak">Ručak</option>
+        <option value="večera">Večera</option>
+      </select>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="filterByInventory" />
+        <label class="form-check-label" for="filterByInventory">
+          Prikaži samo recepte za koje imam sve
+        </label>
       </div>
-
-      <div id="recipeList" class="row"></div>
-
-      <a href="index.html" class="btn btn-outline-secondary mt-4">← Nazad na početnu</a>
     </div>
-<footer class="footer">🥗 Saki & Peki • Smart Meal Planner</footer>
-    <script src="js/recipes.js"></script>
-  </body>
-  
+
+    <div id="recipeList" class="row"></div>
+
+    <a href="index.html" class="btn btn-outline-secondary mt-4">← Nazad na početnu</a>
+  </div>
+
+  <button id="backToTop" class="btn btn-primary" aria-label="Vratite se na vrh">
+    ↑
+  </button>
+
+  <footer class="footer">🥗 Saki & Peki • Smart Meal Planner</footer>
+  <script src="js/recipes.js"></script>
+    <!-- bootstrap JS bundle (za toast, itd.) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- naš globalni main.js -->
+  <script src="js/main.js"></script>
+</body>
+
+
+</body>
+
 </html>
