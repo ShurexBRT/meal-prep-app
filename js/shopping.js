@@ -1,62 +1,44 @@
+// shopping.js
+
 const container = document.getElementById('shoppingListContainer');
 
-// ucitavanje recepata sa google tabele
-fetch("https://script.google.com/macros/s/AKfycbwhR0JDjMv9lo3qxqssbOPvTDETZxTdclSPcQLM7IhCJHhXzKaobyOK_2I-dXWwZc_e/exec")
+// Učitaj recepte
+fetch("https://script.google.com/macros/s/AKfycbzG479FCE0jYnIZRZkXXUYTbkXtGfyWhvTtmwaT_qDI2tiQ2A-jJDmqfjBn-i9bmEw/exec")
   .then(res => res.json())
   .then(data => {
-    // data je niz objekata, svaki je jedan recept!
-    console.log(data);
-
-  
-//fetch('/meal-prep-app/data/recipes.json')
-//  .then((res) => res.json())
-//  .then((recipes) => {
-//    const inventory = getInventory();
-//    const neededItems = new Set();
-
-    // NOVI FORMAT: svi sastojci su sada u 'ingredients' kao niz stringova
-    recipes.forEach((recipe) => {
-      (Array.isArray(recipe.ingredients) ? recipe.ingredients : Object.values(recipe.ingredients)).forEach((s) => {
-        const normName = normalizeName(s);
-        if (!inventory.includes(normName)) {
-          neededItems.add(s);
-        }
+    const inv = getInventory();
+    const needed = new Set();
+    data.forEach(r => {
+      (r.ingredients || '').split(',').forEach(i => {
+        const ing = i.trim();
+        if (!inv.includes(ing.toLowerCase())) needed.add(ing);
       });
     });
-
-    renderList(Array.from(neededItems).sort((a, b) => a.localeCompare(b, "sr")));
+    renderList(Array.from(needed).sort((a, b) => a.localeCompare(b, "sr")));
   });
 
 function renderList(items) {
-  container.innerHTML = "";
-  if (items.length === 0) {
+  container.innerHTML = '';
+  if (!items.length) {
     container.innerHTML = '<p class="text-muted">Imaš sve što ti treba. ✅</p>';
     return;
   }
-
-  const list = document.createElement('ul');
-  list.className = 'list-group';
-
-  items.forEach((item) => {
-    const li = document.createElement('li');
-    li.className = 'list-group-item';
-    li.textContent = item;
-    list.appendChild(li);
+  const ul = document.createElement('ul');
+  ul.className = 'list-group';
+  items.forEach(it => {
+    ul.insertAdjacentHTML('beforeend', `<li class="list-group-item">${it}</li>`);
   });
-
-  container.appendChild(list);
+  container.appendChild(ul);
 }
 
 function getInventory() {
-  const raw = localStorage.getItem('inventory');
-  if (!raw) return [];
   try {
-    return JSON.parse(raw);
+    return JSON.parse(localStorage.getItem('inventory')) || [];
   } catch {
     return [];
   }
 }
 
-function normalizeName(name) {
-  return name.trim().toLowerCase();
+function normalizeName(n) {
+  return n.trim().toLowerCase();
 }
