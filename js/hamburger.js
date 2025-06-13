@@ -21,3 +21,17 @@ toggle.onclick = () => {
 if (localStorage.getItem('darkMode') === '1') {
   document.body.classList.add('dark-mode');
 }
+const menuBackdrop = document.getElementById('menuBackdrop');
+const hamburgerMenu = document.getElementById('hamburgerMenu'); 
+
+function openMenu() {
+  hamburgerMenu.classList.add('open');
+  menuBackdrop.classList.add('open');
+}
+function closeMenu() {
+  hamburgerMenu.classList.remove('open');
+  menuBackdrop.classList.remove('open');
+}
+
+// Kad klikneš na backdrop, zatvori meni
+menuBackdrop.addEventListener('click', closeMenu);

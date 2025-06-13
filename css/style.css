@@ -421,3 +421,21 @@ body.dark-mode .hamburger-menu .menu-item:hover {
   color: #e8f7eb;
 }
 
+.menu-backdrop {
+  display: none;
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(20,30,25,0.35); /* Lagani darken */
+  backdrop-filter: blur(6px);       /* Blur efekat */
+  z-index: 1999;  /* Ispod hamburgera */
+  transition: opacity 0.28s;
+  opacity: 0;
+}
+
+/* Kad je hamburger otvoren, klasa .open na backdrop */
+.menu-backdrop.open {
+  display: block;
+  opacity: 1;
+}
