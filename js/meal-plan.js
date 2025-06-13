@@ -8,6 +8,14 @@ const table = document.getElementById('mealPlanTable');
 const saveMsg = document.getElementById('saveMessage');
 let allRecipes = [];
 
+
+// ucitavanje recepata sa google tabele
+fetch("https://script.google.com/macros/s/AKfycbwhR0JDjMv9lo3qxqssbOPvTDETZxTdclSPcQLM7IhCJHhXzKaobyOK_2I-dXWwZc_e/exec")
+  .then(res => res.json())
+  .then(data => {
+    // data je niz objekata, svaki je jedan recept!
+    console.log(data);
+  });
 // Učitavanje recepata
 fetch('/meal-prep-app/data/recipes.json')
   .then(res => res.json())
@@ -16,6 +24,8 @@ fetch('/meal-prep-app/data/recipes.json')
     console.log("Loaded recipes in meal-plan.js:", allRecipes);
     renderTable();
   });
+
+
 
 function renderTable() {
   const savedPlan = getSavedPlan();

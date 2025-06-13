@@ -1,6 +1,13 @@
 const container = document.getElementById('shoppingListContainer');
 
-// Prilagodi putanju ako treba (npr. ako deployuješ na root, koristi samo 'data/recipes.json')
+// ucitavanje recepata sa google tabele
+fetch("https://script.google.com/macros/s/AKfycbwhR0JDjMv9lo3qxqssbOPvTDETZxTdclSPcQLM7IhCJHhXzKaobyOK_2I-dXWwZc_e/exec")
+  .then(res => res.json())
+  .then(data => {
+    // data je niz objekata, svaki je jedan recept!
+    console.log(data);
+  });
+  
 fetch('/meal-prep-app/data/recipes.json')
   .then((res) => res.json())
   .then((recipes) => {
