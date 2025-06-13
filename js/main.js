@@ -33,7 +33,7 @@
     backBtn = document.createElement('button');
     backBtn.id = 'backToTop';
     backBtn.className = 'back-to-top';
-    backBtn.innerHTML = '⬆️';
+    backBtn.innerHTML = '';
     document.body.appendChild(backBtn);
   }
   backBtn.addEventListener('click', () =>
