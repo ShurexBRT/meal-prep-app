@@ -6,6 +6,7 @@
   <title>Lista za kupovinu • Smart Meal Planner</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="css/style.css" />
   <style>
@@ -40,7 +41,37 @@
 </head>
 
 <body>
-  <a href="index.html" class="home-button">🏠 Home</a>
+  <!-- HAMBURGER MENU (shared) -->
+<nav id="hamburgerNav" class="hamburger-nav">
+  <button id="hamburgerBtn" class="hamburger-btn" aria-label="Meni">
+    <span></span><span></span><span></span>
+  </button>
+  <div id="hamburgerMenu" class="hamburger-menu">
+    <ul>
+      <li>
+        <a class="menu-item" href="index.html">
+          <span class="material-icons">home</span> Home
+        </a>
+      </li>
+      <li>
+        <button id="darkToggle" class="menu-item" type="button">
+          <span class="material-icons">brightness_6</span> Dark Mode
+        </button>
+      </li>
+      <li>
+        <a class="menu-item" href="about.html">
+          <span class="material-icons">info</span> O aplikaciji
+        </a>
+      </li>
+      <li>
+        <a class="menu-item" href="add-recipe.html">
+          <span class="material-icons">add</span> Dodaj recept
+        </a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
 
   <div class="container py-4">
     <h1 class="text-success mb-4">🛒 Lista za kupovinu</h1>
@@ -60,6 +91,8 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
   <!-- naš globalni main.js -->
   <script src="js/main.js"></script>
+  <script src="js/hamburger.js"></script>
+
 </body>
 
 
