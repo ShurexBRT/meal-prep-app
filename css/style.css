@@ -358,14 +358,31 @@ body.dark .theme-toggle {
   }
 }
 
+
 .hamburger-btn span {
-  display: block;
-  width: 26px;
-  height: 3px;
-  margin: 4px 0;
-  background: #fff;
-  border-radius: 2px;
-  transition: 0.3s;
+  display: block; /* KLJUČNO: Svaki span u svom redu */
+  width: 25px; /* Širina "linije" hamburgera */
+  height: 3px; /* Visina (debljina) "linije" hamburgera */
+  background-color: #2b7a4b; /* Boja linija (prilagodi po potrebi) */
+  border-radius: 2px; /* Zaobljene ivice linija */
+  transition: all 0.3s ease-in-out; /* Glatka tranzicija za animaciju (ako je imaš) */
+}
+
+.hamburger-btn span:not(:last-child) {
+  margin-bottom: 5px; /* Razmak između linija */
+}
+
+/* Stilovi za animaciju (ako ih imaš) */
+.hamburger-btn.open span:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+}
+
+.hamburger-btn.open span:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger-btn.open span:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
 }
 .hamburger-menu {
   display: none;
