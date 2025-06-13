@@ -1,29 +1,5 @@
 // js/main.js
 
-document.addEventListener('DOMContentLoaded', () => {
-  // --- DARK MODE ---
-  const savedTheme = localStorage.getItem('theme') || 'light';
-  if (savedTheme === 'dark') document.body.classList.add('dark');
-
-  // Theme toggle dugme
-  let themeToggle = document.getElementById('theme-toggle');
-  if (!themeToggle) {
-    themeToggle = document.createElement('button');
-    themeToggle.id = 'theme-toggle';
-    themeToggle.className = 'theme-toggle';
-    document.body.appendChild(themeToggle);
-  }
-  updateThemeToggle();
-  themeToggle.addEventListener('click', () => {
-    document.body.classList.toggle('dark');
-    const newTheme = document.body.classList.contains('dark') ? 'dark' : 'light';
-    localStorage.setItem('theme', newTheme);
-    updateThemeToggle();
-  });
-  function updateThemeToggle() {
-    themeToggle.textContent = document.body.classList.contains('dark') ? '🌞' : '🌙';
-  }
-
   // --- BOOTSTRAP TOASTS ---
   // Kreiraj kontejner ako ne postoji
   let toastContainer = document.getElementById('toastContainer');
