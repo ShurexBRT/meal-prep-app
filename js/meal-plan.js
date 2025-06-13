@@ -15,15 +15,15 @@ fetch("https://script.google.com/macros/s/AKfycbwhR0JDjMv9lo3qxqssbOPvTDETZxTdcl
   .then(data => {
     // data je niz objekata, svaki je jedan recept!
     console.log(data);
-  });
+  
 // Učitavanje recepata
 //fetch('/meal-prep-app/data/recipes.json')
 //  .then(res => res.json())
 //  .then(data => {
- //   allRecipes = data;
- //   console.log("Loaded recipes in meal-plan.js:", allRecipes);
- //   renderTable();
- // });
+    allRecipes = data;
+    console.log("Loaded recipes in meal-plan.js:", allRecipes);
+   renderTable();
+  });
 
 
 
