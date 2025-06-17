@@ -3,54 +3,84 @@
 
 <head>
     <meta charset="UTF-8" />
+    <title>Dodaj recept • Smart Meal Planner</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Smart Meal Planner</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
-    <link rel="stylesheet" href="css/style.css" />
+    <link href="css/style.css" rel="stylesheet" />
+    <!-- Ikonice za hamburger -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 
 <body>
-
-    <div id="menuBackdrop" class="menu-backdrop"></div>
-
-    <nav id="hamburgerNav" class="hamburger-nav">
-        <button id="hamburgerBtn" class="hamburger-btn" aria-label="Meni">
-            <span></span>
-            <span></span>
-            <span></span>
-        </button>
-        <div id="hamburgerMenu" class="hamburger-menu">
-            <ul>
-                <li>
-                    <a class="menu-item" href="index.html">
-                        <span class="material-icons">home</span> Home
-                    </a>
-                </li>
-                <li>
-                    <button id="darkToggle" class="menu-item" type="button">
-                        <span class="material-icons">brightness_6</span> Dark Mode
-                    </button>
-                </li>
-                <li>
-                    <a class="menu-item" href="add-recipe.html">
-                        <span class="material-icons">add</span> Dodaj recept
-                    </a>
-                </li>
-                <li>
-        <a class="menu-item" href="about.html">
-          <span class="material-icons">info</span> O aplikaciji
-        </a>
-      </li>
-            </ul>
-        </div>
-    </nav>
-
-    <!-- bootstrap JS bundle (za toast, itd.) -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- naš globalni main.js -->
+    <!-- Hamburger meni, isti include kao i na ostalim stranicama -->
+    <nav id="hamburgerNav"></nav>
+    <div class="container py-4" style="max-width:540px;">
+        <h1 class="text-success mb-4"><span class="material-icons align-middle emoji-title">edit_note</span>Dodaj recept
+        </h1>
+        <form id="addRecipeForm" autocomplete="off">
+            <div class="mb-3">
+                <label for="name" class="form-label">Naziv recepta</label>
+                <input type="text" class="form-control" id="name" name="name" required maxlength="60" />
+            </div>
+            <div class="mb-3">
+                <label for="meal" class="form-label">Obrok</label>
+                <select class="form-select" id="meal" name="meal" required>
+                    <option value="">Izaberi</option>
+                    <option value="doručak">Doručak</option>
+                    <option value="ručak">Ručak</option>
+                    <option value="večera">Večera</option>
+                </select>
+            </div>
+            <div class="mb-3">
+                <label for="goal" class="form-label">Cilj</label>
+                <select class="form-select" id="goal" name="goal" required>
+                    <option value="">Izaberi</option>
+                    <option value="gubitak">Gubitak</option>
+                    <option value="odrzavanje">Održavanje</option>
+                </select>
+            </div>
+            <div class="mb-3">
+                <label for="description" class="form-label">Opis recepta</label>
+                <textarea class="form-control" id="description" name="description" rows="2" maxlength="200"
+                    required></textarea>
+            </div>
+            <div class="mb-3">
+                <label for="ingredients" class="form-label">Sastojci <span class="text-muted">(odvojiti
+                        zarezom)</span></label>
+                <input type="text" class="form-control" id="ingredients" name="ingredients" required
+                    placeholder="npr. jaja, avokado, so, biber" maxlength="200" />
+            </div>
+            <div class="row mb-3">
+                <div class="col-6">
+                    <label for="calories" class="form-label">Kalorije</label>
+                    <input type="number" class="form-control" id="calories" name="calories" required min="0" />
+                </div>
+                <div class="col-6">
+                    <label for="protein" class="form-label">Proteini (g)</label>
+                    <input type="number" class="form-control" id="protein" name="protein" required min="0" />
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-6">
+                    <label for="carbs" class="form-label">Ugljeni hidrati (g)</label>
+                    <input type="number" class="form-control" id="carbs" name="carbs" required min="0" />
+                </div>
+                <div class="col-6">
+                    <label for="fat" class="form-label">Masti (g)</label>
+                    <input type="number" class="form-control" id="fat" name="fat" required min="0" />
+                </div>
+            </div>
+            <div class="d-flex gap-3 mt-4">
+                <button type="submit" class="btn btn-success flex-fill"><span class="material-icons align-middle"
+                        style="font-size:1.2em;">save</span> Sačuvaj</button>
+                <a href="recipes.html" class="btn btn-outline-secondary flex-fill">Odustani</a>
+            </div>
+        </form>
+        <div id="toastContainer"></div>
+    </div>
+    <footer class="footer">Peki &amp; Saki • Smart Meal Planner</footer>
     <script src="js/main.js"></script>
+    <script src="js/add-recipe.js"></script>
     <script src="js/hamburger.js"></script>
 </body>
 
