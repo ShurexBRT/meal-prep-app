@@ -1,0 +1,23 @@
+<script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/11.9.1/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.9.1/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyAPQex4B1CLc7SqTyuyE4CladVeKBG2se0",
+    authDomain: "smart-meal-planer.firebaseapp.com",
+    projectId: "smart-meal-planer",
+    storageBucket: "smart-meal-planer.firebasestorage.app",
+    messagingSenderId: "910435130398",
+    appId: "1:910435130398:web:5223a758c7bacee1a6620f",
+    measurementId: "G-FQBBHRP28Y"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
