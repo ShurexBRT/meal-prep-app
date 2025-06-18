@@ -3,9 +3,10 @@
 const apiUrl = 'https://script.google.com/macros/s/AKfycbzG479FCE0jYnIZRZkXXUYTbkXtGfyWhvTtmwaT_qDI2tiQ2A-jJDmqfjBn-i9bmEw/exec';
 
 const recipeList = document.getElementById('recipeList');
-const mealFilter = document.getElementById('mealFilter');
-const goalFilter = document.getElementById('goalFilter');
-const searchInput = document.getElementById('searchInput');
+// HTML koristi id="categoryFilter" za odabir obroka i id="searchRecipe" za pretragu
+const mealFilter = document.getElementById('categoryFilter');
+const goalFilter = document.getElementById('goalFilter'); // opcioni filter, mozda ne postoji
+const searchInput = document.getElementById('searchRecipe');
 const filterByInventory = document.getElementById('filterByInventory');
 
 let allRecipes = [];
