@@ -4,9 +4,9 @@ import { collection, getDocs, deleteDoc, doc } from "https://www.gstatic.com/fir
 
 const recipeList = document.getElementById('recipeList');
 // Ove ID-jeve koristiš ako imaš filtere
-const mealFilter = document.getElementById('mealFilter');
+const mealFilter = document.getElementById('mealFilter') || document.getElementById('categoryFilter');
 const goalFilter = document.getElementById('goalFilter');
-const searchInput = document.getElementById('searchInput');
+const searchInput = document.getElementById('searchInput') || document.getElementById('searchRecipe');
 const filterByInventory = document.getElementById('filterByInventory');
 
 let allRecipes = [];
