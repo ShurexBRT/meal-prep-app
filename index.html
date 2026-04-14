@@ -6,27 +6,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Smart Meal Planner</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet" />
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
   <link rel="stylesheet" href="css/style.css" />
-  <style>
-    body {
-      font-family: 'Be Vietnam Pro', sans-serif;
-      background-color: #f6fbf4;
-    }
-  </style>
 </head>
 
 <body>
-
   <div id="menuBackdrop" class="menu-backdrop"></div>
 
-  <!-- HAMBURGER MENU -->
   <nav id="hamburgerNav" class="hamburger-nav">
     <button id="hamburgerBtn" class="hamburger-btn" aria-label="Meni">
-      <span></span>
-      <span></span>
-      <span></span>
+      <span></span><span></span><span></span>
     </button>
     <div id="hamburgerMenu" class="hamburger-menu">
       <ul>
@@ -35,50 +24,41 @@
             <span class="material-icons">brightness_6</span> Dark Mode
           </button>
         </li>
-        <li>
-          <a class="menu-item" href="add-recipe.html">
-            <span class="material-icons">add</span> Dodaj recept
-          </a>
-        </li>
-        <li>
-          <a class="menu-item" href="about.html">
-            <span class="material-icons">info</span> O aplikaciji
-          </a>
-        </li>
-
+        <li><a class="menu-item" href="add-recipe.html"><span class="material-icons">add</span> Dodaj recept</a></li>
+        <li><a class="menu-item" href="about.html"><span class="material-icons">info</span> O aplikaciji</a></li>
       </ul>
     </div>
   </nav>
 
-  <div class="container py-5">
-    <header class="mb-5 text-center">
-      <h1 class="display-5 fw-bold text-success">🥗 Smart Meal Planner</h1>
-      <p class="text-body-emphasis">Tvoj lični nutricionista u džepu</p>
+  <main class="app-main container py-4">
+    <header class="page-header text-center">
+      <span class="page-eyebrow">Premium Meal Planner</span>
+      <h1 class="page-title">🥗 Smart Meal Planner</h1>
+      <p class="page-subtitle">Tvoj lični nutricionista u džepu.</p>
     </header>
 
-    <div class="d-grid gap-4 col-10 col-sm-6 mx-auto">
-      <a href="recipes.html" class="btn btn-outline-success btn-lg">
-        🍽️ Pregled recepata
-      </a>
-      <a href="inventory.html" class="btn btn-outline-primary btn-lg">
-        🧺 Stanje u frižideru
-      </a>
-      <a href="shopping-list.html" class="btn btn-outline-warning btn-lg">
-        🛒 Lista za kupovinu
-      </a>
-      <a href="meal-plan.html" class="btn btn-outline-info btn-lg">
-        📆 Nedeljni plan obroka
-      </a>
-    </div>
+    <section class="content-shell">
+      <div class="d-grid gap-3 col-12 col-sm-10 col-lg-7 mx-auto">
+        <a href="recipes.html" class="btn btn-outline-success btn-lg">🍽️ Pregled recepata</a>
+        <a href="inventory.html" class="btn btn-outline-primary btn-lg">🧺 Stanje u frižideru</a>
+        <a href="shopping-list.html" class="btn btn-outline-warning btn-lg">🛒 Lista za kupovinu</a>
+        <a href="meal-plan.html" class="btn btn-outline-info btn-lg">📆 Nedeljni plan obroka</a>
+      </div>
+    </section>
+  </main>
 
-    <footer class="footer">🥗 Saki & Peki • Smart Meal Planner</footer>
-  </div>
+  <footer class="footer">🥗 Saki & Peki • Smart Meal Planner</footer>
 
-  <!-- bootstrap JS bundle (za toast, itd.) -->
+  <nav class="mobile-nav" aria-label="Glavna navigacija">
+    <a href="index.html" class="active"><span class="material-icons">home</span>Početna</a>
+    <a href="recipes.html"><span class="material-icons">restaurant_menu</span>Recepti</a>
+    <a href="meal-plan.html"><span class="material-icons">calendar_month</span>Plan</a>
+    <a href="shopping-list.html"><span class="material-icons">shopping_cart</span>Kupovina</a>
+  </nav>
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-  <!-- naš globalni main.js -->
   <script src="js/main.js"></script>
   <script src="js/hamburger.js"></script>
-  </body>
+</body>
 
 </html>
