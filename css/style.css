@@ -1,331 +1,324 @@
-/* === OSNOVNI RESET I BODY === */
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap');
+
+:root {
+  --surface: #f6fbf4;
+  --surface-container-low: #f0f5ee;
+  --surface-container: #e8efe7;
+  --surface-container-high: #e2e8e1;
+  --surface-container-lowest: #ffffff;
+  --surface-bright: #ffffff;
+
+  --primary: #056135;
+  --primary-container: #2b7a4b;
+  --secondary-container: #dcebdd;
+  --on-secondary-container: #1e3c2b;
+  --on-primary: #f8fff8;
+
+  --on-surface: #171d19;
+  --outline-variant: #6f7f75;
+  --tertiary: #893b47;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
-  font-family: 'Poppins', Arial, sans-serif;
-  background-color: #f8fdf6;
-  color: #242e29;
+  font-family: 'Be Vietnam Pro', Arial, sans-serif;
+  background: var(--surface);
+  color: var(--on-surface);
+  line-height: 1.5;
   min-height: 100vh;
   position: relative;
-  padding-bottom: 90px; /* za footer */
+  padding-bottom: 110px;
 }
-h1, h2, h3, h4 {
-  font-family: 'Poppins', Arial, sans-serif;
-  margin-bottom: 18px;
-  color: #2b7a4b;
-  font-weight: 600;
-  letter-spacing: 0.5px;
+
+h1,
+h2,
+h3,
+h4,
+.display-1,
+.display-2,
+.display-3,
+.display-4,
+.display-5,
+.display-6 {
+  font-family: 'Plus Jakarta Sans', Arial, sans-serif;
+  color: var(--on-surface);
+  letter-spacing: -0.02em;
+  font-weight: 700;
+  margin-bottom: 1rem;
 }
+
 h1 {
-  font-size: 2.1em;
-  margin-top: 10px;
-}
-@media (max-width: 600px) {
-  h1 {
-    font-size: 1.3em;
-  }
-  .container {
-    padding-left: 6px !important;
-    padding-right: 6px !important;
-  }
+  font-size: clamp(2rem, 4vw, 2.85rem);
 }
 
-/* === KARTICE RECEPATA === */
+.container,
+.main-content,
+.page-content {
+  padding-top: 96px !important;
+}
+
 .card {
-  margin-bottom: 24px;
-  border-radius: 15px;
+  margin-bottom: 1.5rem;
+  border-radius: 1.5rem;
   border: none;
-  box-shadow: 0 2px 9px rgba(70,180,90,0.07);
-  transition: transform 0.2s, box-shadow 0.2s;
-  background: #fff;
+  background: var(--surface-container-lowest);
+  box-shadow: none;
+  transition: transform 0.2s ease;
+  overflow: hidden;
 }
+
 .card:hover {
-  transform: scale(1.01);
-  box-shadow: 0 4px 18px rgba(50,150,50,0.09);
+  transform: translateY(-2px);
 }
+
 .card-title {
-  font-weight: 600;
-  color: #1c6640;
-  letter-spacing: 0.2px;
+  font-family: 'Plus Jakarta Sans', Arial, sans-serif;
+  color: var(--on-surface);
+  font-weight: 700;
 }
+
 .card-text {
-  color: #476c57;
-  font-size: 1em;
-  margin-bottom: 10px;
+  color: #32443a;
 }
+
 .recipe-macros {
-  font-size: 0.98em;
-  margin-top: 12px;
-  color: #0f3824;
+  font-size: 0.9rem;
+  color: #31463b;
 }
+
 .badge-goal {
-  font-size: 0.85em;
-  margin-left: 0.7em;
-  padding: 3px 10px;
-  border-radius: 8px;
-  vertical-align: middle;
-  letter-spacing: 0.3px;
-}
-.badge-goal.gubitak {
-  background: #e8f7eb;
-  color: #29995e;
-}
-.badge-goal.odrzavanje {
-  background: #fffbe8;
-  color: #e7a622;
-}
-
-/* === DUGMIĆI I FORME === */
-button, .btn, input, select, .form-select {
-  border-radius: 8px !important;
-  box-shadow: 0 2px 8px rgba(60,180,60,0.08);
-  font-family: 'Poppins', Arial, sans-serif;
-  font-size: 1em;
-}
-button, .btn {
-  transition: background 0.18s, color 0.15s, box-shadow 0.18s;
-}
-.btn-success, .btn-outline-primary {
-  background: #2b7a4b !important;
-  color: #fff !important;
-  border: none !important;
-}
-.btn-success:hover, .btn-outline-primary:hover {
-  background: #29995e !important;
-  color: #fff !important;
-  box-shadow: 0 4px 14px rgba(40,150,90,0.16);
-}
-.btn-outline-secondary:hover, .btn-outline-dark:hover {
-  background: #e8f7eb !important;
-  color: #185d38 !important;
-}
-.form-select, select {
-  min-width: 120px;
-  background: #e8f7eb;
-  border: 1.5px solid #c0ebd2;
-  font-size: 1em;
-}
-.form-select:focus, select:focus {
-  border-color: #2b7a4b;
-  box-shadow: 0 0 3px #29995e77;
-}
-
-/* Dugme nazad na vrh */
-
-#backToTop {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  display: none;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  font-size: 1.5rem;
-  line-height: 1;
-  z-index: 999;
-}
-
-
-/* === HOME DUGME STICKY === */
-.home-button {
-  position: fixed;
-  top: 15px;
-  right: 15px;
-  background-color: #e0f7e9;
-  padding: 9px 15px;
-  border-radius: 10px;
-  text-decoration: none;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  border-radius: 999px;
+  padding: 0.25rem 0.65rem;
   font-weight: 600;
-  color: #2b7a4b;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.09);
-  z-index: 1000;
-  transition: background 0.2s;
-  font-size: 1em;
-}
-.home-button:hover {
-  background-color: #c0ebd2;
 }
 
-/* === FOOTER === */
+.badge-goal.gubitak {
+  background: #f2e4e8;
+  color: var(--tertiary);
+}
+
+.badge-goal.odrzavanje {
+  background: #ddf0e1;
+  color: var(--primary);
+}
+
+button,
+.btn,
+input,
+select,
+textarea,
+.form-select,
+.form-control {
+  font-family: 'Be Vietnam Pro', Arial, sans-serif;
+  border-radius: 0.75rem !important;
+}
+
+.btn {
+  border: none !important;
+  border-radius: 1rem !important;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  transition: transform 0.18s ease, filter 0.18s ease;
+  padding: 0.72rem 1rem;
+}
+
+.btn:hover {
+  transform: translateY(-1px);
+  filter: brightness(1.02);
+}
+
+.btn-success,
+.btn-outline-success,
+.btn-outline-primary,
+.btn-outline-info,
+.btn-outline-warning {
+  background: linear-gradient(135deg, var(--primary), var(--primary-container)) !important;
+  color: var(--on-primary) !important;
+}
+
+.btn-outline-secondary,
+.btn-outline-dark {
+  background: var(--secondary-container) !important;
+  color: var(--on-secondary-container) !important;
+}
+
+.form-control,
+.form-select,
+select,
+textarea {
+  border: 1px solid rgba(111, 127, 117, 0.12) !important;
+  background: var(--surface-container-high) !important;
+  color: var(--on-surface) !important;
+}
+
+.form-control:focus,
+.form-select:focus,
+select:focus,
+textarea:focus {
+  background: var(--surface-container-lowest) !important;
+  border-color: rgba(5, 97, 53, 0.38) !important;
+  box-shadow: 0 0 0 2px rgba(5, 97, 53, 0.12) !important;
+}
+
+a {
+  color: var(--primary);
+  text-decoration: none;
+}
+
+.greenhouse-shell {
+  max-width: 880px;
+}
+
+.page-kicker {
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  font-size: 0.7rem;
+  color: var(--primary);
+  font-weight: 600;
+  margin-bottom: 0.45rem;
+}
+
+.page-subtitle {
+  color: #3e5247;
+  max-width: 62ch;
+  margin-bottom: 2rem;
+}
+
+.greenhouse-section {
+  background: var(--surface-container-low);
+  border-radius: 1.5rem;
+  padding: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+.greenhouse-section-title {
+  font-family: 'Plus Jakarta Sans', Arial, sans-serif;
+  font-size: 1.35rem;
+  margin-bottom: 0.4rem;
+}
+
+.soft-panel {
+  background: var(--surface-container-lowest);
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.stack-gap-lg > * + * {
+  margin-top: 1rem;
+}
+
+.no-line-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.no-line-list li + li {
+  margin-top: 0.85rem;
+}
+
+.inventory-grid > div,
+#inventoryList > div {
+  margin-bottom: 0.9rem;
+}
+
+.form-check {
+  background: var(--surface-container-lowest);
+  border-radius: 1rem;
+  padding: 0.75rem 0.9rem;
+}
+
+.list-group {
+  gap: 0.8rem;
+  display: grid;
+}
+
+.list-group-item {
+  border: none;
+  border-radius: 1rem !important;
+  background: var(--surface-container-lowest);
+  padding: 0.95rem 1rem;
+}
+
+.table {
+  --bs-table-bg: transparent;
+  --bs-table-border-color: transparent;
+}
+
+.table tbody tr {
+  background: var(--surface-container-lowest);
+}
+
+.table tbody td,
+.table thead th {
+  border: none !important;
+  padding: 0.8rem;
+}
+
+.table tbody tr + tr td {
+  border-top: 12px solid transparent !important;
+}
+
+.table thead th {
+  color: #3c5245;
+  font-weight: 600;
+}
+
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+}
+
 .footer {
   position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100vw;
+  left: 50%;
+  bottom: 12px;
+  transform: translateX(-50%);
+  width: min(92vw, 540px);
   text-align: center;
-  background: #e0f7e9;
-  color: #2b7a4b;
-  font-size: 1.08em;
-  font-family: 'Poppins', Arial, sans-serif;
-  padding: 12px 0 12px 0;
-  box-shadow: 0 -2px 12px rgba(120,180,130,0.11);
-  letter-spacing: 0.8px;
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(16px);
+  color: #476154;
+  font-size: 0.73rem;
+  letter-spacing: 0.25em;
+  border-radius: 999px;
+  padding: 0.85rem 1.1rem;
   z-index: 500;
 }
-@media (max-width: 600px) {
-  .footer {
-    font-size: 0.97em;
-    padding: 9px 0 10px 0;
-  }
-}
 
-/* === TOAST NOTIFIKACIJE === */
 .toast-container {
   position: fixed;
-  bottom: 34px;
+  bottom: 108px;
   right: 18px;
   z-index: 2000;
 }
+
 .toast {
-  border-radius: 8px;
+  border-radius: 0.9rem;
   min-width: 220px;
-  background: #fff;
-  box-shadow: 0 2px 18px rgba(40,100,60,0.11);
-  color: #165d37;
-  border: 1.5px solid #b2eac8;
-  font-family: 'Poppins', Arial, sans-serif;
+  background: var(--surface-container-lowest);
+  color: var(--on-surface);
+  border: 1px solid rgba(111, 127, 117, 0.15);
+  box-shadow: 0 16px 36px -10px rgba(23, 29, 25, 0.1);
   padding: 12px 20px;
-  font-size: 1em;
-  margin-top: 8px;
-  animation: toast-in 0.4s;
-}
-@keyframes toast-in {
-  from { opacity: 0; transform: translateY(30px); }
-  to   { opacity: 1; transform: translateY(0);}
 }
 
-/* === DARK MODE === */
-body.dark-mode {
-  background: #232b23 !important;
-  color: #e4ffe7 !important;
-}
-body.dark-mode .container, body.dark-mode .card {
-  background: #26372c !important;
-  color: #e4ffe7 !important;
-  box-shadow: 0 2px 8px rgba(20,60,20,0.09);
-}
-body.dark-mode .footer {
-  background: #233a2b !important;
-  color: #b4f6cd !important;
-}
-body.dark-mode .home-button {
-  background: #233a2b !important;
-  color: #b4f6cd !important;
-}
-body.dark-mode .btn,
-body.dark-mode .btn-outline-primary,
-body.dark-mode .btn-success {
-  background: #29995e !important;
-  color: #fff !important;
-}
-body.dark-mode .btn-outline-dark {
-  background: #364c41 !important;
-  color: #b4f6cd !important;
-}
-body.dark-mode .form-select, body.dark-mode select {
-  background: #313d34 !important;
-  color: #e4ffe7 !important;
-  border: 1.5px solid #256b45 !important;
-}
-
-/* === OSTALE SITNICE === */
-.table thead th {
-  background: #e0f7e9 !important;
-  color: #23894e !important;
-  font-weight: 600;
-}
-.table tbody td {
-  vertical-align: middle;
-}
-input[type="checkbox"], .form-check-input {
-  accent-color: #29ae6f;
-}
-::-webkit-scrollbar {
-  width: 10px;
-  background: #e0f7e9;
-}
-::-webkit-scrollbar-thumb {
-  background: #b1e9c6;
-  border-radius: 5px;
-}
-a {
-  color: #187d58;
-  text-decoration: none;
-  transition: color 0.14s;
-}
-a:hover {
-  color: #105134;
-}
-select:active, select:focus {
-  outline: none;
-  border-color: #29ae6f;
-}
-ul, li {
-  margin-left: 0;
-  padding-left: 0.6em;
-}
-
-/* === EMOJI TITLES (primer) === */
-.emoji-title {
-  font-size: 1.17em;
-  margin-right: 8px;
-  vertical-align: middle;
-}
-
-/* === Back to top dugme === */
-.back-to-top {
-  position: fixed;
-  bottom: 2rem;
-  right: 2rem;
-  display: none;
-  background: #0077b6;
-  color: white;
-  border: none;
-  padding: 0.75rem;
-  border-radius: 50%;
-  font-size: 1.25rem;
-  cursor: pointer;
-  z-index: 1000;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
-  transition: background 0.2s;
-}
-.back-to-top:hover {
-  background: #005f8c;
-}
-
-/* === Theme toggle dugme === */
-.theme-toggle {
-  position: fixed;
-  top: 1rem;
-  left: 1rem;
-  padding: 0.5rem;
-  border: none;
-  border-radius: 50%;
-  font-size: 1.25rem;
-  cursor: pointer;
-  z-index: 1000;
-  background: #0077b6;
-  color: white;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
-  transition: background 0.2s;
-}
-body.dark .theme-toggle {
-  background: #444;
-  color: #f1f1f1;
-}
-
-/* === Toast kontejner (bootstrap koristi vlastite) === */
-/* Ako želiš custom toast styling, možeš dodati ovde */
 .hamburger-nav {
   position: fixed;
-  top: 18px;
-  left: 18px;
+  top: 14px;
+  left: 14px;
   z-index: 1010;
 }
-/* Hamburger dugme pozicija */
+
 .hamburger-btn {
   position: fixed;
   top: 20px;
@@ -333,49 +326,31 @@ body.dark .theme-toggle {
   z-index: 2000;
   width: 44px;
   height: 44px;
-  background: #2196f3;
-  border-radius: 10px;
-  box-shadow: 0 2px 8px rgba(30,50,100,0.18);
+  background: rgba(246, 251, 244, 0.8);
+  backdrop-filter: blur(20px);
+  border-radius: 14px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  box-shadow: none;
 }
-
-/* Sve stranice padding da se ne preklapa */
-.container, .main-content, .page-content {
-  padding-top: 72px !important; /* po potrebi podešavaš (64px-80px) */
-}
-
-@media (max-width: 600px) {
-  .container, .main-content, .page-content {
-    padding-top: 62px !important;
-  }
-  .hamburger-btn {
-    top: 14px;
-    left: 12px;
-    width: 38px;
-    height: 38px;
-  }
-}
-
 
 .hamburger-btn span {
-  display: block; /* KLJUČNO: Svaki span u svom redu */
-  width: 25px; /* Širina "linije" hamburgera */
-  height: 3px; /* Visina (debljina) "linije" hamburgera */
-  background-color: #2b7a4b; /* Boja linija (prilagodi po potrebi) */
-  border-radius: 2px; /* Zaobljene ivice linija */
-  transition: all 0.3s ease-in-out; /* Glatka tranzicija za animaciju (ako je imaš) */
+  display: block;
+  width: 20px;
+  height: 2px;
+  background-color: var(--primary);
+  border-radius: 2px;
+  transition: all 0.3s ease-in-out;
 }
 
 .hamburger-btn span:not(:last-child) {
-  margin-bottom: 5px; /* Razmak između linija */
+  margin-bottom: 4px;
 }
 
-/* Stilovi za animaciju (ako ih imaš) */
 .hamburger-btn.open span:nth-child(1) {
-  transform: translateY(8px) rotate(45deg);
+  transform: translateY(6px) rotate(45deg);
 }
 
 .hamburger-btn.open span:nth-child(2) {
@@ -383,77 +358,132 @@ body.dark .theme-toggle {
 }
 
 .hamburger-btn.open span:nth-child(3) {
-  transform: translateY(-8px) rotate(-45deg);
+  transform: translateY(-6px) rotate(-45deg);
 }
+
 .hamburger-menu {
   display: none;
   position: absolute;
-  top: 54px;
+  top: 56px;
   left: 0;
-  min-width: 185px;
-  background: #fff;
-  border-radius: 13px;
-  box-shadow: 0 2px 22px rgba(40,100,60,0.17);
-  padding: 10px 0 7px 0;
+  min-width: 220px;
+  background: rgba(246, 251, 244, 0.9);
+  backdrop-filter: blur(20px);
+  border-radius: 1rem;
+  padding: 0.5rem;
   z-index: 1020;
-  font-family: 'Poppins', Arial, sans-serif;
 }
-.hamburger-menu ul { list-style: none; margin: 0; padding: 0;}
+
+.hamburger-menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
 .hamburger-menu .menu-item {
   width: 100%;
   text-align: left;
   background: none;
   border: none;
-  color: #23894e;
+  color: var(--on-surface);
   font-weight: 500;
-  font-size: 1.08em;
-  padding: 11px 20px;
-  border-radius: 7px;
+  font-size: 0.96rem;
+  padding: 0.7rem 0.8rem;
+  border-radius: 0.7rem;
   display: flex;
   align-items: center;
-  gap: 11px;
+  gap: 0.65rem;
   cursor: pointer;
-  transition: background 0.17s, color 0.17s;
 }
+
 .hamburger-menu .menu-item:hover,
 .hamburger-menu .menu-item:focus {
-  background: #e0f7e9;
-  color: #14553b;
+  background: var(--surface-container-lowest);
 }
+
 .hamburger-menu.open {
   display: block;
-}
-.hamburger-menu .material-icons {
-  font-size: 1.32em;
-  vertical-align: middle;
-}
-body.dark-mode .hamburger-menu {
-  background: #233a2b;
-  color: #b4f6cd;
-}
-body.dark-mode .hamburger-menu .menu-item {
-  color: #b4f6cd;
-}
-body.dark-mode .hamburger-menu .menu-item:hover {
-  background: #185d38;
-  color: #e8f7eb;
 }
 
 .menu-backdrop {
   display: none;
   position: fixed;
-  top: 0; left: 0; right: 0; bottom: 0;
-  width: 100vw;
-  height: 100vh;
-  background: rgba(20,30,25,0.35); /* Lagani darken */
-  backdrop-filter: blur(6px);       /* Blur efekat */
-  z-index: 1999;  /* Ispod hamburgera */
-  transition: opacity 0.28s;
+  inset: 0;
+  background: rgba(23, 29, 25, 0.22);
+  backdrop-filter: blur(6px);
+  z-index: 1999;
   opacity: 0;
+  transition: opacity 0.28s;
 }
 
-/* Kad je hamburger otvoren, klasa .open na backdrop */
 .menu-backdrop.open {
   display: block;
   opacity: 1;
+}
+
+input[type='checkbox'],
+.form-check-input {
+  accent-color: var(--primary);
+}
+
+body.dark-mode {
+  background: #1f2823 !important;
+  color: #dce7de !important;
+}
+
+body.dark-mode h1,
+body.dark-mode h2,
+body.dark-mode h3,
+body.dark-mode h4,
+body.dark-mode .card-title,
+body.dark-mode .text-success {
+  color: #e9f3eb !important;
+}
+
+body.dark-mode .container,
+body.dark-mode .card,
+body.dark-mode .hamburger-menu,
+body.dark-mode .form-control,
+body.dark-mode .form-select,
+body.dark-mode textarea,
+body.dark-mode select {
+  background: rgba(55, 67, 60, 0.72) !important;
+  color: #e4efe6 !important;
+}
+
+body.dark-mode .footer,
+body.dark-mode .hamburger-btn {
+  background: rgba(55, 67, 60, 0.7) !important;
+  color: #e4efe6 !important;
+}
+
+body.dark-mode .menu-backdrop {
+  background: rgba(5, 9, 7, 0.4);
+}
+
+body.dark-mode .btn-success,
+body.dark-mode .btn-outline-success,
+body.dark-mode .btn-outline-primary,
+body.dark-mode .btn-outline-info,
+body.dark-mode .btn-outline-warning {
+  background: linear-gradient(135deg, #0c7b46, #2f8f59) !important;
+  color: #f2fff6 !important;
+}
+
+@media (max-width: 768px) {
+  .container,
+  .main-content,
+  .page-content {
+    padding-top: 80px !important;
+  }
+
+  .greenhouse-section {
+    border-radius: 1.2rem;
+  }
+
+  .footer {
+    bottom: 10px;
+    font-size: 0.66rem;
+    letter-spacing: 0.2em;
+  }
 }
